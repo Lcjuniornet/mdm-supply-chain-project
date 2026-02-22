@@ -1,0 +1,65 @@
+# ═══════════════════════════════════════════════════════════
+# PROJETO MDM SUPPLY CHAIN - DEPENDÊNCIAS PYTHON
+# Sistema Inteligente de Governança de Dados Mestre em Logística
+# ═══════════════════════════════════════════════════════════
+
+# ANÁLISE E MANIPULAÇÃO DE DADOS
+# ─────────────────────────────────────────────────────────
+pandas>=2.0.0              # Manipulação de DataFrames
+numpy>=1.24.0              # Computação numérica
+openpyxl>=3.1.0            # Ler/escrever arquivos Excel (.xlsx)
+xlrd>=2.0.0                # Ler arquivos Excel antigos (.xls)
+
+# VISUALIZAÇÃO DE DADOS
+# ─────────────────────────────────────────────────────────
+matplotlib>=3.7.0          # Gráficos básicos
+seaborn>=0.12.0            # Gráficos estatísticos
+plotly>=5.14.0             # Gráficos interativos
+
+# ANÁLISE ESTATÍSTICA
+# ─────────────────────────────────────────────────────────
+scipy>=1.10.0              # Estatística científica
+statsmodels>=0.14.0        # Modelos estatísticos
+
+# JUPYTER NOTEBOOKS
+# ─────────────────────────────────────────────────────────
+jupyter>=1.0.0             # Jupyter Notebook
+ipykernel>=6.22.0          # Kernel Python para Jupyter
+notebook>=6.5.0            # Interface Jupyter
+
+# QUALIDADE DE CÓDIGO
+# ─────────────────────────────────────────────────────────
+black>=23.3.0              # Formatador código
+flake8>=6.0.0              # Linter Python
+pylint>=2.17.0             # Análise estática código
+
+# UTILITÁRIOS
+# ─────────────────────────────────────────────────────────
+python-dateutil>=2.8.0     # Manipulação datas
+pytz>=2023.3               # Fusos horários
+tqdm>=4.65.0               # Barras de progresso
+
+# TESTES
+# ─────────────────────────────────────────────────────────
+pytest>=7.3.0              # Framework de testes
+pytest-cov>=4.1.0          # Cobertura de testes
+
+# DOCUMENTAÇÃO
+# ─────────────────────────────────────────────────────────
+sphinx>=6.2.0              # Gerador documentação
+sphinx-rtd-theme>=1.2.0    # Tema Read the Docs
+
+# ═══════════════════════════════════════════════════════════
+# INSTALAÇÃO:
+# ═══════════════════════════════════════════════════════════
+# 
+# Windows:
+# pip install -r requirements.txt
+#
+# Mac/Linux:
+# pip3 install -r requirements.txt
+#
+# Ou com flag break-system-packages (se necessário):
+# pip install --break-system-packages -r requirements.txt
+#
+# ═══════════════════════════════════════════════════════════
