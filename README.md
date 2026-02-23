@@ -286,9 +286,9 @@ pytest tests/test_utils.py
 - [x] Dados simulados gerados
 
 ### Fase 2: Análises Core (Semanas 1-3) 🔄
-- [ ] Scripts 1-5 completos
-- [ ] Jupyter Notebooks
-- [ ] Visualizações profissionais
+- [x] Scripts 1-5 completos
+- [x] Jupyter Notebooks
+- [x] Visualizações profissionais
 
 ### Fase 3: Dashboards (Semana 4-5) 📅
 - [ ] Dashboard Excel
@@ -313,7 +313,7 @@ pytest tests/test_utils.py
 Master Data Owner | Supply Chain Analytics | Data Governance
 
 - 🎓 Google Data Analytics Professional Certificate
-- 💼 8 anos experiência Supply Chain
+- 💼 alguns anos experiência Supply Chain
 - 🎯 Especialização: Master Data Management
 - 🐍 Stack: Python, SQL, Power BI, Excel
 
