@@ -258,9 +258,7 @@ for idx in indices_duplicar:
 print(f"   ✓ {n_duplicatas} duplicatas inseridas ({TAXA_DUPLICATAS*100:.0f}%)")
 
 # 5.2. CAMPOS VAZIOS (20%)
-campos_opcio
-
-nais = [
+campos_opcionais = [
     'fornecedor_principal', 'localizacao_fisica', 'ncm',
     'estoque_minimo', 'centro_custo'
 ]
