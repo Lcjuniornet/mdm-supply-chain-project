@@ -1,0 +1,16 @@
+﻿Campo,Criticidade,Completude %,Registros Vazios,Registros Preenchidos,Impacto Anual R$
+fornecedor_principal,CRÍTICO,80.0,660,2640,79200
+localizacao_fisica,CRÍTICO,80.0,660,2640,118800
+centro_custo,CRÍTICO,80.0,660,2640,39600
+ncm,CRÍTICO,81.12,623,2677,59808
+unidade_medida,CRÍTICO,100.0,0,3300,0
+codigo_material,CRÍTICO,100.0,0,3300,0
+descricao,CRÍTICO,100.0,0,3300,0
+preco_unitario,CRÍTICO,100.0,0,3300,0
+categoria,CRÍTICO,100.0,0,3300,0
+estoque_minimo,IMPORTANTE,80.0,660,2640,23760
+estoque_atual,IMPORTANTE,100.0,0,3300,0
+data_cadastro,IMPORTANTE,100.0,0,3300,0
+responsavel_cadastro,IMPORTANTE,100.0,0,3300,0
+status,COMPLEMENTAR,100.0,0,3300,0
+ultima_movimentacao,COMPLEMENTAR,100.0,0,3300,0
