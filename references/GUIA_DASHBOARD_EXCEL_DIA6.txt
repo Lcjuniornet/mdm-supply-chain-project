@@ -1,0 +1,292 @@
+═══════════════════════════════════════════════════════════════════════════════
+PROJETO MDM SUPPLY CHAIN - DIA 6
+GUIA COMPLETO: DASHBOARD EXCEL EXECUTIVO
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 OBJETIVO: Criar dashboard profissional no Excel com KPIs e gráficos
+
+⏱️ TEMPO TOTAL: 1-1.5 horas
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 1: PREPARAR DADOS (5 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+1.1 ABRIR EXCEL
+    - Novo arquivo em branco
+    - Salvar como: dashboards/excel/dashboard_mdm.xlsx
+    - Criar pasta dashboards/excel/ se não existir
+
+1.2 IMPORTAR DADOS
+    - Aba "Dados" → "Obter Dados" → "De Arquivo" → "De Texto/CSV"
+    - Selecionar: data/raw/materiais_raw.csv
+    - Clicar "Carregar"
+    
+    OU (método alternativo):
+    - Abrir materiais_raw.csv diretamente no Excel
+    - Copiar tudo (Ctrl+A, Ctrl+C)
+    - Colar em nova aba chamada "Dados"
+
+1.3 RENOMEAR ABAS
+    - Aba com dados: Renomear para "DADOS"
+    - Inserir nova aba: Renomear para "DASHBOARD"
+    - Inserir nova aba: Renomear para "ANÁLISES"
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 2: CRIAR TABELA DINÂMICA (10 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+2.1 NA ABA "ANÁLISES"
+    - Ir para aba DADOS
+    - Clicar em qualquer célula da tabela
+    - Aba "Inserir" → "Tabela Dinâmica"
+    - Colocar em "Planilha Existente": ANÁLISES!$A$1
+    - OK
+
+2.2 CONFIGURAR TABELA DINÂMICA 1: VALOR POR CATEGORIA
+    
+    Campos:
+    - LINHAS: Arrastar "categoria"
+    - VALORES: Arrastar "preco_unitario" 
+      → Clicar na seta → "Configurações de Campo de Valor"
+      → Selecionar "Soma"
+      → Renomear para "Valor Total"
+    
+    - VALORES: Arrastar "estoque_atual"
+      → Configurações → "Soma"
+      → Renomear para "Estoque Total"
+    
+    Resultado: Tabela mostrando valor e estoque por categoria
+
+2.3 CRIAR SEGUNDA TABELA DINÂMICA: STATUS
+    
+    - Na aba ANÁLISES, clicar em célula vazia (ex: G1)
+    - Repetir processo tabela dinâmica
+    
+    Campos:
+    - LINHAS: "status"
+    - VALORES: "codigo_material" → "Contagem"
+    
+    Resultado: Quantos materiais Ativo vs Inativo
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 3: CALCULAR KPIS (15 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+3.1 NA ABA "ANÁLISES", CRIAR ÁREA DE CÁLCULOS
+    
+    Em células vazias (ex: J2 em diante), criar:
+    
+    CÉLULA J2: Total de Materiais
+    =CONT.VALORES(DADOS!A:A)-1
+    
+    CÉLULA J3: Valor Total em Estoque
+    =SOMA(DADOS!E:E*DADOS!F:F)
+    (preco_unitario × estoque_atual)
+    
+    CÉLULA J4: Preço Médio
+    =MÉDIA(DADOS!E:E)
+    
+    CÉLULA J5: Estoque Total (unidades)
+    =SOMA(DADOS!F:F)
+    
+    CÉLULA J6: Total Categorias
+    =CONT.VALORES(ÚNICA(DADOS!C:C))-1
+    
+    CÉLULA J7: Materiais com Preço Zero
+    =CONT.SE(DADOS!E:E,0)
+
+3.2 FORMATAR VALORES
+    - Valores monetários: Formato Moeda (R$)
+    - Contagens: Formato Número com separador milhares
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 4: CRIAR DASHBOARD (30 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+4.1 NA ABA "DASHBOARD"
+    
+    Layout sugerido:
+    ┌─────────────────────────────────────────┐
+    │  DASHBOARD MDM - SUPPLY CHAIN           │
+    ├──────────┬──────────┬──────────┬────────┤
+    │  KPI 1   │  KPI 2   │  KPI 3   │ KPI 4  │
+    ├──────────┴──────────┴──────────┴────────┤
+    │  GRÁFICO 1        │  GRÁFICO 2          │
+    ├───────────────────┼─────────────────────┤
+    │  GRÁFICO 3        │  TABELA RESUMO      │
+    └───────────────────┴─────────────────────┘
+
+4.2 CRIAR KPIs (CARDS VISUAIS)
+    
+    LINHA 3 (cabeçalhos KPIs):
+    - A3: "Total Materiais"
+    - D3: "Valor Estoque"
+    - G3: "Preço Médio"
+    - J3: "Categorias"
+    
+    LINHA 4 (valores - vincular à aba ANÁLISES):
+    - A4: =ANÁLISES!J2
+    - D4: =ANÁLISES!J3
+    - G4: =ANÁLISES!J4
+    - J4: =ANÁLISES!J6
+    
+    FORMATAÇÃO KPIs:
+    - Selecionar células A3:C5 (primeiro KPI)
+    - Mesclar células
+    - Fonte: Calibri, 14pt, Negrito
+    - Cor fundo: Azul claro
+    - Bordas: Todas
+    - Centralizar
+    
+    Repetir para cada KPI (D3:F5, G3:I5, J3:L5)
+
+4.3 CRIAR GRÁFICO 1: VALOR POR CATEGORIA
+    
+    - Selecionar dados tabela dinâmica 1 (categoria + valor)
+    - Aba "Inserir" → "Gráfico de Barras Horizontais"
+    - Mover gráfico para células A8:F20
+    - Título: "Valor em Estoque por Categoria"
+    - Formatar:
+      * Cores: Gradiente azul
+      * Rótulos de dados: Mostrar valores
+      * Eixo: Formato moeda
+
+4.4 CRIAR GRÁFICO 2: DISTRIBUIÇÃO STATUS
+    
+    - Selecionar tabela dinâmica 2 (status)
+    - Inserir → "Gráfico de Pizza"
+    - Mover para células G8:L15
+    - Título: "Materiais por Status"
+    - Formatar:
+      * Cores: Verde (Ativo), Vermelho (Inativo)
+      * Percentuais: Mostrar
+
+4.5 CRIAR GRÁFICO 3: TOP 10 CATEGORIAS
+    
+    - Na aba ANÁLISES, ordenar tabela dinâmica 1 por valor (maior→menor)
+    - Selecionar Top 10 categorias
+    - Inserir → "Gráfico de Colunas"
+    - Mover para células A22:F34
+    - Título: "Top 10 Categorias por Valor"
+
+4.6 ADICIONAR TABELA RESUMO
+    
+    Em G22, criar tabela manual:
+    
+    | Métrica              | Valor           |
+    |----------------------|-----------------|
+    | Total Materiais      | [=ANÁLISES!J2]  |
+    | Valor Estoque        | [=ANÁLISES!J3]  |
+    | Preço Médio          | [=ANÁLISES!J4]  |
+    | Estoque Total        | [=ANÁLISES!J5]  |
+    | Categorias           | [=ANÁLISES!J6]  |
+    | Preço Zero           | [=ANÁLISES!J7]  |
+    
+    Formatar como tabela (Ctrl+T)
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 5: FORMATAÇÃO PROFISSIONAL (15 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+5.1 CABEÇALHO DASHBOARD
+    - Célula A1: "DASHBOARD MDM - SUPPLY CHAIN"
+    - Mesclar A1:L1
+    - Fonte: 20pt, Negrito, Cor: Azul escuro
+    - Fundo: Azul claro
+    - Centralizar
+
+5.2 CORES CONSISTENTES
+    - KPIs: Azul claro (#D6EAF8)
+    - Cabeçalhos: Azul escuro (#1F4788)
+    - Gráficos: Paleta azul/verde
+    - Texto: Preto (#000000)
+
+5.3 BORDAS E LINHAS
+    - Adicionar bordas em todos KPIs
+    - Bordas em tabelas
+    - Linhas de grade: Ocultar (Exibir → desmarcar Linhas de Grade)
+
+5.4 AJUSTES FINAIS
+    - Ajustar largura colunas
+    - Alinhar gráficos
+    - Verificar formatação números (milhares, decimais)
+    - Zoom: 85-90% (visualização completa)
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 6: ADICIONAR FILTROS (10 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+6.1 SEGMENTAÇÃO DE DADOS
+    - Clicar na tabela dinâmica 1
+    - Aba "Análise de Tabela Dinâmica" → "Inserir Segmentação de Dados"
+    - Selecionar: "categoria" e "status"
+    - OK
+    
+    Resultado: Filtros clicáveis aparecem
+
+6.2 POSICIONAR FILTROS
+    - Arrastar segmentações para topo do dashboard
+    - Posição sugerida: Lado direito (colunas M-O)
+    - Formatar: Estilo visual consistente
+
+6.3 CONECTAR FILTROS
+    - Os filtros já funcionam automaticamente nas tabelas dinâmicas!
+    - Testar: Clicar em categoria → gráficos atualizam
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO 7: VALIDAÇÃO E SALVAMENTO (5 minutos)
+═══════════════════════════════════════════════════════════════════════════════
+
+7.1 CHECKLIST FINAL
+    [ ] 6 KPIs exibidos corretamente
+    [ ] 3 gráficos formatados
+    [ ] 1 tabela resumo
+    [ ] Filtros funcionando
+    [ ] Sem erros #REF! ou #VALOR!
+    [ ] Cores consistentes
+    [ ] Títulos claros
+
+7.2 SALVAR
+    - Ctrl+S
+    - Verificar local: dashboards/excel/dashboard_mdm.xlsx
+
+7.3 CRIAR SCREENSHOT
+    - Print Screen do dashboard completo
+    - Salvar: visualizations/dashboard_excel.png
+
+═══════════════════════════════════════════════════════════════════════════════
+DICAS IMPORTANTES
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 SIMPLIFICAÇÃO
+   - Se achar difícil, comece SÓ com KPIs
+   - Adicione 1 gráfico por vez
+   - Não precisa ficar perfeito!
+
+💡 ERROS COMUNS
+   - #REF!: Verificar referências células
+   - #VALOR!: Verificar formato dados (número vs texto)
+   - Gráfico vazio: Selecionar dados corretos
+
+💡 PERSONALIZAÇÃO
+   - Use as cores da sua preferência!
+   - Ajuste layout como quiser
+   - O importante é funcionar!
+
+═══════════════════════════════════════════════════════════════════════════════
+RESULTADO ESPERADO
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ Dashboard executivo funcional
+✅ KPIs principais visíveis
+✅ Gráficos profissionais
+✅ Filtros interativos
+✅ Formatação limpa
+✅ Pronto para apresentar!
+
+TEMPO INVESTIDO: 1-1.5h
+RESULTADO: Dashboard nível sênior! 🏆
+
+═══════════════════════════════════════════════════════════════════════════════
+FIM DO GUIA DIA 6
+═══════════════════════════════════════════════════════════════════════════════

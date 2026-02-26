@@ -1,0 +1,233 @@
+═══════════════════════════════════════════════════════════════════════════════
+GUIA PRÁTICO: TABELAS DINÂMICAS EXCEL DESCOMPLICADO
+Resolvendo todas as dificuldades
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 OBJETIVO: Criar tabelas dinâmicas SEM COMPLICAÇÃO
+
+═══════════════════════════════════════════════════════════════════════════════
+O QUE É TABELA DINÂMICA? (EM PORTUGUÊS CLARO)
+═══════════════════════════════════════════════════════════════════════════════
+
+IMAGINE:
+Você tem 3.300 materiais em 15 categorias diferentes
+Quer saber: Quanto vale cada categoria?
+
+SEM TABELA DINÂMICA:
+- Filtrar manualmente categoria por categoria
+- Somar valores na calculadora
+- Anotar em papel
+- 15 categorias = 15 vezes trabalho manual
+- CHATO E DEMORADO! ❌
+
+COM TABELA DINÂMICA:
+- 5 cliques
+- Excel faz TUDO automaticamente
+- RÁPIDO E FÁCIL! ✅
+
+TABELA DINÂMICA = EXCEL FAZ O TRABALHO CHATO POR VOCÊ
+
+═══════════════════════════════════════════════════════════════════════════════
+PASSO A PASSO ULTRA SIMPLES - 5 CLIQUES
+═══════════════════════════════════════════════════════════════════════════════
+
+EXEMPLO: Somar valor por categoria
+
+PASSO 1: SELECIONAR DADOS
+- Clicar em QUALQUER célula da tabela de dados
+- Só isso! Excel detecta a tabela inteira sozinho ✅
+
+PASSO 2: INSERIR TABELA DINÂMICA
+- Aba "Inserir" (no topo)
+- Clicar "Tabela Dinâmica"
+- Aparecem opções → Clicar "OK" (não mude nada!)
+- Nova aba abre automaticamente ✅
+
+PASSO 3: ARRASTAR CAMPO PARA "LINHAS"
+- Do lado direito aparece painel "Campos de Tabela Dinâmica"
+- Ver lista de campos: categoria, preco_unitario, etc
+- ARRASTAR "categoria" para caixa "LINHAS" (embaixo)
+- ✅ Categorias aparecem na tabela!
+
+PASSO 4: ARRASTAR CAMPO PARA "VALORES"
+- ARRASTAR "preco_unitario" para caixa "VALORES"
+- ✅ Valores somam automaticamente!
+
+PASSO 5: PRONTO!
+- Tabela dinâmica está feita!
+- Excel somou tudo sozinho!
+- ✅ 5 cliques, trabalho completo!
+
+═══════════════════════════════════════════════════════════════════════════════
+PROBLEMA 1: CAMPOS NÃO APARECEM
+═══════════════════════════════════════════════════════════════════════════════
+
+SINTOMA:
+Painel direito vazio ou sem campos
+
+SOLUÇÃO:
+1. Clicar em QUALQUER célula da tabela dinâmica
+2. Painel aparece automaticamente
+3. Se não aparecer: Aba "Análise de Tabela Dinâmica" → "Mostrar Lista de Campos"
+
+═══════════════════════════════════════════════════════════════════════════════
+PROBLEMA 2: VALORES SOMAM ERRADO (CONTA AO INVÉS DE SOMAR)
+═══════════════════════════════════════════════════════════════════════════════
+
+SINTOMA:
+Em vez de soma (R$ 1.000.000), aparece contagem (15)
+
+CAUSA:
+Excel detectou campo como texto (não número)
+
+SOLUÇÃO:
+1. Clicar na seta do campo em "VALORES"
+2. "Configurações de Campo de Valor"
+3. Selecionar "Soma" (ao invés de "Contagem")
+4. OK
+5. ✅ Agora soma corretamente!
+
+═══════════════════════════════════════════════════════════════════════════════
+PROBLEMA 3: TABELA NÃO ATUALIZA QUANDO MUDO DADOS
+═══════════════════════════════════════════════════════════════════════════════
+
+SINTOMA:
+Mudou dados originais, mas tabela dinâmica não mudou
+
+SOLUÇÃO:
+Tabela dinâmica NÃO atualiza automaticamente!
+Precisa ATUALIZAR MANUALMENTE:
+
+1. Clicar em qualquer célula da tabela dinâmica
+2. Botão direito → "Atualizar"
+   OU
+   Aba "Análise de Tabela Dinâmica" → "Atualizar"
+3. ✅ Pronto! Agora está atualizada
+
+═══════════════════════════════════════════════════════════════════════════════
+PROBLEMA 4: NÃO SEI ONDE COLOCAR O QUE
+═══════════════════════════════════════════════════════════════════════════════
+
+REGRA SIMPLES:
+
+LINHAS = O QUE VOCÊ QUER VER (categorias, nomes, tipos)
+   Exemplo: categoria, fornecedor, status
+   → Aparecem na VERTICAL (linhas)
+
+COLUNAS = DIVISÕES ADICIONAIS (raramente usa)
+   Exemplo: se quer ver categoria × ano
+   → categoria em LINHAS, ano em COLUNAS
+
+VALORES = O QUE VOCÊ QUER CALCULAR (números, quantidades)
+   Exemplo: preco_unitario, estoque_atual, qtd
+   → Excel soma, conta, média, etc
+
+FILTROS = ESCOLHER O QUE MOSTRAR
+   Exemplo: mostrar só categoria "Embalagem"
+   → Arrasta campo para FILTROS
+
+FÓRMULA MÁGICA:
+"Quero ver [LINHAS] somando [VALORES] filtrado por [FILTROS]"
+
+Exemplo: "Quero ver categoria somando preco"
+→ categoria em LINHAS
+→ preco em VALORES
+→ ✅ Pronto!
+
+═══════════════════════════════════════════════════════════════════════════════
+ALTERNATIVA SUPER SIMPLES - SEM TABELA DINÂMICA
+═══════════════════════════════════════════════════════════════════════════════
+
+Se tabela dinâmica ainda está difícil, use SUBTOTAIS:
+
+MÉTODO SUBTOTAL (MAIS FÁCIL):
+1. Selecionar coluna "categoria"
+2. Aba "Dados" → "Subtotal"
+3. Escolher:
+   - A cada alteração em: "categoria"
+   - Usar função: "Soma"
+   - Adicionar subtotal a: "preco_unitario"
+4. OK
+5. ✅ Excel agrupa e soma automaticamente!
+
+RESULTADO:
++ Categoria Embalagem
+    Material 1: R$ 100
+    Material 2: R$ 200
+    Subtotal Embalagem: R$ 300
++ Categoria Escritório
+    Material 3: R$ 150
+    Subtotal Escritório: R$ 150
+Total Geral: R$ 450
+
+MAIS FÁCIL QUE TABELA DINÂMICA! ✅
+
+═══════════════════════════════════════════════════════════════════════════════
+OU AINDA MAIS SIMPLES: GRÁFICO DIRETO
+═══════════════════════════════════════════════════════════════════════════════
+
+PULAR TABELA DINÂMICA COMPLETAMENTE:
+
+MÉTODO GRÁFICO RECOMENDADO DIRETO:
+1. Selecionar dados (colunas categoria + preco)
+2. Aba "Inserir" → "Gráfico Recomendado"
+3. Excel sugere melhores gráficos
+4. Clicar no que parece melhor
+5. OK
+6. ✅ Gráfico pronto! Sem tabela dinâmica!
+
+RESULTADO:
+Gráfico de barras mostrando categoria × valor
+SEM precisar entender tabela dinâmica!
+
+═══════════════════════════════════════════════════════════════════════════════
+RESUMO: 3 ALTERNATIVAS PARA SEU DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+OPÇÃO 1: TABELA DINÂMICA (mais poderosa)
+✅ Mais flexível
+❌ Mais complicada
+Tempo: 10-15 min aprender
+
+OPÇÃO 2: SUBTOTAIS (mais fácil)
+✅ Bem mais fácil
+✅ Faz 80% do que tabela dinâmica faz
+Tempo: 2 min aprender
+
+OPÇÃO 3: GRÁFICO RECOMENDADO (mais rápida)
+✅ Mais rápida (2 cliques)
+✅ Visual imediato
+❌ Menos flexível
+Tempo: 30 segundos
+
+RECOMENDAÇÃO:
+Para Dia 6, use OPÇÃO 3 (Gráfico Recomendado)!
+Aprenda tabela dinâmica depois, sem pressa!
+
+═══════════════════════════════════════════════════════════════════════════════
+CHECKLIST RÁPIDO - DASHBOARD SEM TABELA DINÂMICA
+═══════════════════════════════════════════════════════════════════════════════
+
+DASHBOARD SIMPLIFICADO (SEM TABELA DINÂMICA):
+
+[ ] 1. Importar CSV para Excel
+[ ] 2. Calcular KPIs com fórmulas simples:
+       - Total materiais: =CONT.VALORES(A:A)
+       - Valor total: =SOMA(E:E*F:F)
+       - Preço médio: =MÉDIA(E:E)
+[ ] 3. Criar gráficos:
+       - Selecionar dados
+       - Inserir → Gráfico Recomendado
+       - OK
+[ ] 4. Formatar:
+       - Cores bonitas
+       - Títulos claros
+       - Bordas
+[ ] 5. ✅ Dashboard pronto!
+
+TEMPO: 30-45 minutos (ao invés de 1.5h)
+RESULTADO: Dashboard funcional e bonito!
+
+═══════════════════════════════════════════════════════════════════════════════
+FIM DO GUIA EXCEL DESCOMPLICADO
+═══════════════════════════════════════════════════════════════════════════════
