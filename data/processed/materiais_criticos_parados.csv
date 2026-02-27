@@ -1,0 +1,519 @@
+﻿codigo_material,descricao,categoria,dias_sem_movimento,valor_estoque
+MAT-02578,Ácido Aço,Químico,412,9204024.959999999
+MAT-00813,Alicate PVC,Ferramentas,442,9170894.33
+MAT-01026,Mangueira Plástico,Pneumático,660,8461012.040000001
+MAT-00153,Válvula Aço,Pneumático,565,8185567.32
+MAT-00397,Óculos Alumínio,EPI,391,7924291.029999999
+MAT-02968,Óleo Cobre,Lubrificante,615,7588903.3
+MAT-02851,Bucha Latão,Mecânico,442,7286433.28
+MAT-01585,Plástico Latão,Embalagem,524,7141893.72
+MAT-02718,retentor Latão,Peças,714,6971931.63
+MAT-02948,Óculos Inox,EPI,531,6797937.4399999995
+MAT-00615,plástico Cobre,Embalagem,427,6664929.88
+MAT-06001,SUPORTE PVC,Acessórios,456,6598774.244325246
+MAT-01923,Abraçadeira PVC,Acessórios,458,6569425.94
+MAT-06001,plástico Cobre,Embalagem,427,6438655.441441139
+MAT-02371,Óleo Plástico,Lubrificante,550,6398185.359999999
+MAT-00419,Suporte PVC,Acessórios,456,6355541.97
+MAT-00685,Mangueira Inox,Hidráulico,493,6328665.0
+MAT-00259,"Tubo 3/4"" Aço",Hidráulico,394,6294138.83
+MAT-06001,Abraçadeira PVC,Acessórios,458,6285516.605136379
+MAT-02456,Eixo Plástico,Mecânico,428,6205733.34
+MAT-02592,Óleo PVC,Lubrificante,369,6159880.16
+MAT-02690,Junta Cobre,Peças,652,6153953.220000001
+MAT-01034,Interruptor Cobre,Elétrico,621,5929868.61
+MAT-01146,Válvula Inox,Pneumático,576,5684288.5600000005
+MAT-01640,Disjuntor Inox,Elétrico,594,5607984.68
+MAT-02420,Pano Latão,Limpeza,519,5505586.0
+MAT-00931,Óleo Aço,Lubrificante,372,5502304.08
+MAT-02015,Capacitor Aço,Eletrônico,480,5481607.15
+MAT-01860,Sensor Inox,Eletrônico,369,5336197.199999999
+MAT-01236,Junta Inox,Peças,483,5320168.71
+MAT-02989,Solvente Plástico,Químico,393,5306440.149999999
+MAT-01504,Disjuntor Cobre,Elétrico,506,5279859.4
+MAT-01265,Martelo Plástico,Ferramentas,504,5165345.640000001
+MAT-02068,Bota Alumínio,EPI,421,4935620.04
+MAT-02674,Sensor Cobre,Eletrônico,562,4852611.17
+MAT-02530,Base Aço,Químico,446,4706756.55
+MAT-00868,Martelo PVC,Ferramentas,583,4577863.36
+MAT-00982,Base Alumínio,Químico,606,4416543.53
+MAT-02037,Furadeira Inox,Ferramentas,453,4259410.56
+MAT-01999,Martelo PVC,Ferramentas,600,4258612.5
+MAT-01388,Fluido Latão,Lubrificante,673,4211261.12
+MAT-01217,Correia Latão,Mecânico,419,4206292.05
+MAT-01703,Filtro PVC,Pneumático,439,4196916.62
+MAT-01596,Caixa Plástico,Embalagem,525,4104081.77
+MAT-01479,Rolamento PVC,Peças,378,4057132.9400000004
+MAT-02553,Válvula PVC,Pneumático,471,3925038.06
+MAT-00785,Papelão PVC,Embalagem,594,3865772.7
+MAT-06001,Cabo 4mm² PVC,Elétrico,564,3847436.100815208
+MAT-00371,Pasta Aço,Lubrificante,418,3788142.4
+MAT-01392,Cabo 4mm² PVC,Elétrico,564,3720398.73
+MAT-06001,VÁLVULA EM PVC,Hidráulico,598,3697312.367759091
+MAT-02719,Lâmpada Latão,Elétrico,457,3489360.69
+MAT-02438,Óleo Aço,Lubrificante,416,3454833.8400000003
+MAT-01373,Óleo Alumínio,Lubrificante,597,3401873.01
+MAT-00603,Conexão Aço,Hidráulico,456,3400349.7600000002
+MAT-00094,Pasta PVC,Lubrificante,582,3384342.7199999997
+MAT-01283,abraçadeira PVC,Acessórios,566,3322716.39
+MAT-00681,registro Aço,Hidráulico,379,3302003.04
+MAT-02743,Conexão Latão,Pneumático,645,3241997.87
+MAT-02419,LED Latão,Eletrônico,718,3092651.6100000003
+MAT-00336,Resistor Cobre,Eletrônico,509,2893426.86
+MAT-01293,Caixa Inox,Embalagem,519,2816050.56
+MAT-01184,Clipe Alumínio,Acessórios,486,2764039.17
+MAT-02605,Cabo 4mm² Aço,Elétrico,459,2748756.6
+MAT-01698,tomada Alumínio,Elétrico,463,2739023.1
+MAT-01899,Papel Aço,Escritório,497,2725721.7600000002
+MAT-06001,DISJUNTOR ALUMÍNIO,Elétrico,441,2614002.539869741
+MAT-01779,Martelo Plástico,Ferramentas,448,2611698.66
+MAT-02675,Prego Alumínio,Fixação,675,2599915.23
+MAT-00045,Vassoura em Latão,Limpeza,469,2569622.2
+MAT-06001,VASSOURA EM LATÃO,Limpeza,469,2559339.9672327717
+MAT-01114,Disjuntor Alumínio,Elétrico,441,2547116.34
+MAT-06001,Prego Alumínio,Fixação,675,2532405.204658248
+MAT-06001,Desinfetante Latão,Limpeza,366,2515357.64178354
+MAT-01059,Cabo 10mm² Plástico,Elétrico,373,2513586.64
+MAT-02131,Desinfetante Latão,Limpeza,366,2498689.9
+MAT-00938,Vassoura Plástico,Limpeza,394,2494680.48
+MAT-00788,Tomada Cobre,Elétrico,390,2489200.08
+MAT-00670,Grampeador em Plástico,Escritório,611,2483050.6799999997
+MAT-00254,Capacitor Cobre,Eletrônico,622,2479473.9200000004
+MAT-00487,Abraçadeira Aço,Acessórios,510,2441727.13
+MAT-00925,Máscara Inox,EPI,717,2322272.8800000004
+MAT-01383,Luva G Inox,EPI,631,2294419.1999999997
+MAT-02955,Máscara Latão,EPI,572,2249146.3200000003
+MAT-00317,Fita Latão,Embalagem,510,2222210.7600000002
+MAT-02404,Capacete Aço,EPI,665,2150974.2800000003
+MAT-01155,resistor Alumínio,Eletrônico,441,2111561.25
+MAT-06001,Capacete Aço,EPI,665,2058684.8681844985
+MAT-00198,Porca M12 Alumínio,Fixação,662,2040338.4900000002
+MAT-00899,Válvula Cobre,Hidráulico,493,2030823.6
+MAT-02019,Resistor Latão,Eletrônico,602,2006178.33
+MAT-00826,Abraçadeira Latão,Acessórios,505,1985102.3399999999
+MAT-02899,Caixa Latão,Embalagem,438,1978567.8399999999
+MAT-06001,Abraçadeira Latão,Acessórios,505,1955932.0057887642
+MAT-02393,Bota PVC,EPI,565,1922244.2999999998
+MAT-00549,Máscara Plástico,EPI,721,1903820.1
+MAT-06001,Luva XG Latão,EPI,473,1844858.6688202252
+MAT-00862,Junta Cobre,Peças,430,1833347.88
+MAT-00495,Tomada Cobre,Elétrico,423,1831787.34
+MAT-06001,Tomada Cobre,Elétrico,423,1813111.4909690486
+MAT-02576,Cabo 6mm² Aço,Elétrico,429,1793376.0599999998
+MAT-00177,Luva XG Latão,EPI,473,1783629.1199999999
+MAT-02864,Capacitor Inox,Eletrônico,427,1770745.1600000001
+MAT-00727,Cabo 4mm² Aço,Elétrico,436,1752319.7999999998
+MAT-00991,Disjuntor Inox,Elétrico,390,1708435.04
+MAT-01844,Vedação Inox,Peças,709,1691347.16
+MAT-01200,Pasta Latão,Escritório,637,1659458.2399999998
+MAT-01994,Sensor Plástico,Eletrônico,451,1645209.2799999998
+MAT-02632,Cilindro Latão,Pneumático,431,1491157.8
+MAT-00527,"Tubo 1.1/4"" PVC",Hidráulico,433,1488877.8800000001
+MAT-00386,Válvula Plástico,Pneumático,478,1420871.2000000002
+MAT-01626,Lâmpada Cobre,Elétrico,396,1416133.5
+MAT-00690,Fluido Inox,Lubrificante,421,1332402.94
+MAT-00255,Papelão Alumínio,Embalagem,520,1294672.3199999998
+MAT-01397,Máscara Cobre,EPI,588,1287068.13
+MAT-01918,Cilindro Alumínio,Pneumático,640,1255124.8
+MAT-00262,Spray Alumínio,Lubrificante,657,1245666.6
+MAT-01773,cabo 10mm² PVC,Elétrico,482,1197714.26
+MAT-00485,Parafuso M12 Alumínio,Fixação,368,1165816.75
+MAT-00960,Clipe PVC,Acessórios,531,1146294.22
+MAT-02629,Mangueira Cobre,Pneumático,655,1135336.16
+MAT-00889,Suporte Cobre,Acessórios,645,1106031.36
+MAT-02992,"Tubo 2"" Aço",Hidráulico,694,1097950.44
+MAT-01231,Filtro em Plástico,Pneumático,521,1081166.0
+MAT-02411,Graxa Aço,Lubrificante,611,1039617.5700000001
+MAT-00821,Filtro Latão,Pneumático,367,1032755.2
+MAT-00742,Clips Aço,Escritório,464,983170.5
+MAT-02347,Interruptor Latão,Elétrico,556,979225.2000000001
+MAT-06001,CLIPS AÇO,Escritório,464,971483.6154191181
+MAT-01686,Clips PVC,Escritório,484,946496.79
+MAT-02606,Graxa Inox,Lubrificante,441,940518.6000000001
+MAT-01721,Vedação PVC,Peças,386,920522.07
+MAT-00707,Disjuntor Aço,Elétrico,366,872173.44
+MAT-00224,Lâmpada Aço,Elétrico,394,870677.06
+MAT-02709,Porca M10 Aço,Fixação,659,852084.1
+MAT-02612,Porca M16 Aço,Fixação,590,827007.84
+MAT-02984,Óleo Alumínio,Lubrificante,370,818534.3999999999
+MAT-00162,Resistor Alumínio,Eletrônico,686,808120.0
+MAT-01387,Grampeador Plástico,Escritório,501,728035.3
+MAT-00316,Registro Plástico,Hidráulico,434,708448.4
+MAT-02453,Capacete PVC,EPI,576,697395.3
+MAT-00612,Sensor PVC,Eletrônico,592,690760.8
+MAT-01194,Reagente Alumínio,Químico,511,690150.03
+MAT-02166,Grampeador Inox,Escritório,393,671688.95
+MAT-01135,Pasta em Alumínio,Lubrificante,580,642589.48
+MAT-02434,Capacete Inox,EPI,412,607530.0
+MAT-01372,Junta Inox,Peças,419,586796.4700000001
+MAT-00474,Disjuntor Aço,Elétrico,617,582282.75
+MAT-01789,Vedação Aço,Peças,385,544088.22
+MAT-00231,Presilha Aço,Acessórios,538,540637.52
+MAT-01085,Pasta Plástico,Lubrificante,545,534924.72
+MAT-06001,Mangueira Aço,Pneumático,393,533203.9808808439
+MAT-00146,Gancho Inox,Acessórios,669,529760.25
+MAT-02280,Mangueira Aço,Pneumático,393,522867.84
+MAT-00127,Alicate Latão,Ferramentas,604,496384.25999999995
+MAT-00623,Martelo PVC,Ferramentas,380,487219.89
+MAT-01624,Rolamento PVC,Mecânico,586,461515.62000000005
+MAT-02518,Parafuso M12 Aço,Fixação,587,454488.75
+MAT-00205,suporte Alumínio,Acessórios,395,453911.85000000003
+MAT-00466,Graxa Alumínio,Lubrificante,624,443176.57999999996
+MAT-00167,Capacitor Latão,Eletrônico,632,441554.0
+MAT-01124,Balde Latão,Limpeza,461,433121.30000000005
+MAT-02161,Fita Aço,Embalagem,378,431786.29
+MAT-02307,Conexão Aço,Hidráulico,433,422031.39999999997
+MAT-01989,Martelo Inox,Ferramentas,540,416673.48000000004
+MAT-02767,Caneta Aço,Escritório,587,404376.0
+MAT-02753,Detergente Alumínio,Limpeza,432,403471.32
+MAT-02867,Caixa Inox,Embalagem,443,393143.4
+MAT-00227,clipe Latão,Acessórios,487,385088.2
+MAT-02338,Filtro PVC,Pneumático,439,384996.77999999997
+MAT-02022,Bucha Inox,Mecânico,533,380976.60000000003
+MAT-02428,Papelão PVC,Embalagem,614,378350.24000000005
+MAT-01290,Anel Cobre,Peças,468,376652.39999999997
+MAT-06001,Anel Cobre,Peças,468,376290.016299307
+MAT-00970,Spray Latão,Lubrificante,517,370839.85000000003
+MAT-02975,Óleo Inox,Lubrificante,516,363486.95
+MAT-02254,Desinfetante Aço,Limpeza,424,357236.13
+MAT-02304,Correia Inox,Mecânico,453,355995.12
+MAT-02060,Chave PVC,Ferramentas,681,350670.75
+MAT-02174,Conexão Plástico,Pneumático,500,350531.0
+MAT-00357,Suporte Latão,Acessórios,625,343634.94
+MAT-01965,Óleo Plástico,Lubrificante,405,343136.52
+MAT-00110,Desinfetante Inox,Limpeza,553,340265.71
+MAT-01508,Desinfetante Aço,Limpeza,479,339960.32
+MAT-00602,Spray PVC,Lubrificante,471,333611.24
+MAT-01185,Porca M10 Plástico,Fixação,592,332892.1
+MAT-02206,Filtro Latão,Pneumático,495,332402.04
+MAT-02362,Pasta Aço,Lubrificante,408,327531.8
+MAT-01609,Pasta Cobre,Escritório,557,325483.88
+MAT-02926,Bucha Latão,Mecânico,597,324607.79000000004
+MAT-01425,Papelão Plástico,Embalagem,402,323293.52
+MAT-06001,Pasta Aço,Lubrificante,408,321645.4299831429
+MAT-01440,Martelo Alumínio,Ferramentas,471,319594.5
+MAT-02891,Disjuntor Alumínio,Elétrico,696,318058.65
+MAT-00646,Caixa PVC,Embalagem,458,312155.0
+MAT-01943,Rebite Inox,Fixação,417,297902.7
+MAT-02556,Óleo Plástico,Lubrificante,402,297123.84
+MAT-01336,Chave Inox,Ferramentas,416,295536.88999999996
+MAT-06001,LED Inox,Eletrônico,418,294414.9904198076
+MAT-02234,Óculos Plástico,EPI,677,294124.38
+MAT-02233,Clipe Alumínio,Acessórios,437,292747.44
+MAT-02447,Porca M12 Aço,Fixação,531,289127.33999999997
+MAT-01109,Capacitor Latão,Eletrônico,517,286279.84
+MAT-06001,Capacete Cobre,EPI,455,285356.0148164469
+MAT-02083,Pasta PVC,Lubrificante,498,285121.08
+MAT-01299,LED Inox,Eletrônico,418,280646.4
+MAT-01148,Cabo 10mm² Latão,Elétrico,412,279592.32
+MAT-01980,Válvula Cobre,Hidráulico,691,277512.08
+MAT-02760,Etiqueta PVC,Embalagem,439,276622.64
+MAT-02329,Capacete Cobre,EPI,455,276597.24
+MAT-01878,Papel PVC,Escritório,716,275979.75
+MAT-00834,Martelo Plástico,Ferramentas,593,275361.07
+MAT-02343,Capacitor Plástico,Eletrônico,407,272049.76
+MAT-02439,Capacete Inox,EPI,419,269778.06
+MAT-00525,Grampeador Plástico,Escritório,427,268690.17
+MAT-00190,Catalisador Alumínio,Químico,536,268075.04000000004
+MAT-02862,Conexão Cobre,Hidráulico,668,264877.89999999997
+MAT-00172,Desinfetante Aço,Limpeza,435,264864.88
+MAT-01875,Furadeira Inox,Ferramentas,680,260037.5
+MAT-01936,Fluido Inox,Lubrificante,367,257794.0
+MAT-00154,filtro Cobre,Pneumático,453,255179.28
+MAT-01446,Registro Plástico,Hidráulico,531,253980.87
+MAT-00425,Válvula Cobre,Pneumático,398,253368.0
+MAT-06001,FLUIDO INOX,Lubrificante,367,252940.20247758343
+MAT-00360,Bucha PVC,Mecânico,654,252864.30000000002
+MAT-01391,Pasta Cobre,Escritório,675,252557.01
+MAT-02904,Clipe Inox,Acessórios,525,248038.05000000002
+MAT-02386,Etiqueta Cobre,Embalagem,506,243648.0
+MAT-01045,Grampeador Inox,Escritório,433,242360.56
+MAT-02537,Junta Latão,Peças,462,241065.0
+MAT-00451,Cilindro PVC,Pneumático,496,239815.68
+MAT-01133,Pasta Cobre,Lubrificante,567,238134.3
+MAT-02586,Detergente Latão,Limpeza,386,235171.2
+MAT-06001,Rolamento PVC,Peças,403,233943.49653882344
+MAT-00073,Sensor Alumínio,Eletrônico,623,233450.87
+MAT-00590,Lâmpada Inox,Elétrico,383,232194.54
+MAT-02687,Retentor PVC,Peças,375,224035.72
+MAT-01357,Reagente Latão,Químico,502,223779.0
+MAT-01380,porca M16 Cobre,Fixação,366,223753.2
+MAT-01421,Pasta Inox,Escritório,497,222373.02
+MAT-02888,Plástico Alumínio,Embalagem,683,221853.26
+MAT-02385,Parafuso M12 Plástico,Fixação,406,221146.9
+MAT-01891,Alicate em Inox,Ferramentas,386,220711.25999999998
+MAT-01764,Papel em Aço,Escritório,512,219877.31999999998
+MAT-01417,Engrenagem PVC,Mecânico,507,218484.86
+MAT-00481,Filtro Cobre,Pneumático,442,218286.62999999998
+MAT-02853,Mangueira Alumínio,Pneumático,408,216635.56
+MAT-00272,Máscara Latão,EPI,609,215029.08000000002
+MAT-00968,Pasta Cobre,Escritório,425,211838.8
+MAT-02081,Alicate Latão,Ferramentas,515,208960.28
+MAT-01659,Suporte PVC,Acessórios,384,206685.78000000003
+MAT-01492,Ácido Latão,Químico,453,206466.68
+MAT-00810,Chave Latão,Ferramentas,497,203373.24000000002
+MAT-02951,Pasta Cobre,Escritório,617,200418.74000000002
+MAT-00409,Retentor Inox,Peças,495,198149.44
+MAT-01795,Plástico Alumínio,Embalagem,441,197958.30000000002
+MAT-01600,Bucha Aço,Mecânico,377,196701.84
+MAT-00342,Abraçadeira PVC,Acessórios,713,196130.16
+MAT-01451,Engrenagem Cobre,Mecânico,461,190064.16
+MAT-06001,Retentor Inox,Peças,495,189031.0453348465
+MAT-02232,Conexão Aço,Pneumático,479,185386.85
+MAT-00284,Catalisador Latão,Químico,499,183560.1
+MAT-01767,Mangueira Inox,Pneumático,496,182177.4
+MAT-00734,Sensor em Aço,Eletrônico,499,181659.12
+MAT-02117,Junta Aço,Peças,490,180404.01
+MAT-02987,Grampeador Inox,Escritório,469,177630.89
+MAT-00011,Conexão Inox,Pneumático,563,175268.38
+MAT-02704,Rolamento Latão,Peças,509,174837.87
+MAT-01633,Martelo Alumínio,Ferramentas,378,173801.24999999997
+MAT-01331,Tomada Latão,Elétrico,401,172886.4
+MAT-01658,Engrenagem Latão,Mecânico,536,172177.97999999998
+MAT-02422,Rolamento Aço,Peças,659,170418.24000000002
+MAT-01053,Vedação Inox,Peças,673,167833.56
+MAT-02446,Tomada Cobre,Elétrico,369,166027.32
+MAT-02090,Gancho Plástico,Acessórios,674,165477.63999999998
+MAT-01123,Furadeira Aço,Ferramentas,553,165166.82
+MAT-00261,Desinfetante Plástico,Limpeza,562,164941.44
+MAT-00197,Caixa Plástico,Embalagem,415,164565.72
+MAT-00713,Sensor Plástico,Eletrônico,479,163411.95
+MAT-02414,Porca M8 Latão,Fixação,598,163248.80000000002
+MAT-00499,Retentor Alumínio,Peças,452,162881.16
+MAT-00036,Etiqueta PVC,Embalagem,433,162563.94
+MAT-01224,Fita Alumínio,Embalagem,488,161047.8
+MAT-06001,Detergente Aço,Limpeza,577,160664.72175478027
+MAT-00445,Arruela Aço,Fixação,415,157890.82
+MAT-06001,REBITE AÇO,Fixação,494,154865.14712796555
+MAT-00684,Mangueira Latão,Hidráulico,505,154751.85
+MAT-00358,Resistor Latão,Eletrônico,542,153650.25
+MAT-00271,Fita Aço,Embalagem,406,152784.26
+MAT-01342,Caixa Aço,Embalagem,470,152439.98
+MAT-02473,Correia Latão,Mecânico,499,152234.56
+MAT-01790,Presilha Latão,Acessórios,650,151363.43
+MAT-01119,Bota PVC,EPI,443,150613.32
+MAT-02790,Rebite Aço,Fixação,494,150241.17
+MAT-02717,Módulo Cobre,Eletrônico,531,149493.42
+MAT-02766,Válvula Latão,Hidráulico,488,148923.56999999998
+MAT-01219,"Tubo 1.1/4"" Plástico",Hidráulico,591,148556.88
+MAT-06001,RETENTOR INOX,Peças,424,148256.05297663805
+MAT-01584,Luva G Alumínio,EPI,434,148247.04
+MAT-01568,Rolamento Aço,Peças,445,145423.31
+MAT-00326,Eixo Plástico,Mecânico,488,144798.75
+MAT-01887,Correia Alumínio,Mecânico,565,144791.4
+MAT-02756,Pasta Cobre,Escritório,726,144785.0
+MAT-01191,retentor Inox,Peças,424,141730.25
+MAT-02939,Capacitor Aço,Eletrônico,639,140313.59999999998
+MAT-00470,Solvente Cobre,Químico,562,135650.32
+MAT-01952,Correia PVC,Mecânico,726,135595.38
+MAT-00405,Fluido Aço,Lubrificante,404,135384.44
+MAT-01978,Capacete Aço,EPI,518,133419.36000000002
+MAT-02398,Módulo Aço,Eletrônico,405,133285.2
+MAT-00206,Serra Latão,Ferramentas,470,131888.88
+MAT-06001,BUCHA PLÁSTICO,Mecânico,434,131532.7419664399
+MAT-01036,Vedação Cobre,Peças,484,129699.8
+MAT-02529,Engrenagem Aço,Mecânico,521,129408.3
+MAT-01116,Chave PVC,Ferramentas,527,129148.68000000001
+MAT-00932,Registro Latão,Hidráulico,555,128845.84999999999
+MAT-02781,Bucha Plástico,Mecânico,434,128788.0
+MAT-00082,Clips Inox,Escritório,531,128700.09999999999
+MAT-06001,ENGRENAGEM AÇO,Mecânico,521,126861.24875565365
+MAT-00278,Lâmpada Inox,Elétrico,486,126193.5
+MAT-02643,Caixa Aço,Embalagem,389,125172.81
+MAT-02601,"Tubo 1.1/4"" Aço",Hidráulico,524,124219.26
+MAT-01720,Porca M10 Aço,Fixação,646,123204.48
+MAT-02510,Balde PVC,Limpeza,606,121577.44
+MAT-02547,Balde PVC,Limpeza,403,120471.01
+MAT-06001,Martelo Latão,Ferramentas,449,119624.88935199528
+MAT-00010,Presilha Aço,Acessórios,533,118660.75
+MAT-02614,Balde Cobre,Limpeza,455,117702.04000000001
+MAT-02305,Martelo Latão,Ferramentas,449,116111.5
+MAT-02009,Parafuso M12 Plástico,Fixação,618,116087.51
+MAT-00484,Capacitor Latão,Eletrônico,570,115944.64
+MAT-06001,Óleo Inox,Lubrificante,682,115807.12022593261
+MAT-02765,Resistor PVC,Eletrônico,603,115535.50000000001
+MAT-02024,Filtro Aço,Pneumático,633,115187.74
+MAT-01453,Chave Cobre,Ferramentas,388,115110.66
+MAT-02580,Mangueira Aço,Hidráulico,371,114369.54000000001
+MAT-01731,Luva GG Plástico,EPI,671,114052.40000000001
+MAT-02421,Pasta Inox,Lubrificante,448,113904.0
+MAT-00709,Óleo Inox,Lubrificante,682,111736.5
+MAT-06001,Lâmpada Alumínio,Elétrico,714,110459.9736471217
+MAT-02397,Lâmpada Aço,Elétrico,564,109958.54999999999
+MAT-02079,Lâmpada Alumínio,Elétrico,714,109936.66
+MAT-01361,Arruela Latão,Fixação,555,108719.52
+MAT-06001,ROLAMENTO INOX,Peças,457,107751.14773082048
+MAT-02831,Parafuso M16 Latão,Fixação,374,106627.96
+MAT-01267,Retentor Aço,Peças,369,104081.04
+MAT-02230,Pasta Plástico,Lubrificante,461,103908.06
+MAT-02248,Rolamento Inox,Peças,457,103835.04
+MAT-01404,Tomada Cobre,Elétrico,648,103616.84
+MAT-01347,Correia Plástico,Mecânico,466,103429.95000000001
+MAT-02933,Gancho em Plástico,Acessórios,425,102446.68
+MAT-01805,Vedação Latão,Peças,425,101771.46
+MAT-02402,Junta Alumínio,Peças,470,101582.08
+MAT-00458,Papel Latão,Escritório,643,99748.0
+MAT-01482,Anel Aço,Peças,407,98921.15999999999
+MAT-01039,Alicate Inox,Ferramentas,575,98431.20000000001
+MAT-01673,Disjuntor PVC,Elétrico,436,97158.20000000001
+MAT-00230,Pasta Cobre,Lubrificante,488,96645.5
+MAT-06001,Papel Latão,Escritório,643,96298.014862476
+MAT-01459,Martelo Cobre,Ferramentas,535,96160.5
+MAT-00578,conexão Plástico,Pneumático,556,93831.4
+MAT-00622,LED PVC,Eletrônico,561,93238.84000000001
+MAT-02260,Capacete Plástico,EPI,497,93076.2
+MAT-00113,Grampeador Alumínio,Escritório,561,92916.7
+MAT-02215,anel Cobre,Peças,668,92476.72
+MAT-01359,Tomada Alumínio,Elétrico,448,91431.98999999999
+MAT-00701,Óleo Cobre,Lubrificante,462,91334.4
+MAT-02798,Plástico Plástico,Embalagem,592,89590.32
+MAT-00847,Solvente Alumínio,Químico,429,89175.13
+MAT-06001,SOLVENTE INOX,Químico,632,88193.18932418058
+MAT-00832,Luva XG PVC,EPI,524,86724.0
+MAT-00920,Caixa Latão,Embalagem,686,86163.14
+MAT-02921,Solvente Inox,Químico,632,85973.05
+MAT-02442,Anel Inox,Peças,447,85678.68
+MAT-02934,Prego Aço,Fixação,512,85510.56
+MAT-01520,Capacitor Inox,Eletrônico,387,83800.5
+MAT-02459,filtro Plástico,Pneumático,452,83683.59999999999
+MAT-06001,FILTRO PLÁSTICO,Pneumático,452,81216.81659789373
+MAT-02369,Conexão PVC,Pneumático,579,80701.2
+MAT-01950,Desinfetante Alumínio,Limpeza,439,80040.45
+MAT-02070,Anel em Latão,Peças,532,79843.44
+MAT-02805,pasta Inox,Escritório,488,79720.70999999999
+MAT-00993,Clips Cobre,Escritório,420,79420.5
+MAT-00556,Arruela Inox,Fixação,405,77907.06
+MAT-01468,Tomada Cobre,Elétrico,547,77775.84999999999
+MAT-06001,Catalisador Inox,Químico,401,77655.81521457109
+MAT-01797,"Tubo 1/2"" Inox",Hidráulico,519,77581.79000000001
+MAT-02686,Interruptor Plástico,Elétrico,686,77459.2
+MAT-01901,Vedação Latão,Peças,504,77218.68
+MAT-01794,Catalisador Inox,Químico,401,74702.25
+MAT-02823,Sensor Plástico,Eletrônico,408,74670.12000000001
+MAT-02342,Correia Cobre,Mecânico,559,73567.34
+MAT-00183,Base Plástico,Químico,481,73359.0
+MAT-01766,Caixa Latão,Embalagem,486,72356.95999999999
+MAT-00940,Válvula PVC,Pneumático,454,72072.42
+MAT-06001,Mangueira Cobre,Pneumático,380,71707.56202772044
+MAT-02733,Capacete PVC,EPI,380,71258.81
+MAT-01057,Mangueira Cobre,Pneumático,380,69930.9
+MAT-06001,CAIXA LATÃO,Embalagem,486,68771.8436004941
+MAT-01132,Mangueira Alumínio,Pneumático,481,68386.48
+MAT-01808,Cilindro Plástico,Pneumático,392,68356.5
+MAT-00822,Fluido Plástico,Lubrificante,444,67391.74
+MAT-00447,Capacete Alumínio,EPI,373,66517.52
+MAT-01487,Spray Aço,Lubrificante,429,66361.84
+MAT-01046,Martelo Cobre,Ferramentas,629,65420.600000000006
+MAT-00450,Lâmpada Latão,Elétrico,424,65156.780000000006
+MAT-06001,Fluido PVC,Lubrificante,667,63571.13592430955
+MAT-00885,Fluido PVC,Lubrificante,667,63461.880000000005
+MAT-01223,Conexão Inox,Hidráulico,520,62418.87
+MAT-00180,Spray Latão,Lubrificante,447,61782.71
+MAT-01785,Prego em PVC,Fixação,595,60542.409999999996
+MAT-01364,Plástico Aço,Embalagem,433,60518.61
+MAT-00385,Reagente Latão,Químico,473,60127.6
+MAT-02595,Gancho Aço,Acessórios,420,59243.03
+MAT-02936,Óleo Aço,Lubrificante,435,59101.979999999996
+MAT-02793,LED Inox,Eletrônico,384,58849.280000000006
+MAT-01904,Rolamento PVC,Mecânico,427,58632.05
+MAT-01382,Arruela PVC,Fixação,456,57657.44
+MAT-00773,Prego em Aço,Fixação,604,57146.3
+MAT-00619,Conexão Cobre,Hidráulico,517,56619.6
+MAT-00748,Cilindro PVC,Pneumático,402,56397.399999999994
+MAT-00429,Papel Inox,Escritório,594,55651.1
+MAT-00914,Vedação Alumínio,Peças,580,53350.57
+MAT-01502,Vassoura Inox,Limpeza,428,52646.880000000005
+MAT-02007,Abraçadeira Plástico,Acessórios,684,52107.72
+MAT-00515,Máscara Cobre,EPI,532,51951.42
+MAT-02575,"Tubo Cobre 2""",Hidráulico,417,51807.36
+MAT-01704,Clips Latão,Escritório,380,51096.5
+MAT-06001,Clips Latão,Escritório,380,51085.65550424092
+MAT-06001,MÁSCARA COBRE,EPI,532,49776.07114881465
+MAT-02165,Desinfetante PVC,Limpeza,490,49582.399999999994
+MAT-01842,Filtro Inox,Pneumático,417,49539.14
+MAT-01548,Prego Plástico,Fixação,550,48855.76
+MAT-02486,Clips Latão,Escritório,465,48278.4
+MAT-01298,Óculos Plástico,EPI,542,48088.54
+MAT-02723,Sensor Inox,Eletrônico,407,47888.659999999996
+MAT-01386,presilha Alumínio,Acessórios,536,47585.62
+MAT-00802,Detergente Plástico,Limpeza,607,45621.9
+MAT-00545,Graxa Aço,Lubrificante,370,45010.56
+MAT-00266,Fita Plástico,Embalagem,576,42811.18
+MAT-06001,DESINFETANTE PVC,Limpeza,516,42746.806544301886
+MAT-00657,Desinfetante PVC,Limpeza,516,42682.92
+MAT-01245,Alicate Aço,Ferramentas,473,42510.33
+MAT-01710,Válvula Inox,Pneumático,656,41901.6
+MAT-01726,Papel Aço,Escritório,493,41901.5
+MAT-00992,Válvula Aço,Pneumático,418,41752.600000000006
+MAT-02913,Rolamento Alumínio,Peças,577,41595.75
+MAT-01552,"Tubo 1/2"" Plástico",Hidráulico,458,41503.86
+MAT-00455,Desinfetante Aço,Limpeza,399,41289.5
+MAT-00462,Papel Cobre,Escritório,720,40797.64000000001
+MAT-00898,Chave PVC,Ferramentas,475,40795.29
+MAT-01791,Rolamento Cobre,Peças,573,40715.399999999994
+MAT-02469,Bota Cobre,EPI,730,40221.299999999996
+MAT-01995,Capacete Inox,EPI,390,40066.79
+MAT-00565,Presilha Plástico,Acessórios,442,39941.119999999995
+MAT-01646,Martelo Aço,Ferramentas,390,39619.2
+MAT-02776,Óleo Inox,Lubrificante,532,39537.52
+MAT-01157,Capacitor Latão,Eletrônico,711,39296.340000000004
+MAT-00921,Capacete Plástico,EPI,414,39040.92
+MAT-02909,Vedação Plástico,Peças,455,38354.1
+MAT-00857,Capacete PVC,EPI,625,38349.0
+MAT-02701,Registro Cobre,Hidráulico,633,37852.68
+MAT-02857,Válvula Latão,Hidráulico,456,37794.19
+MAT-02750,Pano Alumínio,Limpeza,733,37495.36
+MAT-01712,Balde Aço,Limpeza,394,37422.58
+MAT-00223,Lâmpada Cobre,Elétrico,367,36860.159999999996
+MAT-02250,Registro Cobre,Hidráulico,559,36427.43
+MAT-00660,Reagente Aço,Químico,494,36299.9
+MAT-01330,Óleo Plástico,Lubrificante,459,36218.5
+MAT-01076,Módulo PVC,Eletrônico,412,36098.880000000005
+MAT-02273,Rebite Aço,Fixação,593,36046.64
+MAT-00267,Resistor Latão,Eletrônico,539,35857.8
+MAT-00541,Junta Inox,Peças,657,35840.420000000006
+MAT-01802,"Tubo 2"" Plástico",Hidráulico,594,35587.909999999996
+MAT-02623,Registro PVC,Hidráulico,488,35515.44
+MAT-02281,Prego Latão,Fixação,433,35489.49
+MAT-01599,Pano Plástico,Limpeza,577,35476.35
+MAT-00241,Spray PVC,Lubrificante,502,35425.65
+MAT-02512,Rebite Inox,Fixação,681,35327.36
+MAT-02415,Serra Aço,Ferramentas,449,35182.0
+MAT-01028,Rolamento Inox,Mecânico,600,34920.97
+MAT-01644,Porca M16 Cobre,Fixação,620,34893.25
+MAT-00135,Resistor Plástico,Eletrônico,491,34872.840000000004
+MAT-02700,Rebite PVC,Fixação,552,34747.439999999995
+MAT-06001,Reagente Aço,Químico,494,34722.416596273644
+MAT-06001,Óleo Plástico,Lubrificante,459,34583.05883632581
+MAT-00954,Máscara Alumínio,EPI,390,34037.75
+MAT-00666,Caneta Latão,Escritório,554,33925.5
+MAT-02950,Tomada PVC,Elétrico,605,33622.82
+MAT-02542,Luva GG PVC,EPI,690,33472.170000000006
+MAT-00109,Bucha Plástico,Mecânico,429,33379.2
+MAT-00490,conexão Inox,Hidráulico,594,32678.100000000002
+MAT-02180,Abraçadeira Cobre,Acessórios,534,32513.469999999998
+MAT-02065,Eixo Alumínio,Mecânico,459,32340.12
+MAT-01100,Conexão Plástico,Hidráulico,694,32305.18
+MAT-02735,Junta Latão,Peças,476,32099.52
+MAT-01558,Furadeira Inox,Ferramentas,603,31590.0
+MAT-01869,Grampeador Alumínio,Escritório,390,31156.22
+MAT-01345,Pano Inox,Limpeza,473,30705.569999999996
+MAT-02652,Filtro Plástico,Pneumático,607,30627.18
+MAT-02196,Catalisador Alumínio,Químico,456,30584.88
+MAT-00531,Base Cobre,Químico,391,30469.32
+MAT-02893,Furadeira Latão,Ferramentas,587,30467.3
+MAT-00825,Filtro Plástico,Pneumático,408,30454.9
+MAT-06001,REGISTRO COBRE,Hidráulico,659,30362.76734333087
+MAT-01782,Arruela PVC,Fixação,407,29900.88
+MAT-01439,Caixa Cobre,Embalagem,426,29657.04
+MAT-01327,Ácido Alumínio,Químico,472,29577.48
+MAT-01496,Disjuntor Plástico,Elétrico,389,29459.699999999997
+MAT-00396,Clipe Latão,Acessórios,553,29452.570000000003
+MAT-01749,Plástico em Plástico,Embalagem,645,29348.75
+MAT-01800,Papelão Cobre,Embalagem,632,29143.800000000003
+MAT-00483,Registro Cobre,Hidráulico,659,29072.64
+MAT-06001,Conexão PVC,Pneumático,416,28935.853423987388
+MAT-01049,Luva XG PVC,EPI,730,28668.8
+MAT-01375,Óleo Alumínio,Lubrificante,438,28461.06
+MAT-00353,Engrenagem Inox,Mecânico,498,28279.76
+MAT-00715,Disjuntor Inox,Elétrico,407,28251.73
