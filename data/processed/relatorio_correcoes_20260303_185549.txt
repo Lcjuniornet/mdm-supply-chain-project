@@ -1,0 +1,43 @@
+====================================================================
+RELATÓRIO DE CORREÇÕES AUTOMATIZADAS
+Data: 03/03/2026 18:55:53
+Modo: SIMULAÇÃO
+====================================================================
+
+Total de materiais processados: 3,300
+Total de correções aplicadas: 7,069
+
+CORREÇÕES POR TIPO:
+  PADRONIZACAO_TEXTO: 4,406
+  FORNECEDOR_VAZIO: 660
+  ESTOQUE_MINIMO_VAZIO: 660
+  NCM_VAZIO: 623
+  OUTLIER_PRECO: 621
+  PRECO_ZERADO: 99
+
+COMPARAÇÃO ANTES vs DEPOIS:
+  valor_total_estoque:
+    Antes:  1,833,031,687.23
+    Depois: 1,836,854,329.62
+    Delta:  +3,822,642.39
+
+  preco_medio:
+    Antes:  220.58
+    Depois: 221.05
+    Delta:  +0.47
+
+  materiais_sem_ncm:
+    Antes:  623.00
+    Depois: 0.00
+    Delta:  -623.00
+
+  materiais_sem_fornecedor:
+    Antes:  660.00
+    Depois: 0.00
+    Delta:  -660.00
+
+  score_completude:
+    Antes:  80.37
+    Depois: 100.00
+    Delta:  +19.63
+

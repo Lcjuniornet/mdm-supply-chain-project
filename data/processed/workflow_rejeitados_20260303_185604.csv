@@ -1,0 +1,873 @@
+﻿codigo_material,descricao,categoria,caminho,n_erros,n_alertas,erros,alertas
+MAT-00001,Papel Cobre,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00014,Solvente Aço,Químico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-00016,Martelo Alumínio,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00023,led Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00024,Fita Alumínio,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 384 dias
+MAT-00031,Registro Inox,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00040,Desinfetante Cobre,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00046,Junta Aço,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00047,Vedação Latão,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00052,Cilindro Latão,Pneumático,REJEITADO,1,1,NCM vazio,Parado 398 dias
+MAT-00053,Furadeira Alumínio,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00066,capacitor Latão,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00070,Balde Aço,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00073,Sensor Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 624 dias
+MAT-00074,LED Plástico,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-00075,Gancho Cobre,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-00083,Rolamento Cobre,Mecânico,REJEITADO,1,1,NCM vazio,Parado 486 dias
+MAT-00085,Vedação em PVC,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00087,Prego Cobre,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00088,Bota PVC,EPI,REJEITADO,1,3,Preco zerado,Sem fornecedor; Sem estoque minimo; Parado 380 dias
+MAT-00093,Rolamento Latão,Peças,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-00095,Sensor Aço,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00098,Graxa Alumínio,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-00113,Grampeador Alumínio,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 562 dias
+MAT-00117,Rolamento Alumínio,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00119,Papelão Latão,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00120,Plástico PVC,Embalagem,REJEITADO,1,1,NCM vazio,Parado 527 dias
+MAT-00128,Interruptor Alumínio,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00135,Resistor Plástico,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 492 dias
+MAT-00137,Sensor Aço,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-00156,óleo Plástico,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 533 dias
+MAT-00157,Fluido Latão,Lubrificante,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00167,Capacitor Latão,Eletrônico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 633 dias
+MAT-00178,Vassoura Aço,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00181,Base PVC,Químico,REJEITADO,1,0,NCM vazio,
+MAT-00182,Conexão Aço,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00183,Base Plástico,Químico,REJEITADO,1,1,NCM vazio,Parado 482 dias
+MAT-00185,Conexão Plástico,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00189,Solvente PVC,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00190,Catalisador Alumínio,Químico,REJEITADO,1,1,NCM vazio,Parado 537 dias
+MAT-00193,Fluido Inox,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-00204,Válvula Cobre,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00207,Vedação Latão,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00208,Capacete Inox,EPI,REJEITADO,1,0,NCM vazio,
+MAT-00215,Mangueira Inox,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00216,Mangueira PVC,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00218,Lâmpada Aço,Elétrico,REJEITADO,1,1,NCM vazio,Parado 407 dias
+MAT-00230,Pasta Cobre,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 489 dias
+MAT-00232,Registro Alumínio,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00236,Plástico Inox,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1517.70 (revisar)
+MAT-00238,bucha Inox,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00241,Spray PVC,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 503 dias
+MAT-00243,Caneta Cobre,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00244,Gancho Cobre,Acessórios,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 460 dias
+MAT-00246,Junta Plástico,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00249,Filtro Latão,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00252,Plástico PVC,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00259,"Tubo 3/4"" Aço",Hidráulico,REJEITADO,1,1,NCM vazio,Parado 395 dias
+MAT-00265,etiqueta Alumínio,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00268,Rolamento PVC,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00269,Balde Aço,Limpeza,REJEITADO,1,1,Preco zerado,Parado 651 dias
+MAT-00271,Fita Aço,Embalagem,REJEITADO,1,1,NCM vazio,Parado 407 dias
+MAT-00272,Máscara Latão,EPI,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 610 dias
+MAT-00275,Junta Plástico,Peças,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Preco alto: R$1552.62 (revisar)
+MAT-00276,Anel Plástico,Peças,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 473 dias
+MAT-00283,Junta Latão,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00288,Caneta Alumínio,Escritório,REJEITADO,1,1,NCM vazio,Parado 375 dias
+MAT-00294,Registro PVC,Hidráulico,REJEITADO,1,1,NCM vazio,Preco alto: R$1842.80 (revisar)
+MAT-00295,Desinfetante Alumínio,Limpeza,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 523 dias
+MAT-00298,Válvula PVC,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00310,Bucha Latão,Mecânico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 494 dias
+MAT-00312,Chave Aço,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00316,Registro Plástico,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 435 dias
+MAT-00329,Capacitor Cobre,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00330,Cilindro PVC,Pneumático,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-00333,Etiqueta Inox,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00334,Disjuntor Inox,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00343,Vedação PVC,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00344,Retentor Alumínio,Peças,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-00350,Caneta Alumínio,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00356,Desinfetante Latão,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00368,Caixa Latão,Embalagem,REJEITADO,1,1,NCM vazio,Parado 670 dias
+MAT-00370,Clipe Cobre,Acessórios,REJEITADO,1,1,Preco zerado,Parado 519 dias
+MAT-00372,Válvula Alumínio,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00374,Pano Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00378,Cilindro Plástico,Pneumático,REJEITADO,1,1,NCM vazio,Parado 432 dias
+MAT-00381,Alicate Alumínio,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00384,Capacitor em Inox,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-00388,Óculos Cobre,EPI,REJEITADO,1,0,NCM vazio,
+MAT-00389,Presilha Inox,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-00391,Detergente Alumínio,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00393,Correia Latão,Mecânico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00400,Balde Latão,Limpeza,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 547 dias
+MAT-00402,Conexão Aço,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00408,Rebite Alumínio,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00410,Arruela Alumínio,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00417,Reagente Aço,Químico,REJEITADO,1,0,NCM vazio,
+MAT-00431,Filtro Alumínio,Pneumático,REJEITADO,1,1,NCM vazio,Parado 460 dias
+MAT-00433,Reagente Inox,Químico,REJEITADO,1,0,Preco zerado,
+MAT-00436,Gancho Inox,Acessórios,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-00440,Fluido Latão,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-00447,Capacete Alumínio,EPI,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 374 dias
+MAT-00450,Lâmpada Latão,Elétrico,REJEITADO,1,1,NCM vazio,Parado 425 dias
+MAT-00453,Presilha Cobre,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-00454,pasta Cobre,Escritório,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 710 dias
+MAT-00457,Grampeador Inox,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00458,Papel Latão,Escritório,REJEITADO,1,1,NCM vazio,Parado 644 dias
+MAT-00459,Serra em Latão,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00460,Óleo Plástico,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-00465,Serra Inox,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00469,Alicate Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00470,Solvente Cobre,Químico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 563 dias
+MAT-00476,Anel Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00485,Parafuso M12 Alumínio,Fixação,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 369 dias
+MAT-00491,Rolamento Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00493,Válvula Inox,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 656 dias
+MAT-00495,Tomada Cobre,Elétrico,REJEITADO,1,1,NCM vazio,Parado 424 dias
+MAT-00500,Anel Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00513,Caneta PVC,Escritório,REJEITADO,1,0,Preco zerado,
+MAT-00514,Rolamento Alumínio,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1612.53 (revisar)
+MAT-00520,Desinfetante Cobre,Limpeza,REJEITADO,1,1,NCM vazio,Parado 366 dias
+MAT-00537,Válvula em PVC,Hidráulico,REJEITADO,1,3,Preco zerado,Sem fornecedor; Sem estoque minimo; Parado 599 dias
+MAT-00538,Máscara Latão,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-00547,Bucha PVC,Mecânico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00549,Máscara Plástico,EPI,REJEITADO,1,1,NCM vazio,Parado 722 dias
+MAT-00552,Anel PVC,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00554,Fita Alumínio,Embalagem,REJEITADO,1,1,NCM vazio,Parado 702 dias
+MAT-00559,Cabo 16mm² Plástico,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00560,Máscara Cobre,EPI,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00561,"Tubo 1/2"" Plástico",Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00572,Serra Cobre,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00576,Spray Latão,Lubrificante,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 569 dias
+MAT-00581,Serra Cobre,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00584,Válvula Alumínio,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00585,LED Inox,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-00586,Serra Alumínio,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00588,Balde Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00589,Suporte em Inox,Acessórios,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00590,Lâmpada Inox,Elétrico,REJEITADO,1,1,NCM vazio,Parado 384 dias
+MAT-00591,Ácido Cobre,Químico,REJEITADO,1,1,NCM vazio,Preco alto: R$1801.64 (revisar)
+MAT-00596,Serra PVC,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 610 dias
+MAT-00606,Etiqueta Aço,Embalagem,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00612,Sensor PVC,Eletrônico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 593 dias
+MAT-00613,"Tubo 3/4"" Latão",Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00614,Cilindro Inox,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00616,Capacitor Aço,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-00618,Parafuso M6 PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00623,Martelo PVC,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 381 dias
+MAT-00625,Filtro PVC,Pneumático,REJEITADO,1,0,Preco zerado,
+MAT-00627,Disjuntor Plástico,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00635,Arruela PVC,Fixação,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00636,Filtro Alumínio,Pneumático,REJEITADO,1,1,NCM vazio,Parado 550 dias
+MAT-00641,Interruptor Alumínio,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00646,Caixa PVC,Embalagem,REJEITADO,1,1,NCM vazio,Parado 459 dias
+MAT-00648,Desinfetante Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00650,Bota Latão,EPI,REJEITADO,1,1,NCM vazio,Parado 388 dias
+MAT-00656,Spray Aço,Lubrificante,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00659,Pasta Latão,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00661,Caixa Plástico,Embalagem,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-00668,Papelão Inox,Embalagem,REJEITADO,1,1,NCM vazio,Parado 419 dias
+MAT-00672,Arruela Aço,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00678,Rolamento Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00684,Mangueira Latão,Hidráulico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 506 dias
+MAT-00686,Alicate Alumínio,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00690,Fluido Inox,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 422 dias
+MAT-00691,Sensor Latão,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00692,Máscara Inox,EPI,REJEITADO,1,1,NCM vazio,Parado 481 dias
+MAT-00704,Junta Cobre,Peças,REJEITADO,1,1,NCM vazio,Parado 615 dias
+MAT-00718,Gancho em Latão,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-00721,Caneta Aço,Escritório,REJEITADO,1,1,NCM vazio,Parado 408 dias
+MAT-00722,Fita Aço,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00726,Cabo 10mm² Aço,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-00740,Pano PVC,Limpeza,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00741,Sensor PVC,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00743,Papelão Alumínio,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00746,Válvula Latão,Pneumático,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-00755,Caixa Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00758,Chave Plástico,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-00764,Mangueira Inox,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00766,Desinfetante Plástico,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-00771,Conexão Latão,Pneumático,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-00773,Prego em Aço,Fixação,REJEITADO,1,1,NCM vazio,Parado 605 dias
+MAT-00774,Registro Aço,Hidráulico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 382 dias
+MAT-00775,Martelo Cobre,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00779,Filtro PVC,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00780,Correia Aço,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00783,Fluido Cobre,Lubrificante,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 623 dias
+MAT-00801,Módulo PVC,Eletrônico,REJEITADO,1,1,Preco zerado,Parado 496 dias
+MAT-00803,Rolamento Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00805,Alicate Inox,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00806,Graxa Aço,Lubrificante,REJEITADO,1,1,NCM vazio,Preco alto: R$1555.40 (revisar)
+MAT-00807,Fluido PVC,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-00809,Caixa Alumínio,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00815,Fita Aço,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00817,Filtro Aço,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00820,Conexão Inox,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-00825,Filtro Plástico,Pneumático,REJEITADO,1,1,NCM vazio,Parado 409 dias
+MAT-00827,Caneta Inox,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-00828,Base Cobre,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00829,Graxa Aço,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-00832,Luva XG PVC,EPI,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 525 dias
+MAT-00834,Martelo Plástico,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 594 dias
+MAT-00839,Bota Inox,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 490 dias
+MAT-00845,Mangueira Latão,Hidráulico,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-00855,Tomada Alumínio,Elétrico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00858,Módulo Latão,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00865,Martelo Aço,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 406 dias
+MAT-00868,Martelo PVC,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 584 dias
+MAT-00870,Vedação Latão,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00874,Papelão Inox,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00876,Arruela Aço,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 376 dias
+MAT-00880,Arruela Cobre,Fixação,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-00881,Anel Plástico,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00884,Retentor Plástico,Peças,REJEITADO,1,1,Preco zerado,Parado 495 dias
+MAT-00888,Lâmpada Cobre,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00889,Suporte Cobre,Acessórios,REJEITADO,1,2,NCM vazio,Preco alto: R$1502.76 (revisar); Parado 646 dias
+MAT-00897,Capacitor Cobre,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 692 dias
+MAT-00898,Chave PVC,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 476 dias
+MAT-00903,Lâmpada PVC,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00904,Rolamento Inox,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00908,Rolamento Aço,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00910,Mangueira Cobre,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00912,Vedação Latão,Peças,REJEITADO,1,0,NCM vazio,
+MAT-00914,Vedação Alumínio,Peças,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 581 dias
+MAT-00915,papelão Cobre,Embalagem,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 518 dias
+MAT-00924,Tomada Aço,Elétrico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 579 dias
+MAT-00925,Máscara Inox,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 718 dias
+MAT-00928,Caneta Cobre,Escritório,REJEITADO,1,0,Preco zerado,
+MAT-00929,Luva GG Latão,EPI,REJEITADO,1,1,Preco zerado,Parado 457 dias
+MAT-00930,Balde Alumínio,Limpeza,REJEITADO,1,1,NCM vazio,Parado 442 dias
+MAT-00932,Registro Latão,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 556 dias
+MAT-00934,Rebite PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-00937,Parafuso M10 Inox,Fixação,REJEITADO,1,1,NCM vazio,Preco alto: R$1830.37 (revisar)
+MAT-00938,Vassoura Plástico,Limpeza,REJEITADO,1,2,NCM vazio,Preco alto: R$1761.78 (revisar); Parado 395 dias
+MAT-00939,Disjuntor Aço,Elétrico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-00945,Reagente Alumínio,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-00947,"Tubo 2"" Latão",Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-00952,Suporte Plástico,Acessórios,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 704 dias
+MAT-00953,Serra Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 385 dias
+MAT-00954,Máscara Alumínio,EPI,REJEITADO,1,1,NCM vazio,Parado 391 dias
+MAT-00955,LED Latão,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-00960,Clipe PVC,Acessórios,REJEITADO,1,1,NCM vazio,Parado 532 dias
+MAT-00966,Base Alumínio,Químico,REJEITADO,1,0,NCM vazio,
+MAT-00968,Pasta Cobre,Escritório,REJEITADO,1,1,NCM vazio,Parado 426 dias
+MAT-00976,Papelão PVC,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-00980,clipe Inox,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-00982,Base Alumínio,Químico,REJEITADO,1,1,NCM vazio,Parado 607 dias
+MAT-00984,Balde Inox,Limpeza,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1896.48 (revisar)
+MAT-00988,Retentor Cobre,Peças,REJEITADO,1,1,NCM vazio,Preco alto: R$1591.80 (revisar)
+MAT-00989,rolamento Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-00990,Resistor PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-01000,Tomada Latão,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01009,Interruptor Aço,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01013,Parafuso Latão M8,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 493 dias
+MAT-01016,Registro Cobre,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-01025,Retentor Cobre,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01029,Luva M Inox,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-01031,Fita Latão,Embalagem,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 440 dias
+MAT-01032,Cabo 6mm² Inox,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01034,Interruptor Cobre,Elétrico,REJEITADO,1,1,NCM vazio,Parado 622 dias
+MAT-01037,Registro Plástico,Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01045,Grampeador Inox,Escritório,REJEITADO,1,1,NCM vazio,Parado 434 dias
+MAT-01047,Serra Plástico,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-01054,Sensor Inox,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 566 dias
+MAT-01058,Bucha Latão,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 592 dias
+MAT-01061,Grampeador Latão,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01062,Bucha Aço,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 464 dias
+MAT-01068,Alicate Plástico,Ferramentas,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 519 dias
+MAT-01069,pasta Latão,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-01070,Registro Alumínio,Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01072,Anel PVC,Peças,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 512 dias
+MAT-01075,Pasta PVC,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01078,Luva M Inox,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01083,Base Alumínio,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01087,Cabo 6mm² PVC,Elétrico,REJEITADO,1,1,NCM vazio,Preco alto: R$1534.46 (revisar)
+MAT-01092,Base Plástico,Químico,REJEITADO,2,1,NCM vazio; Preco zerado,Parado 624 dias
+MAT-01096,Registro em Alumínio,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-01099,válvula PVC,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01116,Chave PVC,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 528 dias
+MAT-01121,bota Inox,EPI,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-01125,Rebite Inox,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01128,Etiqueta Inox,Embalagem,REJEITADO,1,1,NCM vazio,Preco alto: R$1768.78 (revisar)
+MAT-01131,abraçadeira Plástico,Acessórios,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01135,Pasta em Alumínio,Lubrificante,REJEITADO,1,3,NCM vazio,Sem fornecedor; Preco alto: R$1722.76 (revisar); Parado 581 dias
+MAT-01140,Suporte Latão,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 619 dias
+MAT-01141,Etiqueta Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01145,Martelo Cobre,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-01146,Válvula Inox,Pneumático,REJEITADO,1,2,NCM vazio,Preco alto: R$1841.96 (revisar); Parado 577 dias
+MAT-01147,Vassoura Latão,Limpeza,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Preco alto: R$1773.86 (revisar)
+MAT-01148,Cabo 10mm² Latão,Elétrico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 413 dias
+MAT-01153,Parafuso M16 PVC,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 484 dias
+MAT-01155,resistor Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 442 dias
+MAT-01159,Papelão Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01164,Correia Aço,Mecânico,REJEITADO,1,0,Preco zerado,
+MAT-01165,Tomada Latão,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01167,Eixo Latão,Mecânico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01168,Engrenagem Latão,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01170,Bota PVC,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01173,Óculos Cobre,EPI,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01180,Fluido Inox,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 599 dias
+MAT-01182,Filtro Alumínio,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01186,Óleo em Plástico,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-01192,Cilindro Inox,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01193,Eixo Aço,Mecânico,REJEITADO,1,1,NCM vazio,Preco alto: R$1795.83 (revisar)
+MAT-01197,Ácido PVC,Químico,REJEITADO,2,1,NCM vazio; Preco zerado,Parado 613 dias
+MAT-01198,Bota Inox,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 640 dias
+MAT-01199,Bucha Plástico,Mecânico,REJEITADO,1,1,NCM vazio,Preco alto: R$1552.51 (revisar)
+MAT-01206,Válvula Latão,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 455 dias
+MAT-01207,Conexão Cobre,Pneumático,REJEITADO,1,1,NCM vazio,Parado 713 dias
+MAT-01209,Grampeador em Plástico,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01212,Conexão Cobre,Hidráulico,REJEITADO,1,0,Preco zerado,
+MAT-01214,Desinfetante Aço,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-01217,Correia Latão,Mecânico,REJEITADO,1,1,NCM vazio,Parado 420 dias
+MAT-01221,Eixo Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01223,Conexão Inox,Hidráulico,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 521 dias
+MAT-01228,Rebite em Latão,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01234,Abraçadeira Plástico,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01236,Junta Inox,Peças,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 484 dias
+MAT-01243,Pasta Alumínio,Escritório,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-01244,LED Alumínio,Eletrônico,REJEITADO,1,0,Preco zerado,
+MAT-01249,Disjuntor Plástico,Elétrico,REJEITADO,1,0,Preco zerado,
+MAT-01252,Rolamento Cobre,Peças,REJEITADO,1,0,NCM vazio,
+MAT-01259,Bucha Latão,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01260,Vedação Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-01266,Graxa Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-01274,Interruptor Latão,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01279,Óculos Latão,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01282,Gancho Latão,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01288,Caneta Cobre,Escritório,REJEITADO,1,0,Preco zerado,
+MAT-01294,Cilindro Inox,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01295,Bucha PVC,Mecânico,REJEITADO,1,1,NCM vazio,Parado 483 dias
+MAT-01299,LED Inox,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 419 dias
+MAT-01310,Capacete Plástico,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01313,Cabo 16mm² PVC,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01318,Conexão PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01320,Disjuntor Aço,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01326,Rebite Cobre,Fixação,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01330,Óleo Plástico,Lubrificante,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 460 dias
+MAT-01333,Fluido Inox,Lubrificante,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1807.95 (revisar)
+MAT-01335,Papelão PVC,Embalagem,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01340,Mangueira Inox,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-01341,Chave Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01347,Correia Plástico,Mecânico,REJEITADO,1,1,NCM vazio,Parado 467 dias
+MAT-01348,Resistor Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01367,Etiqueta em Plástico,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1779.26 (revisar)
+MAT-01369,Reagente Inox,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01377,Filtro Alumínio,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01378,Capacete Aço,EPI,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01379,Registro Latão,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01380,porca M16 Cobre,Fixação,REJEITADO,1,1,NCM vazio,Parado 367 dias
+MAT-01389,Interruptor PVC,Elétrico,REJEITADO,1,1,NCM vazio,Parado 636 dias
+MAT-01397,Máscara Cobre,EPI,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 589 dias
+MAT-01398,Solvente Plástico,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01403,Válvula Plástico,Hidráulico,REJEITADO,1,0,Preco zerado,
+MAT-01405,Porca M12 Aço,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 489 dias
+MAT-01406,Caneta Cobre,Escritório,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01408,Fita Alumínio,Embalagem,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01409,LED Alumínio,Eletrônico,REJEITADO,1,0,Preco zerado,
+MAT-01411,Correia Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01417,Engrenagem PVC,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 508 dias
+MAT-01419,Bota Plástico,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01422,Pasta Plástico,Escritório,REJEITADO,1,1,NCM vazio,Parado 614 dias
+MAT-01423,Caixa Plástico,Embalagem,REJEITADO,1,0,Preco zerado,
+MAT-01429,Base Plástico,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01430,Eixo Alumínio,Mecânico,REJEITADO,1,1,NCM vazio,Parado 576 dias
+MAT-01433,Anel Aço,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01434,Presilha PVC,Acessórios,REJEITADO,1,1,NCM vazio,Parado 460 dias
+MAT-01435,Papel Plástico,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01439,Caixa Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Parado 427 dias
+MAT-01445,Solvente PVC,Químico,REJEITADO,1,1,NCM vazio,Parado 527 dias
+MAT-01446,Registro Plástico,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 532 dias
+MAT-01448,Catalisador Inox,Químico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01449,Presilha Plástico,Acessórios,REJEITADO,1,0,Preco zerado,
+MAT-01452,Junta PVC,Peças,REJEITADO,1,1,NCM vazio,Parado 515 dias
+MAT-01453,Chave Cobre,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 389 dias
+MAT-01455,Ácido Aço,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01471,Papelão Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01473,Graxa Inox,Lubrificante,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01476,Martelo Inox,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-01478,Mangueira Inox,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-01482,Anel Aço,Peças,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 408 dias
+MAT-01491,Lâmpada Latão,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-01498,Desinfetante Cobre,Limpeza,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01499,Caixa Latão,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01503,Cilindro Plástico,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01508,Desinfetante Aço,Limpeza,REJEITADO,1,1,NCM vazio,Parado 480 dias
+MAT-01511,Ácido PVC,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01514,Correia Inox,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01515,Graxa Latão,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 476 dias
+MAT-01516,Fita Inox,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01522,Caixa PVC,Embalagem,REJEITADO,1,1,NCM vazio,Parado 730 dias
+MAT-01524,Base Alumínio,Químico,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-01528,bucha Alumínio,Mecânico,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-01529,correia Alumínio,Mecânico,REJEITADO,1,1,NCM vazio,Parado 432 dias
+MAT-01530,Prego Inox,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01531,Rolamento PVC,Mecânico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01532,Conexão Aço,Pneumático,REJEITADO,1,0,Preco zerado,
+MAT-01533,Bota PVC,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01535,Máscara Alumínio,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01539,Sensor Plástico,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-01548,Prego Plástico,Fixação,REJEITADO,1,1,NCM vazio,Parado 551 dias
+MAT-01556,Arruela Cobre,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01560,Solvente Alumínio,Químico,REJEITADO,1,0,NCM vazio,
+MAT-01561,válvula Latão,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-01569,Clips Inox,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01573,fita Alumínio,Embalagem,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01587,Fita Cobre,Embalagem,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 395 dias
+MAT-01588,Correia PVC,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01592,Grampeador Cobre,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01594,Papelão Latão,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01596,Caixa Plástico,Embalagem,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 526 dias
+MAT-01600,Bucha Aço,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 378 dias
+MAT-01601,Plástico Latão,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01603,Suporte Cobre,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01604,Óleo Cobre,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-01605,Válvula Aço,Hidráulico,REJEITADO,1,0,Preco zerado,
+MAT-01608,Clips Plástico,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01611,Bota Latão,EPI,REJEITADO,1,0,Preco zerado,
+MAT-01612,Filtro Alumínio,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01614,Eixo Alumínio,Mecânico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 690 dias
+MAT-01615,Abraçadeira Inox,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01616,Furadeira Cobre,Ferramentas,REJEITADO,1,0,Preco zerado,
+MAT-01620,Alicate Plástico,Ferramentas,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-01621,Chave Inox,Ferramentas,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 388 dias
+MAT-01622,Papelão Inox,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01623,Módulo PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-01635,LED Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 492 dias
+MAT-01639,Detergente Inox,Limpeza,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01649,Filtro Cobre,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01650,Óculos PVC,EPI,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-01651,Registro Latão,Hidráulico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-01654,Correia Plástico,Mecânico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01665,Desinfetante Aço,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-01676,Conexão Latão,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01678,Ácido Aço,Químico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 712 dias
+MAT-01686,Clips PVC,Escritório,REJEITADO,1,3,NCM vazio,Sem estoque minimo; Preco alto: R$1984.27 (revisar); Parado 485 dias
+MAT-01687,Capacitor Cobre,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 476 dias
+MAT-01690,Mangueira PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01695,Gancho Aço,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01697,Spray Alumínio,Lubrificante,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Preco alto: R$1755.91 (revisar)
+MAT-01702,Bota Latão,EPI,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01705,Módulo PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-01706,Desinfetante Latão,Limpeza,REJEITADO,1,1,NCM vazio,Preco alto: R$1632.61 (revisar)
+MAT-01708,Alicate Inox,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-01711,Válvula Cobre,Pneumático,REJEITADO,1,1,NCM vazio,Parado 716 dias
+MAT-01724,Grampeador Plástico,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01726,Papel Aço,Escritório,REJEITADO,1,1,NCM vazio,Parado 494 dias
+MAT-01736,Plástico PVC,Embalagem,REJEITADO,1,0,Preco zerado,
+MAT-01738,Válvula Plástico,Hidráulico,REJEITADO,1,1,Preco zerado,Parado 551 dias
+MAT-01739,Chave Cobre,Ferramentas,REJEITADO,1,0,Preco zerado,
+MAT-01751,Suporte em Aço,Acessórios,REJEITADO,1,1,NCM vazio,Preco alto: R$1955.15 (revisar)
+MAT-01753,Clipe Latão,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-01757,Retentor Latão,Peças,REJEITADO,1,0,NCM vazio,
+MAT-01759,Suporte Plástico,Acessórios,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01761,LED PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-01763,Óleo Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-01766,Caixa Latão,Embalagem,REJEITADO,1,1,NCM vazio,Parado 487 dias
+MAT-01777,Junta Aço,Peças,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01779,Martelo Plástico,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 449 dias
+MAT-01780,Mangueira PVC,Pneumático,REJEITADO,1,1,NCM vazio,Parado 469 dias
+MAT-01781,luva XG Plástico,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01790,Presilha Latão,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 651 dias
+MAT-01794,Catalisador Inox,Químico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 402 dias
+MAT-01798,Prego Cobre,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01800,Papelão Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Parado 633 dias
+MAT-01808,Cilindro Plástico,Pneumático,REJEITADO,1,1,NCM vazio,Parado 393 dias
+MAT-01816,Clips Latão,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 468 dias
+MAT-01819,Graxa Latão,Lubrificante,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01822,Disjuntor Alumínio,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01835,Retentor Inox,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01843,Rolamento Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-01844,Vedação Inox,Peças,REJEITADO,1,1,NCM vazio,Parado 710 dias
+MAT-01847,Fluido Inox,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-01852,Rebite Aço,Fixação,REJEITADO,1,0,Preco zerado,
+MAT-01854,Grampeador Aço,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01858,Fita Inox,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-01862,Rolamento Aço,Mecânico,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-01869,Grampeador Alumínio,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 391 dias
+MAT-01870,Óculos Plástico,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-01873,Arruela Aço,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01875,Furadeira Inox,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 681 dias
+MAT-01898,Pano Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-01900,Gancho Plástico,Acessórios,REJEITADO,1,0,Preco zerado,
+MAT-01902,Módulo PVC,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 621 dias
+MAT-01906,Fluido Latão,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-01908,Pano Latão,Limpeza,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01910,Lâmpada Plástico,Elétrico,REJEITADO,1,1,Preco zerado,Parado 519 dias
+MAT-01911,Correia Cobre,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-01918,Cilindro Alumínio,Pneumático,REJEITADO,1,1,NCM vazio,Parado 641 dias
+MAT-01919,Ácido Alumínio,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01921,"Tubo 1/2"" PVC",Hidráulico,REJEITADO,1,1,Preco zerado,Parado 661 dias
+MAT-01927,Papelão Plástico,Embalagem,REJEITADO,1,1,NCM vazio,Parado 481 dias
+MAT-01930,Válvula Cobre,Hidráulico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Preco alto: R$1812.17 (revisar)
+MAT-01934,Mangueira PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-01938,Válvula Aço,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01941,Graxa Plástico,Lubrificante,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-01946,Máscara Cobre,EPI,REJEITADO,1,0,NCM vazio,
+MAT-01947,Alicate Inox,Ferramentas,REJEITADO,1,2,Preco zerado,Sem estoque minimo; Parado 391 dias
+MAT-01948,LED Inox,Eletrônico,REJEITADO,1,1,NCM vazio,Parado 420 dias
+MAT-01954,Papelão Aço,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01955,clips Inox,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-01957,Pano Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-01962,Parafuso M8 PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01963,Óleo Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-01971,Óleo Plástico,Lubrificante,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-01973,Conexão Cobre,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01976,Rebite PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-01985,Conexão Aço,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 431 dias
+MAT-01987,Arruela em Plástico,Fixação,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-01993,Correia Alumínio,Mecânico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-01999,Martelo PVC,Ferramentas,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 601 dias
+MAT-02000,Registro em PVC,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02004,Chave Aço,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-02010,Lâmpada PVC,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02012,Capacitor Latão,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02014,Abraçadeira Latão,Acessórios,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02018,Registro Plástico,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02021,Filtro Plástico,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02024,Filtro Aço,Pneumático,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 634 dias
+MAT-02025,Interruptor Aço,Elétrico,REJEITADO,1,1,NCM vazio,Parado 601 dias
+MAT-02030,Máscara Inox,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02032,Papelão Latão,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02033,arruela Latão,Fixação,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02037,Furadeira Inox,Ferramentas,REJEITADO,1,3,NCM vazio,Sem estoque minimo; Preco alto: R$1759.36 (revisar); Parado 454 dias
+MAT-02038,Fita Latão,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1502.66 (revisar)
+MAT-02040,"Tubo 2"" Cobre",Hidráulico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02045,Martelo Plástico,Ferramentas,REJEITADO,1,1,NCM vazio,Parado 465 dias
+MAT-02046,Mangueira em Latão,Hidráulico,REJEITADO,1,0,Preco zerado,
+MAT-02052,Anel Aço,Peças,REJEITADO,1,1,NCM vazio,Parado 389 dias
+MAT-02064,Prego Cobre,Fixação,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02066,Solvente Cobre,Químico,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Preco alto: R$1910.42 (revisar)
+MAT-02073,Pasta Aço,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02075,Vedação Cobre,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02080,Papelão Aço,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02092,Etiqueta Latão,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02095,Detergente Alumínio,Limpeza,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02096,Registro Cobre,Hidráulico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 469 dias
+MAT-02100,Lâmpada Inox,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02104,Sensor Plástico,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 394 dias
+MAT-02109,Óleo Plástico,Lubrificante,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02112,Desinfetante Alumínio,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02115,Spray Inox,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02116,Clipe Aço,Acessórios,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02117,Junta Aço,Peças,REJEITADO,1,1,NCM vazio,Parado 491 dias
+MAT-02129,Fluido Aço,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02132,vassoura Alumínio,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02138,"Cabo 2,5mm² Inox",Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02141,Cabo 6mm² Inox,Elétrico,REJEITADO,1,0,Preco zerado,
+MAT-02144,LED Aço,Eletrônico,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-02150,Base Cobre,Químico,REJEITADO,1,0,NCM vazio,
+MAT-02152,LED Aço,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 497 dias
+MAT-02153,Conexão em Cobre,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02157,Cabo 6mm² Latão,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02164,Vedação Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02169,Resistor Latão,Eletrônico,REJEITADO,1,0,Preco zerado,
+MAT-02173,Papel em Alumínio,Escritório,REJEITADO,1,1,NCM vazio,Parado 476 dias
+MAT-02174,Conexão Plástico,Pneumático,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 501 dias
+MAT-02177,Caneta Latão,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-02181,Caixa PVC,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02182,Fluido Aço,Lubrificante,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02184,Pasta em Aço,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 466 dias
+MAT-02185,Filtro PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02188,Pasta PVC,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02193,Lâmpada PVC,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02194,Pasta Aço,Escritório,REJEITADO,1,0,Preco zerado,
+MAT-02197,Fita Alumínio,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02202,Parafuso M16 Inox,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 427 dias
+MAT-02207,Rolamento PVC,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02208,Chave Inox,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02209,Cilindro Plástico,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02211,Presilha Alumínio,Acessórios,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02217,Tomada PVC,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02224,Reagente PVC,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02225,Máscara PVC,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 508 dias
+MAT-02229,Retentor Alumínio,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02232,Conexão Aço,Pneumático,REJEITADO,1,1,NCM vazio,Parado 480 dias
+MAT-02233,Clipe Alumínio,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 438 dias
+MAT-02237,Pasta Inox,Escritório,REJEITADO,1,1,Preco zerado,Parado 616 dias
+MAT-02238,Parafuso M10 PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-02242,Papel PVC,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02243,Tomada Cobre,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02251,Óleo Latão,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02252,Fluido Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02259,Correia Inox,Mecânico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 689 dias
+MAT-02261,Cilindro Latão,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02263,Vedação Plástico,Peças,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 503 dias
+MAT-02265,Presilha Alumínio,Acessórios,REJEITADO,1,3,Preco zerado,Sem fornecedor; Sem estoque minimo; Parado 466 dias
+MAT-02266,Alicate Inox,Ferramentas,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-02272,Vedação Inox,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02275,Anel Inox,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02277,Martelo Plástico,Ferramentas,REJEITADO,1,0,Preco zerado,
+MAT-02279,Óleo Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02284,Vassoura Plástico,Limpeza,REJEITADO,1,0,Preco zerado,
+MAT-02285,Válvula Alumínio,Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02287,Pano PVC,Limpeza,REJEITADO,1,1,NCM vazio,Preco alto: R$1876.68 (revisar)
+MAT-02293,Parafuso M10 Latão,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 511 dias
+MAT-02297,Grampeador Inox,Escritório,REJEITADO,1,1,NCM vazio,Parado 412 dias
+MAT-02299,Graxa Latão,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02301,Cabo Cobre 4mm²,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02303,Sensor Inox,Eletrônico,REJEITADO,1,0,Preco zerado,
+MAT-02304,Correia Inox,Mecânico,REJEITADO,1,1,NCM vazio,Parado 454 dias
+MAT-02313,Martelo Plástico,Ferramentas,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02314,Vedação Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02323,Base Aço,Químico,REJEITADO,1,0,NCM vazio,
+MAT-02330,Vassoura Plástico,Limpeza,REJEITADO,1,1,NCM vazio,Preco alto: R$1749.54 (revisar)
+MAT-02333,Conexão Latão,Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02340,Suporte Alumínio,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-02348,Rebite Cobre,Fixação,REJEITADO,1,1,NCM vazio,Parado 641 dias
+MAT-02351,Porca M16 Inox,Fixação,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02358,Pano Aço,Limpeza,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-02362,Pasta Aço,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 409 dias
+MAT-02367,Anel Plástico,Peças,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-02368,Anel Alumínio,Peças,REJEITADO,1,2,Preco zerado,Sem estoque minimo; Parado 689 dias
+MAT-02369,Conexão PVC,Pneumático,REJEITADO,1,1,NCM vazio,Parado 580 dias
+MAT-02371,Óleo Plástico,Lubrificante,REJEITADO,1,3,NCM vazio,Sem estoque minimo; Preco alto: R$1541.36 (revisar); Parado 551 dias
+MAT-02373,Balde Plástico,Limpeza,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02381,caneta Cobre,Escritório,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02382,Presilha Aço,Acessórios,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02384,Registro em Plástico,Hidráulico,REJEITADO,1,2,Preco zerado,Sem fornecedor; Sem estoque minimo
+MAT-02389,Fita Latão,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02395,Chave Alumínio,Ferramentas,REJEITADO,1,0,Preco zerado,
+MAT-02397,Lâmpada Aço,Elétrico,REJEITADO,1,1,NCM vazio,Parado 565 dias
+MAT-02398,Módulo Aço,Eletrônico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 406 dias
+MAT-02402,Junta Alumínio,Peças,REJEITADO,1,1,NCM vazio,Parado 471 dias
+MAT-02407,Fita Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02415,Serra Aço,Ferramentas,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 450 dias
+MAT-02416,caneta Cobre,Escritório,REJEITADO,1,1,NCM vazio,Parado 679 dias
+MAT-02418,Retentor Cobre,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02422,Rolamento Aço,Peças,REJEITADO,1,1,NCM vazio,Parado 660 dias
+MAT-02423,Presilha Inox,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-02426,Rebite Inox,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-02431,Engrenagem PVC,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-02434,Capacete Inox,EPI,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 413 dias
+MAT-02437,Mangueira Alumínio,Pneumático,REJEITADO,1,1,Preco zerado,Parado 522 dias
+MAT-02440,Detergente Aço,Limpeza,REJEITADO,1,1,Preco zerado,Parado 578 dias
+MAT-02443,Engrenagem Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-02444,Base PVC,Químico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02446,Tomada Cobre,Elétrico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 370 dias
+MAT-02452,Capacete Cobre,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02456,Eixo Plástico,Mecânico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 429 dias
+MAT-02467,Fluido Aço,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-02468,Rolamento PVC,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02471,Válvula Plástico,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02475,Gancho PVC,Acessórios,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 446 dias
+MAT-02483,Vedação Cobre,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02486,Clips Latão,Escritório,REJEITADO,1,1,NCM vazio,Parado 466 dias
+MAT-02488,Cilindro Cobre,Pneumático,REJEITADO,1,1,NCM vazio,Parado 690 dias
+MAT-02490,Pano Cobre,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02496,Junta Alumínio,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02497,Fluido Cobre,Lubrificante,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02508,Papelão Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02512,Rebite Inox,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 682 dias
+MAT-02516,Mangueira Aço,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02518,Parafuso M12 Aço,Fixação,REJEITADO,1,1,NCM vazio,Parado 588 dias
+MAT-02519,"Tubo 2"" Aço",Hidráulico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02526,Módulo em Plástico,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02528,Luva Aço P,EPI,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02530,Base Aço,Químico,REJEITADO,1,1,NCM vazio,Parado 447 dias
+MAT-02536,Catalisador Plástico,Químico,REJEITADO,1,0,NCM vazio,
+MAT-02538,Arruela Cobre,Fixação,REJEITADO,1,3,Preco zerado,Sem fornecedor; Sem estoque minimo; Parado 631 dias
+MAT-02544,Reagente Cobre,Químico,REJEITADO,1,0,NCM vazio,
+MAT-02546,Suporte Latão,Acessórios,REJEITADO,1,1,NCM vazio,Parado 437 dias
+MAT-02551,Interruptor PVC,Elétrico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Preco alto: R$1820.40 (revisar)
+MAT-02554,Clipe Inox,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02560,Gancho Latão,Acessórios,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-02565,Plástico Inox,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02569,"Cabo 2,5mm² Latão",Elétrico,REJEITADO,1,0,Preco zerado,
+MAT-02574,Vassoura Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02579,Detergente Latão,Limpeza,REJEITADO,1,1,NCM vazio,Parado 679 dias
+MAT-02582,caixa PVC,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02584,Desinfetante Latão,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02586,Detergente Latão,Limpeza,REJEITADO,1,1,NCM vazio,Parado 387 dias
+MAT-02588,Pasta Cobre,Lubrificante,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-02594,Solvente PVC,Químico,REJEITADO,1,1,Preco zerado,Parado 528 dias
+MAT-02598,Lâmpada Alumínio,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02602,Bucha Alumínio,Mecânico,REJEITADO,1,1,NCM vazio,Parado 504 dias
+MAT-02605,Cabo 4mm² Aço,Elétrico,REJEITADO,1,1,NCM vazio,Parado 460 dias
+MAT-02616,Clips Cobre,Escritório,REJEITADO,1,1,NCM vazio,Preco alto: R$1709.10 (revisar)
+MAT-02617,Porca M16 Aço,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-02618,Módulo Aço,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02619,Alicate em Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02621,Capacitor Aço,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02626,Capacete Inox,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02627,Junta Alumínio,Peças,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02633,Mangueira Alumínio,Hidráulico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02634,Papelão em Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02635,Conexão Aço,Hidráulico,REJEITADO,1,2,Preco zerado,Sem fornecedor; Parado 419 dias
+MAT-02643,Caixa Aço,Embalagem,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 390 dias
+MAT-02645,Serra Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02649,Mangueira PVC,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02654,Máscara Latão,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02658,Rebite Aço,Fixação,REJEITADO,2,1,NCM vazio; Preco zerado,Parado 424 dias
+MAT-02663,Filtro PVC,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02665,Válvula Inox,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02667,Clipe Plástico,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02671,LED PVC,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 498 dias
+MAT-02673,Caixa PVC,Embalagem,REJEITADO,1,0,Preco zerado,
+MAT-02675,Prego Alumínio,Fixação,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 676 dias
+MAT-02682,Anel Latão,Peças,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 644 dias
+MAT-02686,Interruptor Plástico,Elétrico,REJEITADO,1,1,NCM vazio,Parado 687 dias
+MAT-02690,Junta Cobre,Peças,REJEITADO,1,3,NCM vazio,Sem estoque minimo; Preco alto: R$1788.42 (revisar); Parado 653 dias
+MAT-02692,Clipe Cobre,Acessórios,REJEITADO,1,0,NCM vazio,
+MAT-02694,Prego Cobre,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-02701,Registro Cobre,Hidráulico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 634 dias
+MAT-02707,Vassoura Cobre,Limpeza,REJEITADO,1,1,NCM vazio,Preco alto: R$1760.22 (revisar)
+MAT-02711,Máscara Plástico,EPI,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 420 dias
+MAT-02715,Junta Inox,Peças,REJEITADO,1,0,NCM vazio,
+MAT-02718,retentor Latão,Peças,REJEITADO,1,2,NCM vazio,Preco alto: R$1739.07 (revisar); Parado 715 dias
+MAT-02719,Lâmpada Latão,Elétrico,REJEITADO,1,3,NCM vazio,Sem estoque minimo; Preco alto: R$1941.77 (revisar); Parado 458 dias
+MAT-02720,Grampeador Alumínio,Escritório,REJEITADO,1,1,NCM vazio,Parado 451 dias
+MAT-02721,Caneta Plástico,Escritório,REJEITADO,1,1,NCM vazio,Parado 589 dias
+MAT-02722,Parafuso M8 Inox,Fixação,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 416 dias
+MAT-02725,Conexão Cobre,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 513 dias
+MAT-02730,Rolamento Alumínio,Mecânico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02733,Capacete PVC,EPI,REJEITADO,1,1,NCM vazio,Parado 381 dias
+MAT-02736,Serra Latão,Ferramentas,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-02748,Válvula Latão,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02749,abraçadeira Alumínio,Acessórios,REJEITADO,1,1,NCM vazio,Parado 530 dias
+MAT-02752,Presilha Plástico,Acessórios,REJEITADO,1,1,NCM vazio,Parado 410 dias
+MAT-02757,Eixo Plástico,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-02760,Etiqueta PVC,Embalagem,REJEITADO,1,1,NCM vazio,Parado 440 dias
+MAT-02762,Capacete Alumínio,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02767,Caneta Aço,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 588 dias
+MAT-02768,Rolamento Plástico,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-02770,Bota Plástico,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02780,Arruela Aço,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-02785,Módulo PVC,Eletrônico,REJEITADO,1,0,Preco zerado,
+MAT-02788,Tomada Latão,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02793,LED Inox,Eletrônico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 385 dias
+MAT-02799,Rolamento Inox,Peças,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 468 dias
+MAT-02803,Ácido Alumínio,Químico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02809,Vassoura Latão,Limpeza,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02814,Papelão Aço,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02815,Conexão Cobre,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-02816,Catalisador Inox,Químico,REJEITADO,1,0,NCM vazio,
+MAT-02821,Martelo Latão,Ferramentas,REJEITADO,1,0,Preco zerado,
+MAT-02827,Máscara Cobre,EPI,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02829,Lâmpada Plástico,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02838,Alicate Alumínio,Ferramentas,REJEITADO,1,1,Preco zerado,Parado 466 dias
+MAT-02845,Interruptor Inox,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02851,Bucha Latão,Mecânico,REJEITADO,1,4,NCM vazio,Sem fornecedor; Sem estoque minimo; Preco alto: R$1962.94 (revisar); Parado 443 dias
+MAT-02856,Cabo 4mm² Plástico,Elétrico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02862,Conexão Cobre,Hidráulico,REJEITADO,1,1,NCM vazio,Parado 669 dias
+MAT-02867,Caixa Inox,Embalagem,REJEITADO,1,1,NCM vazio,Parado 444 dias
+MAT-02869,Base Aço,Químico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02870,Lâmpada Cobre,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02871,Plástico Plástico,Embalagem,REJEITADO,1,1,NCM vazio,Parado 419 dias
+MAT-02872,Desinfetante PVC,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02876,Lâmpada Inox,Elétrico,REJEITADO,1,0,NCM vazio,
+MAT-02877,Arruela Plástico,Fixação,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Preco alto: R$1500.34 (revisar)
+MAT-02881,Papelão Latão,Embalagem,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02887,Bucha Latão,Mecânico,REJEITADO,1,1,NCM vazio,Parado 459 dias
+MAT-02895,Chave Aço,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-02899,Caixa Latão,Embalagem,REJEITADO,1,2,NCM vazio,Preco alto: R$1613.84 (revisar); Parado 439 dias
+MAT-02904,Clipe Inox,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 526 dias
+MAT-02905,Desinfetante Inox,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02906,Resistor Latão,Eletrônico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 492 dias
+MAT-02911,Plástico Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-02914,Graxa Cobre,Lubrificante,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-02919,Graxa PVC,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02923,Balde Cobre,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-02924,Válvula Aço,Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02927,Engrenagem Plástico,Mecânico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02934,Prego Aço,Fixação,REJEITADO,1,1,NCM vazio,Parado 513 dias
+MAT-02935,Papelão Cobre,Embalagem,REJEITADO,1,1,NCM vazio,Parado 395 dias
+MAT-02938,Anel Latão,Peças,REJEITADO,1,0,Preco zerado,
+MAT-02947,Serra em Latão,Ferramentas,REJEITADO,1,1,NCM vazio,Preco alto: R$1659.36 (revisar)
+MAT-02949,Etiqueta Latão,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-02957,Rolamento PVC,Peças,REJEITADO,1,1,Preco zerado,Parado 404 dias
+MAT-02958,Válvula PVC,Hidráulico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 383 dias
+MAT-02960,Presilha Aço,Acessórios,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 492 dias
+MAT-02962,Conexão Plástico,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02964,Capacitor Plástico,Eletrônico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02970,Pasta Cobre,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-02971,Interruptor Plástico,Elétrico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-02975,Óleo Inox,Lubrificante,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 517 dias
+MAT-02981,Bota Cobre,EPI,REJEITADO,1,0,NCM vazio,
+MAT-02986,Conexão Plástico,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02987,Grampeador Inox,Escritório,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 470 dias
+MAT-02991,Catalisador Latão,Químico,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 421 dias
+MAT-02993,Spray Inox,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-02994,Conexão Cobre,Hidráulico,REJEITADO,1,0,NCM vazio,
+MAT-02998,"Tubo 1"" Cobre",Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-02999,Engrenagem Inox,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-06001,PANO PLÁSTICO,Limpeza,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,Caneta Inox,Escritório,REJEITADO,1,1,NCM vazio,Parado 385 dias
+MAT-06001,Interruptor Alumínio,Elétrico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,BUCHA AÇO,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-06001,Serra Alumínio,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-06001,Reagente Plástico,Químico,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-06001,Fluido Latão,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-06001,Luva M Latão,EPI,REJEITADO,1,0,NCM vazio,
+MAT-06001,GANCHO LATÃO,Acessórios,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-06001,plástico Cobre,Embalagem,REJEITADO,1,2,NCM vazio,Preco alto: R$1686.39 (revisar); Parado 428 dias
+MAT-06001,Caixa Plástico,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-06001,BUCHA LATÃO,Mecânico,REJEITADO,1,1,NCM vazio,Parado 592 dias
+MAT-06001,Catalisador Latão,Químico,REJEITADO,1,0,NCM vazio,
+MAT-06001,FITA PLÁSTICO,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-06001,Rebite PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-06001,DESINFETANTE PVC,Limpeza,REJEITADO,1,1,NCM vazio,Parado 517 dias
+MAT-06001,Conexão Aço,Pneumático,REJEITADO,1,1,NCM vazio,Parado 643 dias
+MAT-06001,REAGENTE AÇO,Químico,REJEITADO,1,0,NCM vazio,
+MAT-06001,"Tubo 3/4"" PVC",Hidráulico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,MANGUEIRA PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-06001,CORREIA PVC,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-06001,pasta Latão,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-06001,FITA ALUMÍNIO,Embalagem,REJEITADO,1,1,NCM vazio,Parado 384 dias
+MAT-06001,Vassoura Cobre,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-06001,PASTA COBRE,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 597 dias
+MAT-06001,Caixa Plástico,Embalagem,REJEITADO,1,2,NCM vazio,Sem fornecedor; Sem estoque minimo
+MAT-06001,Resistor PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-06001,Prego Cobre,Fixação,REJEITADO,1,1,NCM vazio,Preco alto: R$1717.52 (revisar)
+MAT-06001,ÓCULOS INOX,EPI,REJEITADO,1,0,NCM vazio,
+MAT-06001,Filtro PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-06001,Óleo Aço,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-06001,Fita Aço,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-06001,PASTA ALUMÍNIO,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-06001,LED Alumínio,Eletrônico,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-06001,Cilindro PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-06001,CONEXÃO ALUMÍNIO,Pneumático,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,REBITE EM PVC,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-06001,VÁLVULA AÇO,Pneumático,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-06001,Caneta Plástico,Escritório,REJEITADO,1,1,NCM vazio,Parado 540 dias
+MAT-06001,ALICATE PLÁSTICO,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-06001,CLIPE INOX,Acessórios,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1884.76 (revisar)
+MAT-06001,Porca M8 Cobre,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-06001,INTERRUPTOR LATÃO,Elétrico,REJEITADO,1,1,Preco zerado,Parado 513 dias
+MAT-06001,Caixa Aço,Embalagem,REJEITADO,1,0,NCM vazio,
+MAT-06001,Válvula PVC,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-06001,SPRAY ALUMÍNIO,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-06001,Resistor Cobre,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-06001,Chave Inox,Ferramentas,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,CILINDRO ALUMÍNIO,Pneumático,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 561 dias
+MAT-06001,ETIQUETA INOX,Embalagem,REJEITADO,1,1,NCM vazio,Parado 402 dias
+MAT-06001,BASE PLÁSTICO,Químico,REJEITADO,1,1,NCM vazio,Parado 624 dias
+MAT-06001,SERRA LATÃO,Ferramentas,REJEITADO,2,1,NCM vazio; Preco zerado,Parado 471 dias
+MAT-06001,Fluido Cobre,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-06001,Fluido PVC,Lubrificante,REJEITADO,1,1,NCM vazio,Parado 668 dias
+MAT-06001,Papel Plástico,Escritório,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,Capacete Inox,EPI,REJEITADO,1,2,Preco zerado,Sem estoque minimo; Parado 391 dias
+MAT-06001,Clips Latão,Escritório,REJEITADO,1,1,NCM vazio,Parado 381 dias
+MAT-06001,Pano Plástico,Limpeza,REJEITADO,1,0,NCM vazio,
+MAT-06001,MÓDULO PVC,Eletrônico,REJEITADO,1,0,NCM vazio,
+MAT-06001,Prego Alumínio,Fixação,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 676 dias
+MAT-06001,SOLVENTE INOX,Químico,REJEITADO,1,2,NCM vazio,Sem estoque minimo; Parado 633 dias
+MAT-06001,PARAFUSO M12 AÇO,Fixação,REJEITADO,1,1,Preco zerado,Parado 588 dias
+MAT-06001,Mangueira Aço,Pneumático,REJEITADO,1,1,NCM vazio,Parado 394 dias
+MAT-06001,SERRA ALUMÍNIO,Ferramentas,REJEITADO,1,1,Preco zerado,Sem fornecedor
+MAT-06001,Mangueira Cobre,Pneumático,REJEITADO,1,0,NCM vazio,
+MAT-06001,CHAVE LATÃO,Ferramentas,REJEITADO,1,2,NCM vazio,Sem fornecedor; Preco alto: R$1849.19 (revisar)
+MAT-06001,Correia Alumínio,Mecânico,REJEITADO,1,0,NCM vazio,
+MAT-06001,Luva XG Cobre,EPI,REJEITADO,1,1,NCM vazio,Sem estoque minimo
+MAT-06001,Grampeador PVC,Escritório,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,Lâmpada Aço,Elétrico,REJEITADO,1,1,Preco zerado,Parado 395 dias
+MAT-06001,Fluido Inox,Lubrificante,REJEITADO,1,0,Preco zerado,
+MAT-06001,ROLAMENTO INOX,Peças,REJEITADO,1,3,NCM vazio,Sem fornecedor; Sem estoque minimo; Parado 458 dias
+MAT-06001,Caneta PVC,Escritório,REJEITADO,1,0,NCM vazio,
+MAT-06001,FILTRO PLÁSTICO,Pneumático,REJEITADO,2,0,NCM vazio; Preco zerado,
+MAT-06001,Catalisador Plástico,Químico,REJEITADO,1,1,Preco zerado,Sem estoque minimo
+MAT-06001,MÁSCARA INOX,EPI,REJEITADO,1,1,NCM vazio,Parado 481 dias
+MAT-06001,Bota PVC,EPI,REJEITADO,1,0,NCM vazio,
+MAT-06001,Alicate PVC,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-06001,PARAFUSO LATÃO M8,Fixação,REJEITADO,2,1,NCM vazio; Preco zerado,Parado 493 dias
+MAT-06001,BUCHA ALUMÍNIO,Mecânico,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,Prego Latão,Fixação,REJEITADO,1,1,NCM vazio,Sem fornecedor
+MAT-06001,ARRUELA EM PLÁSTICO,Fixação,REJEITADO,1,0,NCM vazio,
+MAT-06001,Desinfetante Latão,Limpeza,REJEITADO,1,2,NCM vazio,Sem fornecedor; Parado 367 dias
+MAT-06001,engrenagem PVC,Mecânico,REJEITADO,2,1,NCM vazio; Preco zerado,Sem estoque minimo
+MAT-06001,Martelo Cobre,Ferramentas,REJEITADO,1,0,NCM vazio,
+MAT-06001,VASSOURA EM LATÃO,Limpeza,REJEITADO,1,1,NCM vazio,Parado 470 dias
+MAT-06001,SPRAY PLÁSTICO,Lubrificante,REJEITADO,1,0,NCM vazio,
+MAT-06001,Papelão Alumínio,Embalagem,REJEITADO,1,0,Preco zerado,

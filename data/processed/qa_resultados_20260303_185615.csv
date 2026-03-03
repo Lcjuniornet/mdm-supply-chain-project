@@ -1,0 +1,30 @@
+﻿teste,status,detalhe,critico
+Total registros = 3.300,PASS,"3,300 registros",True
+Sem registros duplicados (codigo_material),FAIL,"3,001 únicos",True
+Coluna preco_unitario existe e é numérica,PASS,float64,True
+Sem preços negativos,PASS,0 negativos,True
+Sem estoque negativo,PASS,0 negativos,True
+Categorias dentro do esperado (15),PASS,15 categorias,True
+Status apenas: Ativo/Inativo/Bloqueado,PASS,"['Ativo', 'Bloqueado', 'Inativo']",True
+Datas de cadastro válidas,PASS,todas válidas,False
+Dia 15 — Descrições em múltiplas cats detectadas,PASS,41 descrições (esperado: 41),True
+Dia 15 — Sobreposição Hidráulico × Pneumático,PASS,21 descrições comuns,True
+Dia 16 — Preços zerados identificados,PASS,99 materiais (esperado: 99),True
+Dia 16 — Outliers IQR calculados,PASS,623 outliers acima de R$204,True
+Dia 17 — Dados temporais disponíveis,PASS,12 meses com dados,True
+Dias 18-19 — CSV de correções gerado,PASS,1 arquivo(s) encontrado(s),True
+Dias 18-19 — CSV de workflow gerado,PASS,1 arquivo(s) encontrado(s),True
+Corrigido: mesmo nº de registros (3.300),PASS,"3,300",True
+Corrigido: zero preços zerados,PASS,0 zerados restantes,True
+Corrigido: zero NCMs vazios,PASS,0 NCMs vazios restantes,True
+Corrigido: valor estoque maior que original,PASS,"Delta: +R$ 3,822,642.39",True
+Corrigido: completude melhorou,PASS,94.2% → 97.3%,True
+Valor total em estoque > R$ 1 bilhão,PASS,R$ 1.83B,True
+Categorias balanceadas (5-10% cada),PASS,Min:5.3% Max:7.7%,False
+Preço: média > mediana (assimetria esperada),PASS,Média R$221 > Mediana R$10,True
+Maioria dos materiais acima do mínimo (>50%),PASS,95.2% acima do mínimo,True
+Dia 15 — Gráfico categorização,PASS,464 KB,False
+Dia 16 — Gráfico preços,PASS,381 KB,False
+Dia 15 — CSV suspeitos cat.,PASS,16 KB,False
+Dia 16 — CSV preços zerados,PASS,6 KB,False
+Dia 16 — CSV top 50 outliers,PASS,4 KB,False
