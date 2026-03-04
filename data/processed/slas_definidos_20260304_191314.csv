@@ -1,0 +1,11 @@
+﻿operacao,sla_horas,responsavel,descricao
+Novo cadastro simples (automático),0.05,AUTOMÁTICO,Score > 80 e campos OK → aprovação em segundos
+Novo cadastro — revisão supervisor,4.0,SUPERVISOR,1-2 alertas → supervisor valida em até 4h
+Novo cadastro — revisão MDO,24.0,MDO,Problemas moderados → MDO resolve em 1 dia útil
+Correção de preço zerado,8.0,SUPERVISOR,Requer pesquisa de preço de mercado
+Correção de NCM inválido,24.0,FISCAL,Requer consulta tabela TIPI com fiscal
+Bloqueio de material duplicado,2.0,MDO,Ação crítica — bloquear antes de compras
+Inativação de material obsoleto,48.0,GESTOR,Requer aprovação do gestor da área
+Revisão de categoria incorreta,24.0,MDO,Impacta relatórios — tratar com prioridade
+Cadastro de fornecedor novo,72.0,COMPRAS,Requer documentação e aprovação de compras
+Resposta a auditoria de dados,4.0,MDO,SLA de resposta para auditores internos/externos

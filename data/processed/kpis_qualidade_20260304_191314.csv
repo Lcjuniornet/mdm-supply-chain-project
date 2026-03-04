@@ -1,0 +1,13 @@
+﻿kpi,descricao,categoria,valor_atual,meta,unidade,status,gap
+completude_geral,Materiais com todos campos obrigatórios preenchidos,Completude,100.0,95.0,%,ATINGIDO,5.0
+completude_ncm,Materiais com NCM de 8 dígitos válido,Completude,76.1,100.0,%,ABAIXO,23.9
+completude_fornecedor,Materiais com fornecedor principal cadastrado,Completude,80.0,90.0,%,ABAIXO,10.0
+acuracidade_precos,Materiais com preço > 0 e dentro do limite razoável,Acuracidade,97.0,95.0,%,ATINGIDO,2.0
+padronizacao_descricoes,Descrições no padrão Title Case,Padronização,72.9,95.0,%,ABAIXO,22.1
+padronizacao_categorias,Materiais com categoria dentro das 15 válidas,Padronização,100.0,100.0,%,ATINGIDO,0.0
+taxa_ativos,Proporção de materiais com status Ativo,Ciclo de Vida,74.4,70.0,%,ATINGIDO,4.4
+taxa_obsoletos,Materiais Ativos sem movimentação há > 365 dias,Ciclo de Vida,24.5,5.0,%,ABAIXO,19.5
+cobertura_estoque_minimo,Materiais com estoque mínimo definido,Completude,80.0,90.0,%,ABAIXO,10.0
+unicidade_codigos,Códigos de material únicos (sem duplicatas),Unicidade,90.9,100.0,%,ABAIXO,9.1
+score_ponderado,Score ponderado por criticidade dos campos,Consolidado,92.8,85.0,pts,ATINGIDO,7.8
+taxa_duplicatas,Percentual de códigos duplicados na base,Unicidade,9.1,0.0,%,ABAIXO,9.1

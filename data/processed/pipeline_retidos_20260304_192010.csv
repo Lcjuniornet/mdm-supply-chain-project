@@ -1,0 +1,873 @@
+﻿codigo_material,descricao,categoria,preco_unitario,erros_str
+MAT-00001,Papel Cobre,Escritório,294.74,NCM inválido ou vazio
+MAT-00014,Solvente Aço,Químico,5.36,NCM inválido ou vazio
+MAT-00016,Martelo Alumínio,Ferramentas,8.8,NCM inválido ou vazio
+MAT-00023,led Alumínio,Eletrônico,9.04,NCM inválido ou vazio
+MAT-00024,Fita Alumínio,Embalagem,2.91,NCM inválido ou vazio
+MAT-00031,Registro Inox,Hidráulico,5.68,NCM inválido ou vazio
+MAT-00040,Desinfetante Cobre,Limpeza,430.25,NCM inválido ou vazio
+MAT-00046,Junta Aço,Peças,74.49,NCM inválido ou vazio
+MAT-00047,Vedação Latão,Peças,80.89,NCM inválido ou vazio
+MAT-00052,Cilindro Latão,Pneumático,1.66,NCM inválido ou vazio
+MAT-00053,Furadeira Alumínio,Ferramentas,3.02,NCM inválido ou vazio
+MAT-00066,capacitor Latão,Eletrônico,1303.03,NCM inválido ou vazio
+MAT-00070,Balde Aço,Limpeza,2.29,NCM inválido ou vazio
+MAT-00073,Sensor Alumínio,Eletrônico,82.99,NCM inválido ou vazio
+MAT-00074,LED Plástico,Eletrônico,0.62,NCM inválido ou vazio
+MAT-00075,Gancho Cobre,Acessórios,1446.78,NCM inválido ou vazio
+MAT-00083,Rolamento Cobre,Mecânico,11.46,NCM inválido ou vazio
+MAT-00085,Vedação em PVC,Peças,7.46,NCM inválido ou vazio
+MAT-00087,Prego Cobre,Fixação,548.39,NCM inválido ou vazio
+MAT-00088,Bota PVC,EPI,0.0,Preço zerado
+MAT-00093,Rolamento Latão,Peças,0.0,Preço zerado
+MAT-00095,Sensor Aço,Eletrônico,196.15,NCM inválido ou vazio
+MAT-00098,Graxa Alumínio,Lubrificante,173.94,NCM inválido ou vazio
+MAT-00113,Grampeador Alumínio,Escritório,41.15,NCM inválido ou vazio
+MAT-00117,Rolamento Alumínio,Peças,816.62,NCM inválido ou vazio
+MAT-00119,Papelão Latão,Embalagem,47.25,NCM inválido ou vazio
+MAT-00120,Plástico PVC,Embalagem,6.45,NCM inválido ou vazio
+MAT-00128,Interruptor Alumínio,Elétrico,270.28,NCM inválido ou vazio
+MAT-00135,Resistor Plástico,Eletrônico,37.02,NCM inválido ou vazio
+MAT-00137,Sensor Aço,Eletrônico,6.43,NCM inválido ou vazio
+MAT-00156,óleo Plástico,Lubrificante,3.18,NCM inválido ou vazio
+MAT-00157,Fluido Latão,Lubrificante,879.07,NCM inválido ou vazio
+MAT-00167,Capacitor Latão,Eletrônico,380.65,NCM inválido ou vazio
+MAT-00178,Vassoura Aço,Limpeza,1256.45,NCM inválido ou vazio
+MAT-00181,Base PVC,Químico,93.08,NCM inválido ou vazio
+MAT-00182,Conexão Aço,Pneumático,6.51,NCM inválido ou vazio
+MAT-00183,Base Plástico,Químico,29.64,NCM inválido ou vazio
+MAT-00185,Conexão Plástico,Pneumático,74.2,NCM inválido ou vazio
+MAT-00189,Solvente PVC,Químico,1385.82,NCM inválido ou vazio
+MAT-00190,Catalisador Alumínio,Químico,91.12,NCM inválido ou vazio
+MAT-00193,Fluido Inox,Lubrificante,13.55,NCM inválido ou vazio
+MAT-00204,Válvula Cobre,Hidráulico,6.54,NCM inválido ou vazio
+MAT-00207,Vedação Latão,Peças,9.65,NCM inválido ou vazio
+MAT-00208,Capacete Inox,EPI,986.03,NCM inválido ou vazio
+MAT-00215,Mangueira Inox,Pneumático,449.59,NCM inválido ou vazio
+MAT-00216,Mangueira PVC,Hidráulico,1277.08,NCM inválido ou vazio
+MAT-00218,Lâmpada Aço,Elétrico,2.04,NCM inválido ou vazio
+MAT-00230,Pasta Cobre,Lubrificante,72.94,NCM inválido ou vazio
+MAT-00232,Registro Alumínio,Hidráulico,6.77,NCM inválido ou vazio
+MAT-00236,Plástico Inox,Embalagem,1517.7,NCM inválido ou vazio
+MAT-00238,bucha Inox,Mecânico,0.42,NCM inválido ou vazio
+MAT-00241,Spray PVC,Lubrificante,72.15,NCM inválido ou vazio
+MAT-00243,Caneta Cobre,Escritório,65.11,NCM inválido ou vazio
+MAT-00244,Gancho Cobre,Acessórios,26.55,NCM inválido ou vazio
+MAT-00246,Junta Plástico,Peças,5.53,NCM inválido ou vazio
+MAT-00249,Filtro Latão,Pneumático,1.91,NCM inválido ou vazio
+MAT-00252,Plástico PVC,Embalagem,5.54,NCM inválido ou vazio
+MAT-00259,"Tubo 3/4"" Aço",Hidráulico,1348.07,NCM inválido ou vazio
+MAT-00265,etiqueta Alumínio,Embalagem,1.57,NCM inválido ou vazio
+MAT-00268,Rolamento PVC,Peças,52.41,NCM inválido ou vazio
+MAT-00269,Balde Aço,Limpeza,0.0,Preço zerado
+MAT-00271,Fita Aço,Embalagem,37.21,NCM inválido ou vazio
+MAT-00272,Máscara Latão,EPI,61.56,NCM inválido ou vazio
+MAT-00275,Junta Plástico,Peças,1552.62,NCM inválido ou vazio
+MAT-00276,Anel Plástico,Peças,8.26,NCM inválido ou vazio
+MAT-00283,Junta Latão,Peças,20.98,NCM inválido ou vazio
+MAT-00288,Caneta Alumínio,Escritório,8.66,NCM inválido ou vazio
+MAT-00294,Registro PVC,Hidráulico,1842.8,NCM inválido ou vazio
+MAT-00295,Desinfetante Alumínio,Limpeza,0.8,NCM inválido ou vazio
+MAT-00298,Válvula PVC,Hidráulico,9.37,NCM inválido ou vazio
+MAT-00310,Bucha Latão,Mecânico,2.61,NCM inválido ou vazio
+MAT-00312,Chave Aço,Ferramentas,0.29,NCM inválido ou vazio
+MAT-00316,Registro Plástico,Hidráulico,1200.76,NCM inválido ou vazio
+MAT-00329,Capacitor Cobre,Eletrônico,7.76,NCM inválido ou vazio
+MAT-00330,Cilindro PVC,Pneumático,0.0,NCM inválido ou vazio; Preço zerado
+MAT-00333,Etiqueta Inox,Embalagem,594.01,NCM inválido ou vazio
+MAT-00334,Disjuntor Inox,Elétrico,5.79,NCM inválido ou vazio
+MAT-00343,Vedação PVC,Peças,1202.09,NCM inválido ou vazio
+MAT-00344,Retentor Alumínio,Peças,0.0,Preço zerado
+MAT-00350,Caneta Alumínio,Escritório,232.26,NCM inválido ou vazio
+MAT-00356,Desinfetante Latão,Limpeza,6.29,NCM inválido ou vazio
+MAT-00368,Caixa Latão,Embalagem,1.45,NCM inválido ou vazio
+MAT-00370,Clipe Cobre,Acessórios,0.0,Preço zerado
+MAT-00372,Válvula Alumínio,Pneumático,71.58,NCM inválido ou vazio
+MAT-00374,Pano Inox,Limpeza,1.41,NCM inválido ou vazio
+MAT-00378,Cilindro Plástico,Pneumático,1.62,NCM inválido ou vazio
+MAT-00381,Alicate Alumínio,Ferramentas,1075.35,NCM inválido ou vazio
+MAT-00384,Capacitor em Inox,Eletrônico,11.61,NCM inválido ou vazio
+MAT-00388,Óculos Cobre,EPI,1283.12,NCM inválido ou vazio
+MAT-00389,Presilha Inox,Acessórios,8.35,NCM inválido ou vazio
+MAT-00391,Detergente Alumínio,Limpeza,7.87,NCM inválido ou vazio
+MAT-00393,Correia Latão,Mecânico,25.41,NCM inválido ou vazio
+MAT-00400,Balde Latão,Limpeza,6.4,NCM inválido ou vazio
+MAT-00402,Conexão Aço,Pneumático,4.28,NCM inválido ou vazio
+MAT-00408,Rebite Alumínio,Fixação,1303.73,NCM inválido ou vazio
+MAT-00410,Arruela Alumínio,Fixação,8.44,NCM inválido ou vazio
+MAT-00417,Reagente Aço,Químico,690.53,NCM inválido ou vazio
+MAT-00431,Filtro Alumínio,Pneumático,1.07,NCM inválido ou vazio
+MAT-00433,Reagente Inox,Químico,0.0,Preço zerado
+MAT-00436,Gancho Inox,Acessórios,0.0,NCM inválido ou vazio; Preço zerado
+MAT-00440,Fluido Latão,Lubrificante,32.75,NCM inválido ou vazio
+MAT-00447,Capacete Alumínio,EPI,65.47,NCM inválido ou vazio
+MAT-00450,Lâmpada Latão,Elétrico,17.03,NCM inválido ou vazio
+MAT-00453,Presilha Cobre,Acessórios,98.88,NCM inválido ou vazio
+MAT-00454,pasta Cobre,Escritório,2.5,NCM inválido ou vazio
+MAT-00457,Grampeador Inox,Escritório,2.06,NCM inválido ou vazio
+MAT-00458,Papel Latão,Escritório,44.0,NCM inválido ou vazio
+MAT-00459,Serra em Latão,Ferramentas,40.33,NCM inválido ou vazio
+MAT-00460,Óleo Plástico,Lubrificante,8.89,NCM inválido ou vazio
+MAT-00465,Serra Inox,Ferramentas,1.36,NCM inválido ou vazio
+MAT-00469,Alicate Latão,Ferramentas,7.12,NCM inválido ou vazio
+MAT-00470,Solvente Cobre,Químico,98.44,NCM inválido ou vazio
+MAT-00476,Anel Alumínio,Peças,75.62,NCM inválido ou vazio
+MAT-00485,Parafuso M12 Alumínio,Fixação,764.47,NCM inválido ou vazio
+MAT-00491,Rolamento Alumínio,Mecânico,34.23,NCM inválido ou vazio
+MAT-00493,Válvula Inox,Hidráulico,1.39,NCM inválido ou vazio
+MAT-00495,Tomada Cobre,Elétrico,1175.73,NCM inválido ou vazio
+MAT-00500,Anel Alumínio,Peças,0.31,NCM inválido ou vazio
+MAT-00513,Caneta PVC,Escritório,0.0,Preço zerado
+MAT-00514,Rolamento Alumínio,Mecânico,1612.53,NCM inválido ou vazio
+MAT-00520,Desinfetante Cobre,Limpeza,13.45,NCM inválido ou vazio
+MAT-00537,Válvula em PVC,Hidráulico,0.0,Preço zerado
+MAT-00538,Máscara Latão,EPI,6.5,NCM inválido ou vazio
+MAT-00547,Bucha PVC,Mecânico,1.18,NCM inválido ou vazio
+MAT-00549,Máscara Plástico,EPI,1394.74,NCM inválido ou vazio
+MAT-00552,Anel PVC,Peças,6.99,NCM inválido ou vazio
+MAT-00554,Fita Alumínio,Embalagem,3.11,NCM inválido ou vazio
+MAT-00559,Cabo 16mm² Plástico,Elétrico,613.33,NCM inválido ou vazio
+MAT-00560,Máscara Cobre,EPI,70.81,NCM inválido ou vazio
+MAT-00561,"Tubo 1/2"" Plástico",Hidráulico,93.34,NCM inválido ou vazio
+MAT-00572,Serra Cobre,Ferramentas,4.84,NCM inválido ou vazio
+MAT-00576,Spray Latão,Lubrificante,3.26,NCM inválido ou vazio
+MAT-00581,Serra Cobre,Ferramentas,4.49,NCM inválido ou vazio
+MAT-00584,Válvula Alumínio,Hidráulico,910.3,NCM inválido ou vazio
+MAT-00585,LED Inox,Eletrônico,501.81,NCM inválido ou vazio
+MAT-00586,Serra Alumínio,Ferramentas,5.44,NCM inválido ou vazio
+MAT-00588,Balde Inox,Limpeza,6.69,NCM inválido ou vazio
+MAT-00589,Suporte em Inox,Acessórios,4.75,NCM inválido ou vazio
+MAT-00590,Lâmpada Inox,Elétrico,84.22,NCM inválido ou vazio
+MAT-00591,Ácido Cobre,Químico,1801.64,NCM inválido ou vazio
+MAT-00596,Serra PVC,Ferramentas,8.79,NCM inválido ou vazio
+MAT-00606,Etiqueta Aço,Embalagem,52.91,NCM inválido ou vazio
+MAT-00612,Sensor PVC,Eletrônico,389.6,NCM inválido ou vazio
+MAT-00613,"Tubo 3/4"" Latão",Hidráulico,6.19,NCM inválido ou vazio
+MAT-00614,Cilindro Inox,Pneumático,7.09,NCM inválido ou vazio
+MAT-00616,Capacitor Aço,Eletrônico,800.85,NCM inválido ou vazio
+MAT-00618,Parafuso M6 PVC,Fixação,2.02,NCM inválido ou vazio
+MAT-00623,Martelo PVC,Ferramentas,319.07,NCM inválido ou vazio
+MAT-00625,Filtro PVC,Pneumático,0.0,Preço zerado
+MAT-00627,Disjuntor Plástico,Elétrico,8.47,NCM inválido ou vazio
+MAT-00635,Arruela PVC,Fixação,7.28,NCM inválido ou vazio
+MAT-00636,Filtro Alumínio,Pneumático,0.58,NCM inválido ou vazio
+MAT-00641,Interruptor Alumínio,Elétrico,63.93,NCM inválido ou vazio
+MAT-00646,Caixa PVC,Embalagem,74.5,NCM inválido ou vazio
+MAT-00648,Desinfetante Inox,Limpeza,43.38,NCM inválido ou vazio
+MAT-00650,Bota Latão,EPI,4.87,NCM inválido ou vazio
+MAT-00656,Spray Aço,Lubrificante,71.83,NCM inválido ou vazio
+MAT-00659,Pasta Latão,Escritório,44.42,NCM inválido ou vazio
+MAT-00661,Caixa Plástico,Embalagem,0.0,Preço zerado
+MAT-00668,Papelão Inox,Embalagem,1.33,NCM inválido ou vazio
+MAT-00672,Arruela Aço,Fixação,1.53,NCM inválido ou vazio
+MAT-00678,Rolamento Alumínio,Peças,3.14,NCM inválido ou vazio
+MAT-00684,Mangueira Latão,Hidráulico,67.43,NCM inválido ou vazio
+MAT-00686,Alicate Alumínio,Ferramentas,7.21,NCM inválido ou vazio
+MAT-00690,Fluido Inox,Lubrificante,272.03,NCM inválido ou vazio
+MAT-00691,Sensor Latão,Eletrônico,526.49,NCM inválido ou vazio
+MAT-00692,Máscara Inox,EPI,6.31,NCM inválido ou vazio
+MAT-00704,Junta Cobre,Peças,6.84,NCM inválido ou vazio
+MAT-00718,Gancho em Latão,Acessórios,9.58,NCM inválido ou vazio
+MAT-00721,Caneta Aço,Escritório,3.27,NCM inválido ou vazio
+MAT-00722,Fita Aço,Embalagem,99.65,NCM inválido ou vazio
+MAT-00726,Cabo 10mm² Aço,Elétrico,74.53,NCM inválido ou vazio
+MAT-00740,Pano PVC,Limpeza,0.65,NCM inválido ou vazio
+MAT-00741,Sensor PVC,Eletrônico,15.59,NCM inválido ou vazio
+MAT-00743,Papelão Alumínio,Embalagem,62.45,NCM inválido ou vazio
+MAT-00746,Válvula Latão,Pneumático,95.21,NCM inválido ou vazio
+MAT-00755,Caixa Cobre,Embalagem,3.1,NCM inválido ou vazio
+MAT-00758,Chave Plástico,Ferramentas,98.56,NCM inválido ou vazio
+MAT-00764,Mangueira Inox,Pneumático,1002.04,NCM inválido ou vazio
+MAT-00766,Desinfetante Plástico,Limpeza,6.5,NCM inválido ou vazio
+MAT-00771,Conexão Latão,Pneumático,0.0,NCM inválido ou vazio; Preço zerado
+MAT-00773,Prego em Aço,Fixação,31.66,NCM inválido ou vazio
+MAT-00774,Registro Aço,Hidráulico,6.18,NCM inválido ou vazio
+MAT-00775,Martelo Cobre,Ferramentas,30.9,NCM inválido ou vazio
+MAT-00779,Filtro PVC,Pneumático,928.2,NCM inválido ou vazio
+MAT-00780,Correia Aço,Mecânico,0.86,NCM inválido ou vazio
+MAT-00783,Fluido Cobre,Lubrificante,5.28,NCM inválido ou vazio
+MAT-00801,Módulo PVC,Eletrônico,0.0,Preço zerado
+MAT-00803,Rolamento Alumínio,Mecânico,4.55,NCM inválido ou vazio
+MAT-00805,Alicate Inox,Ferramentas,91.54,NCM inválido ou vazio
+MAT-00806,Graxa Aço,Lubrificante,1555.4,NCM inválido ou vazio
+MAT-00807,Fluido PVC,Lubrificante,0.0,Preço zerado
+MAT-00809,Caixa Alumínio,Embalagem,4.21,NCM inválido ou vazio
+MAT-00815,Fita Aço,Embalagem,1102.78,NCM inválido ou vazio
+MAT-00817,Filtro Aço,Pneumático,0.24,NCM inválido ou vazio
+MAT-00820,Conexão Inox,Pneumático,545.4,NCM inválido ou vazio
+MAT-00825,Filtro Plástico,Pneumático,31.3,NCM inválido ou vazio
+MAT-00827,Caneta Inox,Escritório,7.35,NCM inválido ou vazio
+MAT-00828,Base Cobre,Químico,4.38,NCM inválido ou vazio
+MAT-00829,Graxa Aço,Lubrificante,72.97,NCM inválido ou vazio
+MAT-00832,Luva XG PVC,EPI,59.4,NCM inválido ou vazio
+MAT-00834,Martelo Plástico,Ferramentas,90.49,NCM inválido ou vazio
+MAT-00839,Bota Inox,EPI,1.96,NCM inválido ou vazio
+MAT-00845,Mangueira Latão,Hidráulico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-00855,Tomada Alumínio,Elétrico,1174.15,NCM inválido ou vazio
+MAT-00858,Módulo Latão,Eletrônico,78.68,NCM inválido ou vazio
+MAT-00865,Martelo Aço,Ferramentas,2.46,NCM inválido ou vazio
+MAT-00868,Martelo PVC,Ferramentas,1137.64,NCM inválido ou vazio
+MAT-00870,Vedação Latão,Peças,1.79,NCM inválido ou vazio
+MAT-00874,Papelão Inox,Embalagem,1269.61,NCM inválido ou vazio
+MAT-00876,Arruela Aço,Fixação,3.96,NCM inválido ou vazio
+MAT-00880,Arruela Cobre,Fixação,0.84,NCM inválido ou vazio
+MAT-00881,Anel Plástico,Peças,19.68,NCM inválido ou vazio
+MAT-00884,Retentor Plástico,Peças,0.0,Preço zerado
+MAT-00888,Lâmpada Cobre,Elétrico,95.47,NCM inválido ou vazio
+MAT-00889,Suporte Cobre,Acessórios,1502.76,NCM inválido ou vazio
+MAT-00897,Capacitor Cobre,Eletrônico,3.64,NCM inválido ou vazio
+MAT-00898,Chave PVC,Ferramentas,8.73,NCM inválido ou vazio
+MAT-00903,Lâmpada PVC,Elétrico,5.95,NCM inválido ou vazio
+MAT-00904,Rolamento Inox,Peças,462.44,NCM inválido ou vazio
+MAT-00908,Rolamento Aço,Mecânico,5.19,NCM inválido ou vazio
+MAT-00910,Mangueira Cobre,Hidráulico,8.15,NCM inválido ou vazio
+MAT-00912,Vedação Latão,Peças,23.4,NCM inválido ou vazio
+MAT-00914,Vedação Alumínio,Peças,25.49,NCM inválido ou vazio
+MAT-00915,papelão Cobre,Embalagem,7.52,NCM inválido ou vazio
+MAT-00924,Tomada Aço,Elétrico,3.62,NCM inválido ou vazio
+MAT-00925,Máscara Inox,EPI,591.21,NCM inválido ou vazio
+MAT-00928,Caneta Cobre,Escritório,0.0,Preço zerado
+MAT-00929,Luva GG Latão,EPI,0.0,Preço zerado
+MAT-00930,Balde Alumínio,Limpeza,5.86,NCM inválido ou vazio
+MAT-00932,Registro Latão,Hidráulico,38.29,NCM inválido ou vazio
+MAT-00934,Rebite PVC,Fixação,87.87,NCM inválido ou vazio
+MAT-00937,Parafuso M10 Inox,Fixação,1830.37,NCM inválido ou vazio
+MAT-00938,Vassoura Plástico,Limpeza,1761.78,NCM inválido ou vazio
+MAT-00939,Disjuntor Aço,Elétrico,78.37,NCM inválido ou vazio
+MAT-00945,Reagente Alumínio,Químico,5.57,NCM inválido ou vazio
+MAT-00947,"Tubo 2"" Latão",Hidráulico,1.83,NCM inválido ou vazio
+MAT-00952,Suporte Plástico,Acessórios,18.28,NCM inválido ou vazio
+MAT-00953,Serra Latão,Ferramentas,4.75,NCM inválido ou vazio
+MAT-00954,Máscara Alumínio,EPI,7.87,NCM inválido ou vazio
+MAT-00955,LED Latão,Eletrônico,85.95,NCM inválido ou vazio
+MAT-00960,Clipe PVC,Acessórios,269.02,NCM inválido ou vazio
+MAT-00966,Base Alumínio,Químico,25.92,NCM inválido ou vazio
+MAT-00968,Pasta Cobre,Escritório,258.34,NCM inválido ou vazio
+MAT-00976,Papelão PVC,Embalagem,300.96,NCM inválido ou vazio
+MAT-00980,clipe Inox,Acessórios,754.08,NCM inválido ou vazio
+MAT-00982,Base Alumínio,Químico,1412.39,NCM inválido ou vazio
+MAT-00984,Balde Inox,Limpeza,1896.48,NCM inválido ou vazio
+MAT-00988,Retentor Cobre,Peças,1591.8,NCM inválido ou vazio
+MAT-00989,rolamento Alumínio,Mecânico,9.69,NCM inválido ou vazio
+MAT-00990,Resistor PVC,Eletrônico,13.26,NCM inválido ou vazio
+MAT-01000,Tomada Latão,Elétrico,1.84,NCM inválido ou vazio
+MAT-01009,Interruptor Aço,Elétrico,69.05,NCM inválido ou vazio
+MAT-01013,Parafuso Latão M8,Fixação,6.7,NCM inválido ou vazio
+MAT-01016,Registro Cobre,Hidráulico,336.91,NCM inválido ou vazio
+MAT-01025,Retentor Cobre,Peças,40.36,NCM inválido ou vazio
+MAT-01029,Luva M Inox,EPI,40.45,NCM inválido ou vazio
+MAT-01031,Fita Latão,Embalagem,3.22,NCM inválido ou vazio
+MAT-01032,Cabo 6mm² Inox,Elétrico,1126.35,NCM inválido ou vazio
+MAT-01034,Interruptor Cobre,Elétrico,1237.71,NCM inválido ou vazio
+MAT-01037,Registro Plástico,Hidráulico,36.03,NCM inválido ou vazio
+MAT-01045,Grampeador Inox,Escritório,76.31,NCM inválido ou vazio
+MAT-01047,Serra Plástico,Ferramentas,5.98,NCM inválido ou vazio
+MAT-01054,Sensor Inox,Eletrônico,8.24,NCM inválido ou vazio
+MAT-01058,Bucha Latão,Mecânico,62.59,NCM inválido ou vazio
+MAT-01061,Grampeador Latão,Escritório,8.71,NCM inválido ou vazio
+MAT-01062,Bucha Aço,Mecânico,9.13,NCM inválido ou vazio
+MAT-01068,Alicate Plástico,Ferramentas,14.93,NCM inválido ou vazio
+MAT-01069,pasta Latão,Escritório,8.55,NCM inválido ou vazio
+MAT-01070,Registro Alumínio,Hidráulico,4.27,NCM inválido ou vazio
+MAT-01072,Anel PVC,Peças,7.86,NCM inválido ou vazio
+MAT-01075,Pasta PVC,Escritório,76.25,NCM inválido ou vazio
+MAT-01078,Luva M Inox,EPI,3.48,NCM inválido ou vazio
+MAT-01083,Base Alumínio,Químico,1302.45,NCM inválido ou vazio
+MAT-01087,Cabo 6mm² PVC,Elétrico,1534.46,NCM inválido ou vazio
+MAT-01092,Base Plástico,Químico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-01096,Registro em Alumínio,Hidráulico,38.17,NCM inválido ou vazio
+MAT-01099,válvula PVC,Pneumático,444.06,NCM inválido ou vazio
+MAT-01116,Chave PVC,Ferramentas,76.92,NCM inválido ou vazio
+MAT-01121,bota Inox,EPI,0.0,Preço zerado
+MAT-01125,Rebite Inox,Fixação,6.21,NCM inválido ou vazio
+MAT-01128,Etiqueta Inox,Embalagem,1768.78,NCM inválido ou vazio
+MAT-01131,abraçadeira Plástico,Acessórios,42.76,NCM inválido ou vazio
+MAT-01135,Pasta em Alumínio,Lubrificante,1722.76,NCM inválido ou vazio
+MAT-01140,Suporte Latão,Acessórios,5.95,NCM inválido ou vazio
+MAT-01141,Etiqueta Plástico,Embalagem,4.55,NCM inválido ou vazio
+MAT-01145,Martelo Cobre,Ferramentas,0.7,NCM inválido ou vazio
+MAT-01146,Válvula Inox,Pneumático,1841.96,NCM inválido ou vazio
+MAT-01147,Vassoura Latão,Limpeza,1773.86,NCM inválido ou vazio
+MAT-01148,Cabo 10mm² Latão,Elétrico,79.52,NCM inválido ou vazio
+MAT-01153,Parafuso M16 PVC,Fixação,2.38,NCM inválido ou vazio
+MAT-01155,resistor Alumínio,Eletrônico,535.25,NCM inválido ou vazio
+MAT-01159,Papelão Plástico,Embalagem,8.82,NCM inválido ou vazio
+MAT-01164,Correia Aço,Mecânico,0.0,Preço zerado
+MAT-01165,Tomada Latão,Elétrico,2.3,NCM inválido ou vazio
+MAT-01167,Eixo Latão,Mecânico,6.77,NCM inválido ou vazio
+MAT-01168,Engrenagem Latão,Mecânico,51.75,NCM inválido ou vazio
+MAT-01170,Bota PVC,EPI,1042.8,NCM inválido ou vazio
+MAT-01173,Óculos Cobre,EPI,68.28,NCM inválido ou vazio
+MAT-01180,Fluido Inox,Lubrificante,0.89,NCM inválido ou vazio
+MAT-01182,Filtro Alumínio,Pneumático,822.72,NCM inválido ou vazio
+MAT-01186,Óleo em Plástico,Lubrificante,4.72,NCM inválido ou vazio
+MAT-01192,Cilindro Inox,Pneumático,4.9,NCM inválido ou vazio
+MAT-01193,Eixo Aço,Mecânico,1795.83,NCM inválido ou vazio
+MAT-01197,Ácido PVC,Químico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-01198,Bota Inox,EPI,9.79,NCM inválido ou vazio
+MAT-01199,Bucha Plástico,Mecânico,1552.51,NCM inválido ou vazio
+MAT-01206,Válvula Latão,Hidráulico,2.86,NCM inválido ou vazio
+MAT-01207,Conexão Cobre,Pneumático,3.49,NCM inválido ou vazio
+MAT-01209,Grampeador em Plástico,Escritório,40.47,NCM inválido ou vazio
+MAT-01212,Conexão Cobre,Hidráulico,0.0,Preço zerado
+MAT-01214,Desinfetante Aço,Limpeza,1.52,NCM inválido ou vazio
+MAT-01217,Correia Latão,Mecânico,1037.31,NCM inválido ou vazio
+MAT-01221,Eixo Alumínio,Mecânico,21.07,NCM inválido ou vazio
+MAT-01223,Conexão Inox,Hidráulico,13.59,NCM inválido ou vazio
+MAT-01228,Rebite em Latão,Fixação,7.98,NCM inválido ou vazio
+MAT-01234,Abraçadeira Plástico,Acessórios,0.67,NCM inválido ou vazio
+MAT-01236,Junta Inox,Peças,1131.71,NCM inválido ou vazio
+MAT-01243,Pasta Alumínio,Escritório,0.0,Preço zerado
+MAT-01244,LED Alumínio,Eletrônico,0.0,Preço zerado
+MAT-01249,Disjuntor Plástico,Elétrico,0.0,Preço zerado
+MAT-01252,Rolamento Cobre,Peças,1227.99,NCM inválido ou vazio
+MAT-01259,Bucha Latão,Mecânico,4.29,NCM inválido ou vazio
+MAT-01260,Vedação Alumínio,Peças,92.53,NCM inválido ou vazio
+MAT-01266,Graxa Cobre,Lubrificante,62.95,NCM inválido ou vazio
+MAT-01274,Interruptor Latão,Elétrico,8.24,NCM inválido ou vazio
+MAT-01279,Óculos Latão,EPI,10.45,NCM inválido ou vazio
+MAT-01282,Gancho Latão,Acessórios,3.45,NCM inválido ou vazio
+MAT-01288,Caneta Cobre,Escritório,0.0,Preço zerado
+MAT-01294,Cilindro Inox,Pneumático,6.59,NCM inválido ou vazio
+MAT-01295,Bucha PVC,Mecânico,1.96,NCM inválido ou vazio
+MAT-01299,LED Inox,Eletrônico,75.2,NCM inválido ou vazio
+MAT-01310,Capacete Plástico,EPI,8.5,NCM inválido ou vazio
+MAT-01313,Cabo 16mm² PVC,Elétrico,2.34,NCM inválido ou vazio
+MAT-01318,Conexão PVC,Pneumático,4.49,NCM inválido ou vazio
+MAT-01320,Disjuntor Aço,Elétrico,59.24,NCM inválido ou vazio
+MAT-01326,Rebite Cobre,Fixação,9.71,NCM inválido ou vazio
+MAT-01330,Óleo Plástico,Lubrificante,8.5,NCM inválido ou vazio
+MAT-01333,Fluido Inox,Lubrificante,1807.95,NCM inválido ou vazio
+MAT-01335,Papelão PVC,Embalagem,1286.48,NCM inválido ou vazio
+MAT-01340,Mangueira Inox,Hidráulico,60.42,NCM inválido ou vazio
+MAT-01341,Chave Latão,Ferramentas,0.18,NCM inválido ou vazio
+MAT-01347,Correia Plástico,Mecânico,60.45,NCM inválido ou vazio
+MAT-01348,Resistor Alumínio,Eletrônico,4.77,NCM inválido ou vazio
+MAT-01367,Etiqueta em Plástico,Embalagem,1779.26,NCM inválido ou vazio
+MAT-01369,Reagente Inox,Químico,8.46,NCM inválido ou vazio
+MAT-01377,Filtro Alumínio,Pneumático,40.97,NCM inválido ou vazio
+MAT-01378,Capacete Aço,EPI,79.04,NCM inválido ou vazio
+MAT-01379,Registro Latão,Hidráulico,89.46,NCM inválido ou vazio
+MAT-01380,porca M16 Cobre,Fixação,80.4,NCM inválido ou vazio
+MAT-01389,Interruptor PVC,Elétrico,4.59,NCM inválido ou vazio
+MAT-01397,Máscara Cobre,EPI,501.39,NCM inválido ou vazio
+MAT-01398,Solvente Plástico,Químico,92.25,NCM inválido ou vazio
+MAT-01403,Válvula Plástico,Hidráulico,0.0,Preço zerado
+MAT-01405,Porca M12 Aço,Fixação,7.09,NCM inválido ou vazio
+MAT-01406,Caneta Cobre,Escritório,11.3,NCM inválido ou vazio
+MAT-01408,Fita Alumínio,Embalagem,4.73,NCM inválido ou vazio
+MAT-01409,LED Alumínio,Eletrônico,0.0,Preço zerado
+MAT-01411,Correia Alumínio,Mecânico,28.14,NCM inválido ou vazio
+MAT-01417,Engrenagem PVC,Mecânico,72.49,NCM inválido ou vazio
+MAT-01419,Bota Plástico,EPI,3.08,NCM inválido ou vazio
+MAT-01422,Pasta Plástico,Escritório,7.22,NCM inválido ou vazio
+MAT-01423,Caixa Plástico,Embalagem,0.0,Preço zerado
+MAT-01429,Base Plástico,Químico,4.76,NCM inválido ou vazio
+MAT-01430,Eixo Alumínio,Mecânico,7.15,NCM inválido ou vazio
+MAT-01433,Anel Aço,Peças,11.5,NCM inválido ou vazio
+MAT-01434,Presilha PVC,Acessórios,0.86,NCM inválido ou vazio
+MAT-01435,Papel Plástico,Escritório,66.04,NCM inválido ou vazio
+MAT-01439,Caixa Cobre,Embalagem,8.89,NCM inválido ou vazio
+MAT-01445,Solvente PVC,Químico,5.89,NCM inválido ou vazio
+MAT-01446,Registro Plástico,Hidráulico,89.21,NCM inválido ou vazio
+MAT-01448,Catalisador Inox,Químico,63.02,NCM inválido ou vazio
+MAT-01449,Presilha Plástico,Acessórios,0.0,Preço zerado
+MAT-01452,Junta PVC,Peças,0.9,NCM inválido ou vazio
+MAT-01453,Chave Cobre,Ferramentas,89.86,NCM inválido ou vazio
+MAT-01455,Ácido Aço,Químico,8.39,NCM inválido ou vazio
+MAT-01471,Papelão Cobre,Embalagem,71.19,NCM inválido ou vazio
+MAT-01473,Graxa Inox,Lubrificante,6.16,NCM inválido ou vazio
+MAT-01476,Martelo Inox,Ferramentas,1290.58,NCM inválido ou vazio
+MAT-01478,Mangueira Inox,Hidráulico,1.53,NCM inválido ou vazio
+MAT-01482,Anel Aço,Peças,36.76,NCM inválido ou vazio
+MAT-01491,Lâmpada Latão,Elétrico,77.94,NCM inválido ou vazio
+MAT-01498,Desinfetante Cobre,Limpeza,6.58,NCM inválido ou vazio
+MAT-01499,Caixa Latão,Embalagem,89.72,NCM inválido ou vazio
+MAT-01503,Cilindro Plástico,Pneumático,5.11,NCM inválido ou vazio
+MAT-01508,Desinfetante Aço,Limpeza,348.32,NCM inválido ou vazio
+MAT-01511,Ácido PVC,Químico,2.43,NCM inválido ou vazio
+MAT-01514,Correia Inox,Mecânico,2.29,NCM inválido ou vazio
+MAT-01515,Graxa Latão,Lubrificante,2.66,NCM inválido ou vazio
+MAT-01516,Fita Inox,Embalagem,9.63,NCM inválido ou vazio
+MAT-01522,Caixa PVC,Embalagem,5.04,NCM inválido ou vazio
+MAT-01524,Base Alumínio,Químico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-01528,bucha Alumínio,Mecânico,0.0,Preço zerado
+MAT-01529,correia Alumínio,Mecânico,1.65,NCM inválido ou vazio
+MAT-01530,Prego Inox,Fixação,2.3,NCM inválido ou vazio
+MAT-01531,Rolamento PVC,Mecânico,9.44,NCM inválido ou vazio
+MAT-01532,Conexão Aço,Pneumático,0.0,Preço zerado
+MAT-01533,Bota PVC,EPI,52.28,NCM inválido ou vazio
+MAT-01535,Máscara Alumínio,EPI,5.01,NCM inválido ou vazio
+MAT-01539,Sensor Plástico,Eletrônico,8.51,NCM inválido ou vazio
+MAT-01548,Prego Plástico,Fixação,18.52,NCM inválido ou vazio
+MAT-01556,Arruela Cobre,Fixação,10.44,NCM inválido ou vazio
+MAT-01560,Solvente Alumínio,Químico,8.8,NCM inválido ou vazio
+MAT-01561,válvula Latão,Hidráulico,27.03,NCM inválido ou vazio
+MAT-01569,Clips Inox,Escritório,8.4,NCM inválido ou vazio
+MAT-01573,fita Alumínio,Embalagem,5.65,NCM inválido ou vazio
+MAT-01587,Fita Cobre,Embalagem,7.99,NCM inválido ou vazio
+MAT-01588,Correia PVC,Mecânico,58.11,NCM inválido ou vazio
+MAT-01592,Grampeador Cobre,Escritório,3.32,NCM inválido ou vazio
+MAT-01594,Papelão Latão,Embalagem,2.24,NCM inválido ou vazio
+MAT-01596,Caixa Plástico,Embalagem,1470.47,NCM inválido ou vazio
+MAT-01600,Bucha Aço,Mecânico,47.72,NCM inválido ou vazio
+MAT-01601,Plástico Latão,Embalagem,29.58,NCM inválido ou vazio
+MAT-01603,Suporte Cobre,Acessórios,49.38,NCM inválido ou vazio
+MAT-01604,Óleo Cobre,Lubrificante,0.0,Preço zerado
+MAT-01605,Válvula Aço,Hidráulico,0.0,Preço zerado
+MAT-01608,Clips Plástico,Escritório,6.22,NCM inválido ou vazio
+MAT-01611,Bota Latão,EPI,0.0,Preço zerado
+MAT-01612,Filtro Alumínio,Pneumático,7.99,NCM inválido ou vazio
+MAT-01614,Eixo Alumínio,Mecânico,8.2,NCM inválido ou vazio
+MAT-01615,Abraçadeira Inox,Acessórios,41.15,NCM inválido ou vazio
+MAT-01616,Furadeira Cobre,Ferramentas,0.0,Preço zerado
+MAT-01620,Alicate Plástico,Ferramentas,0.0,Preço zerado
+MAT-01621,Chave Inox,Ferramentas,3.07,NCM inválido ou vazio
+MAT-01622,Papelão Inox,Embalagem,245.35,NCM inválido ou vazio
+MAT-01623,Módulo PVC,Eletrônico,48.97,NCM inválido ou vazio
+MAT-01635,LED Alumínio,Eletrônico,0.35,NCM inválido ou vazio
+MAT-01639,Detergente Inox,Limpeza,9.02,NCM inválido ou vazio
+MAT-01649,Filtro Cobre,Pneumático,6.55,NCM inválido ou vazio
+MAT-01650,Óculos PVC,EPI,0.0,Preço zerado
+MAT-01651,Registro Latão,Hidráulico,5.37,NCM inválido ou vazio
+MAT-01654,Correia Plástico,Mecânico,0.32,NCM inválido ou vazio
+MAT-01665,Desinfetante Aço,Limpeza,37.31,NCM inválido ou vazio
+MAT-01676,Conexão Latão,Hidráulico,5.42,NCM inválido ou vazio
+MAT-01678,Ácido Aço,Químico,4.69,NCM inválido ou vazio
+MAT-01686,Clips PVC,Escritório,1984.27,NCM inválido ou vazio
+MAT-01687,Capacitor Cobre,Eletrônico,8.37,NCM inválido ou vazio
+MAT-01690,Mangueira PVC,Pneumático,312.99,NCM inválido ou vazio
+MAT-01695,Gancho Aço,Acessórios,280.29,NCM inválido ou vazio
+MAT-01697,Spray Alumínio,Lubrificante,1755.91,NCM inválido ou vazio
+MAT-01702,Bota Latão,EPI,8.91,NCM inválido ou vazio
+MAT-01705,Módulo PVC,Eletrônico,8.79,NCM inválido ou vazio
+MAT-01706,Desinfetante Latão,Limpeza,1632.61,NCM inválido ou vazio
+MAT-01708,Alicate Inox,Ferramentas,40.74,NCM inválido ou vazio
+MAT-01711,Válvula Cobre,Pneumático,4.87,NCM inválido ou vazio
+MAT-01724,Grampeador Plástico,Escritório,619.01,NCM inválido ou vazio
+MAT-01726,Papel Aço,Escritório,9.26,NCM inválido ou vazio
+MAT-01736,Plástico PVC,Embalagem,0.0,Preço zerado
+MAT-01738,Válvula Plástico,Hidráulico,0.0,Preço zerado
+MAT-01739,Chave Cobre,Ferramentas,0.0,Preço zerado
+MAT-01751,Suporte em Aço,Acessórios,1955.15,NCM inválido ou vazio
+MAT-01753,Clipe Latão,Acessórios,74.5,NCM inválido ou vazio
+MAT-01757,Retentor Latão,Peças,79.84,NCM inválido ou vazio
+MAT-01759,Suporte Plástico,Acessórios,3.48,NCM inválido ou vazio
+MAT-01761,LED PVC,Eletrônico,66.02,NCM inválido ou vazio
+MAT-01763,Óleo Cobre,Lubrificante,2.31,NCM inválido ou vazio
+MAT-01766,Caixa Latão,Embalagem,32.36,NCM inválido ou vazio
+MAT-01777,Junta Aço,Peças,4.35,NCM inválido ou vazio
+MAT-01779,Martelo Plástico,Ferramentas,907.47,NCM inválido ou vazio
+MAT-01780,Mangueira PVC,Pneumático,22.5,NCM inválido ou vazio
+MAT-01781,luva XG Plástico,EPI,9.72,NCM inválido ou vazio
+MAT-01790,Presilha Latão,Acessórios,928.61,NCM inválido ou vazio
+MAT-01794,Catalisador Inox,Químico,19.53,NCM inválido ou vazio
+MAT-01798,Prego Cobre,Fixação,2.61,NCM inválido ou vazio
+MAT-01800,Papelão Cobre,Embalagem,28.35,NCM inválido ou vazio
+MAT-01808,Cilindro Plástico,Pneumático,13.74,NCM inválido ou vazio
+MAT-01816,Clips Latão,Escritório,9.11,NCM inválido ou vazio
+MAT-01819,Graxa Latão,Lubrificante,6.52,NCM inválido ou vazio
+MAT-01822,Disjuntor Alumínio,Elétrico,3.65,NCM inválido ou vazio
+MAT-01835,Retentor Inox,Peças,70.68,NCM inválido ou vazio
+MAT-01843,Rolamento Alumínio,Peças,63.52,NCM inválido ou vazio
+MAT-01844,Vedação Inox,Peças,1333.87,NCM inválido ou vazio
+MAT-01847,Fluido Inox,Lubrificante,0.0,Preço zerado
+MAT-01852,Rebite Aço,Fixação,0.0,Preço zerado
+MAT-01854,Grampeador Aço,Escritório,2.72,NCM inválido ou vazio
+MAT-01858,Fita Inox,Embalagem,2.25,NCM inválido ou vazio
+MAT-01862,Rolamento Aço,Mecânico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-01869,Grampeador Alumínio,Escritório,52.54,NCM inválido ou vazio
+MAT-01870,Óculos Plástico,EPI,2.09,NCM inválido ou vazio
+MAT-01873,Arruela Aço,Fixação,4.12,NCM inválido ou vazio
+MAT-01875,Furadeira Inox,Ferramentas,88.75,NCM inválido ou vazio
+MAT-01898,Pano Inox,Limpeza,4.69,NCM inválido ou vazio
+MAT-01900,Gancho Plástico,Acessórios,0.0,Preço zerado
+MAT-01902,Módulo PVC,Eletrônico,47.07,NCM inválido ou vazio
+MAT-01906,Fluido Latão,Lubrificante,4.73,NCM inválido ou vazio
+MAT-01908,Pano Latão,Limpeza,7.95,NCM inválido ou vazio
+MAT-01910,Lâmpada Plástico,Elétrico,0.0,Preço zerado
+MAT-01911,Correia Cobre,Mecânico,9.75,NCM inválido ou vazio
+MAT-01918,Cilindro Alumínio,Pneumático,956.65,NCM inválido ou vazio
+MAT-01919,Ácido Alumínio,Químico,833.93,NCM inválido ou vazio
+MAT-01921,"Tubo 1/2"" PVC",Hidráulico,0.0,Preço zerado
+MAT-01927,Papelão Plástico,Embalagem,3.45,NCM inválido ou vazio
+MAT-01930,Válvula Cobre,Hidráulico,1812.17,NCM inválido ou vazio
+MAT-01934,Mangueira PVC,Pneumático,8.85,NCM inválido ou vazio
+MAT-01938,Válvula Aço,Pneumático,98.17,NCM inválido ou vazio
+MAT-01941,Graxa Plástico,Lubrificante,99.55,NCM inválido ou vazio
+MAT-01946,Máscara Cobre,EPI,11.36,NCM inválido ou vazio
+MAT-01947,Alicate Inox,Ferramentas,0.0,Preço zerado
+MAT-01948,LED Inox,Eletrônico,4.76,NCM inválido ou vazio
+MAT-01954,Papelão Aço,Embalagem,7.41,NCM inválido ou vazio
+MAT-01955,clips Inox,Escritório,7.34,NCM inválido ou vazio
+MAT-01957,Pano Inox,Limpeza,7.34,NCM inválido ou vazio
+MAT-01962,Parafuso M8 PVC,Fixação,8.8,NCM inválido ou vazio
+MAT-01963,Óleo Cobre,Lubrificante,7.51,NCM inválido ou vazio
+MAT-01971,Óleo Plástico,Lubrificante,0.0,Preço zerado
+MAT-01973,Conexão Cobre,Hidráulico,0.9,NCM inválido ou vazio
+MAT-01976,Rebite PVC,Fixação,1.17,NCM inválido ou vazio
+MAT-01985,Conexão Aço,Hidráulico,7.45,NCM inválido ou vazio
+MAT-01987,Arruela em Plástico,Fixação,0.23,NCM inválido ou vazio
+MAT-01993,Correia Alumínio,Mecânico,41.34,NCM inválido ou vazio
+MAT-01999,Martelo PVC,Ferramentas,1021.25,NCM inválido ou vazio
+MAT-02000,Registro em PVC,Hidráulico,246.55,NCM inválido ou vazio
+MAT-02004,Chave Aço,Ferramentas,12.52,NCM inválido ou vazio
+MAT-02010,Lâmpada PVC,Elétrico,5.32,NCM inválido ou vazio
+MAT-02012,Capacitor Latão,Eletrônico,15.04,NCM inválido ou vazio
+MAT-02014,Abraçadeira Latão,Acessórios,78.43,NCM inválido ou vazio
+MAT-02018,Registro Plástico,Hidráulico,47.03,NCM inválido ou vazio
+MAT-02021,Filtro Plástico,Pneumático,29.72,NCM inválido ou vazio
+MAT-02024,Filtro Aço,Pneumático,89.78,NCM inválido ou vazio
+MAT-02025,Interruptor Aço,Elétrico,1.96,NCM inválido ou vazio
+MAT-02030,Máscara Inox,EPI,1032.03,NCM inválido ou vazio
+MAT-02032,Papelão Latão,Embalagem,73.9,NCM inválido ou vazio
+MAT-02033,arruela Latão,Fixação,5.29,NCM inválido ou vazio
+MAT-02037,Furadeira Inox,Ferramentas,1759.36,NCM inválido ou vazio
+MAT-02038,Fita Latão,Embalagem,1502.66,NCM inválido ou vazio
+MAT-02040,"Tubo 2"" Cobre",Hidráulico,87.86,NCM inválido ou vazio
+MAT-02045,Martelo Plástico,Ferramentas,2.26,NCM inválido ou vazio
+MAT-02046,Mangueira em Latão,Hidráulico,0.0,Preço zerado
+MAT-02052,Anel Aço,Peças,2.67,NCM inválido ou vazio
+MAT-02064,Prego Cobre,Fixação,1.86,NCM inválido ou vazio
+MAT-02066,Solvente Cobre,Químico,1910.42,NCM inválido ou vazio
+MAT-02073,Pasta Aço,Lubrificante,30.72,NCM inválido ou vazio
+MAT-02075,Vedação Cobre,Peças,819.87,NCM inválido ou vazio
+MAT-02080,Papelão Aço,Embalagem,59.05,NCM inválido ou vazio
+MAT-02092,Etiqueta Latão,Embalagem,8.16,NCM inválido ou vazio
+MAT-02095,Detergente Alumínio,Limpeza,3.32,NCM inválido ou vazio
+MAT-02096,Registro Cobre,Hidráulico,4.18,NCM inválido ou vazio
+MAT-02100,Lâmpada Inox,Elétrico,961.53,NCM inválido ou vazio
+MAT-02104,Sensor Plástico,Eletrônico,11.07,NCM inválido ou vazio
+MAT-02109,Óleo Plástico,Lubrificante,80.41,NCM inválido ou vazio
+MAT-02112,Desinfetante Alumínio,Limpeza,39.3,NCM inválido ou vazio
+MAT-02115,Spray Inox,Lubrificante,6.85,NCM inválido ou vazio
+MAT-02116,Clipe Aço,Acessórios,48.57,NCM inválido ou vazio
+MAT-02117,Junta Aço,Peças,70.83,NCM inválido ou vazio
+MAT-02129,Fluido Aço,Lubrificante,9.55,NCM inválido ou vazio
+MAT-02132,vassoura Alumínio,Limpeza,2.77,NCM inválido ou vazio
+MAT-02138,"Cabo 2,5mm² Inox",Elétrico,9.73,NCM inválido ou vazio
+MAT-02141,Cabo 6mm² Inox,Elétrico,0.0,Preço zerado
+MAT-02144,LED Aço,Eletrônico,0.0,Preço zerado
+MAT-02150,Base Cobre,Químico,78.32,NCM inválido ou vazio
+MAT-02152,LED Aço,Eletrônico,1.62,NCM inválido ou vazio
+MAT-02153,Conexão em Cobre,Pneumático,1411.0,NCM inválido ou vazio
+MAT-02157,Cabo 6mm² Latão,Elétrico,8.48,NCM inválido ou vazio
+MAT-02164,Vedação Alumínio,Peças,0.37,NCM inválido ou vazio
+MAT-02169,Resistor Latão,Eletrônico,0.0,Preço zerado
+MAT-02173,Papel em Alumínio,Escritório,3.66,NCM inválido ou vazio
+MAT-02174,Conexão Plástico,Pneumático,97.1,NCM inválido ou vazio
+MAT-02177,Caneta Latão,Escritório,971.28,NCM inválido ou vazio
+MAT-02181,Caixa PVC,Embalagem,60.66,NCM inválido ou vazio
+MAT-02182,Fluido Aço,Lubrificante,1.72,NCM inválido ou vazio
+MAT-02184,Pasta em Aço,Lubrificante,3.66,NCM inválido ou vazio
+MAT-02185,Filtro PVC,Pneumático,6.58,NCM inválido ou vazio
+MAT-02188,Pasta PVC,Lubrificante,4.72,NCM inválido ou vazio
+MAT-02193,Lâmpada PVC,Elétrico,7.24,NCM inválido ou vazio
+MAT-02194,Pasta Aço,Escritório,0.0,Preço zerado
+MAT-02197,Fita Alumínio,Embalagem,85.14,NCM inválido ou vazio
+MAT-02202,Parafuso M16 Inox,Fixação,5.98,NCM inválido ou vazio
+MAT-02207,Rolamento PVC,Peças,668.1,NCM inválido ou vazio
+MAT-02208,Chave Inox,Ferramentas,9.8,NCM inválido ou vazio
+MAT-02209,Cilindro Plástico,Pneumático,1341.42,NCM inválido ou vazio
+MAT-02211,Presilha Alumínio,Acessórios,43.1,NCM inválido ou vazio
+MAT-02217,Tomada PVC,Elétrico,0.28,NCM inválido ou vazio
+MAT-02224,Reagente PVC,Químico,7.38,NCM inválido ou vazio
+MAT-02225,Máscara PVC,EPI,65.06,NCM inválido ou vazio
+MAT-02229,Retentor Alumínio,Peças,1182.99,NCM inválido ou vazio
+MAT-02232,Conexão Aço,Pneumático,57.13,NCM inválido ou vazio
+MAT-02233,Clipe Alumínio,Acessórios,89.58,NCM inválido ou vazio
+MAT-02237,Pasta Inox,Escritório,0.0,Preço zerado
+MAT-02238,Parafuso M10 PVC,Fixação,76.06,NCM inválido ou vazio
+MAT-02242,Papel PVC,Escritório,1081.85,NCM inválido ou vazio
+MAT-02243,Tomada Cobre,Elétrico,7.42,NCM inválido ou vazio
+MAT-02251,Óleo Latão,Lubrificante,2.81,NCM inválido ou vazio
+MAT-02252,Fluido Cobre,Lubrificante,9.49,NCM inválido ou vazio
+MAT-02259,Correia Inox,Mecânico,7.17,NCM inválido ou vazio
+MAT-02261,Cilindro Latão,Pneumático,9.82,NCM inválido ou vazio
+MAT-02263,Vedação Plástico,Peças,8.61,NCM inválido ou vazio
+MAT-02265,Presilha Alumínio,Acessórios,0.0,Preço zerado
+MAT-02266,Alicate Inox,Ferramentas,0.0,Preço zerado
+MAT-02272,Vedação Inox,Peças,85.18,NCM inválido ou vazio
+MAT-02275,Anel Inox,Peças,56.18,NCM inválido ou vazio
+MAT-02277,Martelo Plástico,Ferramentas,0.0,Preço zerado
+MAT-02279,Óleo Cobre,Lubrificante,56.14,NCM inválido ou vazio
+MAT-02284,Vassoura Plástico,Limpeza,0.0,Preço zerado
+MAT-02285,Válvula Alumínio,Hidráulico,77.67,NCM inválido ou vazio
+MAT-02287,Pano PVC,Limpeza,1876.68,NCM inválido ou vazio
+MAT-02293,Parafuso M10 Latão,Fixação,5.87,NCM inválido ou vazio
+MAT-02297,Grampeador Inox,Escritório,3.89,NCM inválido ou vazio
+MAT-02299,Graxa Latão,Lubrificante,8.42,NCM inválido ou vazio
+MAT-02301,Cabo Cobre 4mm²,Elétrico,72.26,NCM inválido ou vazio
+MAT-02303,Sensor Inox,Eletrônico,0.0,Preço zerado
+MAT-02304,Correia Inox,Mecânico,1358.76,NCM inválido ou vazio
+MAT-02313,Martelo Plástico,Ferramentas,53.91,NCM inválido ou vazio
+MAT-02314,Vedação Alumínio,Peças,9.61,NCM inválido ou vazio
+MAT-02323,Base Aço,Químico,0.45,NCM inválido ou vazio
+MAT-02330,Vassoura Plástico,Limpeza,1749.54,NCM inválido ou vazio
+MAT-02333,Conexão Latão,Hidráulico,9.96,NCM inválido ou vazio
+MAT-02340,Suporte Alumínio,Acessórios,1142.15,NCM inválido ou vazio
+MAT-02348,Rebite Cobre,Fixação,4.0,NCM inválido ou vazio
+MAT-02351,Porca M16 Inox,Fixação,5.93,NCM inválido ou vazio
+MAT-02358,Pano Aço,Limpeza,0.0,Preço zerado
+MAT-02362,Pasta Aço,Lubrificante,75.8,NCM inválido ou vazio
+MAT-02367,Anel Plástico,Peças,0.0,Preço zerado
+MAT-02368,Anel Alumínio,Peças,0.0,Preço zerado
+MAT-02369,Conexão PVC,Pneumático,77.3,NCM inválido ou vazio
+MAT-02371,Óleo Plástico,Lubrificante,1541.36,NCM inválido ou vazio
+MAT-02373,Balde Plástico,Limpeza,552.96,NCM inválido ou vazio
+MAT-02381,caneta Cobre,Escritório,6.56,NCM inválido ou vazio
+MAT-02382,Presilha Aço,Acessórios,47.83,NCM inválido ou vazio
+MAT-02384,Registro em Plástico,Hidráulico,0.0,Preço zerado
+MAT-02389,Fita Latão,Embalagem,7.92,NCM inválido ou vazio
+MAT-02395,Chave Alumínio,Ferramentas,0.0,Preço zerado
+MAT-02397,Lâmpada Aço,Elétrico,69.55,NCM inválido ou vazio
+MAT-02398,Módulo Aço,Eletrônico,65.4,NCM inválido ou vazio
+MAT-02402,Junta Alumínio,Peças,26.02,NCM inválido ou vazio
+MAT-02407,Fita Plástico,Embalagem,3.91,NCM inválido ou vazio
+MAT-02415,Serra Aço,Ferramentas,28.72,NCM inválido ou vazio
+MAT-02416,caneta Cobre,Escritório,7.33,NCM inválido ou vazio
+MAT-02418,Retentor Cobre,Peças,11.86,NCM inválido ou vazio
+MAT-02422,Rolamento Aço,Peças,67.68,NCM inválido ou vazio
+MAT-02423,Presilha Inox,Acessórios,7.77,NCM inválido ou vazio
+MAT-02426,Rebite Inox,Fixação,1246.38,NCM inválido ou vazio
+MAT-02431,Engrenagem PVC,Mecânico,22.59,NCM inválido ou vazio
+MAT-02434,Capacete Inox,EPI,289.3,NCM inválido ou vazio
+MAT-02437,Mangueira Alumínio,Pneumático,0.0,Preço zerado
+MAT-02440,Detergente Aço,Limpeza,0.0,Preço zerado
+MAT-02443,Engrenagem Alumínio,Mecânico,1.56,NCM inválido ou vazio
+MAT-02444,Base PVC,Químico,63.52,NCM inválido ou vazio
+MAT-02446,Tomada Cobre,Elétrico,53.94,NCM inválido ou vazio
+MAT-02452,Capacete Cobre,EPI,5.87,NCM inválido ou vazio
+MAT-02456,Eixo Plástico,Mecânico,1329.99,NCM inválido ou vazio
+MAT-02467,Fluido Aço,Lubrificante,0.0,Preço zerado
+MAT-02468,Rolamento PVC,Peças,8.03,NCM inválido ou vazio
+MAT-02471,Válvula Plástico,Hidráulico,6.75,NCM inválido ou vazio
+MAT-02475,Gancho PVC,Acessórios,8.46,NCM inválido ou vazio
+MAT-02483,Vedação Cobre,Peças,7.1,NCM inválido ou vazio
+MAT-02486,Clips Latão,Escritório,75.2,NCM inválido ou vazio
+MAT-02488,Cilindro Cobre,Pneumático,0.28,NCM inválido ou vazio
+MAT-02490,Pano Cobre,Limpeza,9.44,NCM inválido ou vazio
+MAT-02496,Junta Alumínio,Peças,53.07,NCM inválido ou vazio
+MAT-02497,Fluido Cobre,Lubrificante,8.0,NCM inválido ou vazio
+MAT-02508,Papelão Plástico,Embalagem,6.1,NCM inválido ou vazio
+MAT-02512,Rebite Inox,Fixação,7.64,NCM inválido ou vazio
+MAT-02516,Mangueira Aço,Hidráulico,26.72,NCM inválido ou vazio
+MAT-02518,Parafuso M12 Aço,Fixação,256.05,NCM inválido ou vazio
+MAT-02519,"Tubo 2"" Aço",Hidráulico,40.13,NCM inválido ou vazio
+MAT-02526,Módulo em Plástico,Eletrônico,610.97,NCM inválido ou vazio
+MAT-02528,Luva Aço P,EPI,0.33,NCM inválido ou vazio
+MAT-02530,Base Aço,Químico,1318.05,NCM inválido ou vazio
+MAT-02536,Catalisador Plástico,Químico,7.39,NCM inválido ou vazio
+MAT-02538,Arruela Cobre,Fixação,0.0,Preço zerado
+MAT-02544,Reagente Cobre,Químico,62.93,NCM inválido ou vazio
+MAT-02546,Suporte Latão,Acessórios,28.94,NCM inválido ou vazio
+MAT-02551,Interruptor PVC,Elétrico,1820.4,NCM inválido ou vazio
+MAT-02554,Clipe Inox,Acessórios,1.73,NCM inválido ou vazio
+MAT-02560,Gancho Latão,Acessórios,0.0,Preço zerado
+MAT-02565,Plástico Inox,Embalagem,2.96,NCM inválido ou vazio
+MAT-02569,"Cabo 2,5mm² Latão",Elétrico,0.0,Preço zerado
+MAT-02574,Vassoura Inox,Limpeza,52.24,NCM inválido ou vazio
+MAT-02579,Detergente Latão,Limpeza,4.33,NCM inválido ou vazio
+MAT-02582,caixa PVC,Embalagem,0.75,NCM inválido ou vazio
+MAT-02584,Desinfetante Latão,Limpeza,49.6,NCM inválido ou vazio
+MAT-02586,Detergente Latão,Limpeza,56.1,NCM inválido ou vazio
+MAT-02588,Pasta Cobre,Lubrificante,0.0,NCM inválido ou vazio; Preço zerado
+MAT-02594,Solvente PVC,Químico,0.0,Preço zerado
+MAT-02598,Lâmpada Alumínio,Elétrico,6.83,NCM inválido ou vazio
+MAT-02602,Bucha Alumínio,Mecânico,3.69,NCM inválido ou vazio
+MAT-02605,Cabo 4mm² Aço,Elétrico,748.98,NCM inválido ou vazio
+MAT-02616,Clips Cobre,Escritório,1709.1,NCM inválido ou vazio
+MAT-02617,Porca M16 Aço,Fixação,1.95,NCM inválido ou vazio
+MAT-02618,Módulo Aço,Eletrônico,50.3,NCM inválido ou vazio
+MAT-02619,Alicate em Latão,Ferramentas,86.3,NCM inválido ou vazio
+MAT-02621,Capacitor Aço,Eletrônico,62.77,NCM inválido ou vazio
+MAT-02626,Capacete Inox,EPI,73.59,NCM inválido ou vazio
+MAT-02627,Junta Alumínio,Peças,30.07,NCM inválido ou vazio
+MAT-02633,Mangueira Alumínio,Hidráulico,63.64,NCM inválido ou vazio
+MAT-02634,Papelão em Cobre,Embalagem,1.72,NCM inválido ou vazio
+MAT-02635,Conexão Aço,Hidráulico,0.0,Preço zerado
+MAT-02643,Caixa Aço,Embalagem,45.01,NCM inválido ou vazio
+MAT-02645,Serra Latão,Ferramentas,98.41,NCM inválido ou vazio
+MAT-02649,Mangueira PVC,Pneumático,616.45,NCM inválido ou vazio
+MAT-02654,Máscara Latão,EPI,7.8,NCM inválido ou vazio
+MAT-02658,Rebite Aço,Fixação,0.0,NCM inválido ou vazio; Preço zerado
+MAT-02663,Filtro PVC,Pneumático,947.53,NCM inválido ou vazio
+MAT-02665,Válvula Inox,Hidráulico,2.95,NCM inválido ou vazio
+MAT-02667,Clipe Plástico,Acessórios,88.03,NCM inválido ou vazio
+MAT-02671,LED PVC,Eletrônico,5.58,NCM inválido ou vazio
+MAT-02673,Caixa PVC,Embalagem,0.0,Preço zerado
+MAT-02675,Prego Alumínio,Fixação,1198.67,NCM inválido ou vazio
+MAT-02682,Anel Latão,Peças,4.6,NCM inválido ou vazio
+MAT-02686,Interruptor Plástico,Elétrico,69.16,NCM inválido ou vazio
+MAT-02690,Junta Cobre,Peças,1788.42,NCM inválido ou vazio
+MAT-02692,Clipe Cobre,Acessórios,3.67,NCM inválido ou vazio
+MAT-02694,Prego Cobre,Fixação,4.93,NCM inválido ou vazio
+MAT-02701,Registro Cobre,Hidráulico,9.06,NCM inválido ou vazio
+MAT-02707,Vassoura Cobre,Limpeza,1760.22,NCM inválido ou vazio
+MAT-02711,Máscara Plástico,EPI,5.72,NCM inválido ou vazio
+MAT-02715,Junta Inox,Peças,1.42,NCM inválido ou vazio
+MAT-02718,retentor Latão,Peças,1739.07,NCM inválido ou vazio
+MAT-02719,Lâmpada Latão,Elétrico,1941.77,NCM inválido ou vazio
+MAT-02720,Grampeador Alumínio,Escritório,5.16,NCM inválido ou vazio
+MAT-02721,Caneta Plástico,Escritório,7.88,NCM inválido ou vazio
+MAT-02722,Parafuso M8 Inox,Fixação,3.77,NCM inválido ou vazio
+MAT-02725,Conexão Cobre,Hidráulico,5.58,NCM inválido ou vazio
+MAT-02730,Rolamento Alumínio,Mecânico,8.26,NCM inválido ou vazio
+MAT-02733,Capacete PVC,EPI,30.31,NCM inválido ou vazio
+MAT-02736,Serra Latão,Ferramentas,0.0,Preço zerado
+MAT-02748,Válvula Latão,Pneumático,90.9,NCM inválido ou vazio
+MAT-02749,abraçadeira Alumínio,Acessórios,0.63,NCM inválido ou vazio
+MAT-02752,Presilha Plástico,Acessórios,0.55,NCM inválido ou vazio
+MAT-02757,Eixo Plástico,Mecânico,55.61,NCM inválido ou vazio
+MAT-02760,Etiqueta PVC,Embalagem,66.64,NCM inválido ou vazio
+MAT-02762,Capacete Alumínio,EPI,58.68,NCM inválido ou vazio
+MAT-02767,Caneta Aço,Escritório,81.2,NCM inválido ou vazio
+MAT-02768,Rolamento Plástico,Mecânico,593.53,NCM inválido ou vazio
+MAT-02770,Bota Plástico,EPI,0.68,NCM inválido ou vazio
+MAT-02780,Arruela Aço,Fixação,92.15,NCM inválido ou vazio
+MAT-02785,Módulo PVC,Eletrônico,0.0,Preço zerado
+MAT-02788,Tomada Latão,Elétrico,94.22,NCM inválido ou vazio
+MAT-02793,LED Inox,Eletrônico,17.92,NCM inválido ou vazio
+MAT-02799,Rolamento Inox,Peças,4.89,NCM inválido ou vazio
+MAT-02803,Ácido Alumínio,Químico,23.25,NCM inválido ou vazio
+MAT-02809,Vassoura Latão,Limpeza,5.31,NCM inválido ou vazio
+MAT-02814,Papelão Aço,Embalagem,1.88,NCM inválido ou vazio
+MAT-02815,Conexão Cobre,Pneumático,7.65,NCM inválido ou vazio
+MAT-02816,Catalisador Inox,Químico,3.08,NCM inválido ou vazio
+MAT-02821,Martelo Latão,Ferramentas,0.0,Preço zerado
+MAT-02827,Máscara Cobre,EPI,0.52,NCM inválido ou vazio
+MAT-02829,Lâmpada Plástico,Elétrico,6.75,NCM inválido ou vazio
+MAT-02838,Alicate Alumínio,Ferramentas,0.0,Preço zerado
+MAT-02845,Interruptor Inox,Elétrico,57.81,NCM inválido ou vazio
+MAT-02851,Bucha Latão,Mecânico,1962.94,NCM inválido ou vazio
+MAT-02856,Cabo 4mm² Plástico,Elétrico,2.94,NCM inválido ou vazio
+MAT-02862,Conexão Cobre,Hidráulico,455.9,NCM inválido ou vazio
+MAT-02867,Caixa Inox,Embalagem,137.8,NCM inválido ou vazio
+MAT-02869,Base Aço,Químico,94.67,NCM inválido ou vazio
+MAT-02870,Lâmpada Cobre,Elétrico,79.35,NCM inválido ou vazio
+MAT-02871,Plástico Plástico,Embalagem,4.43,NCM inválido ou vazio
+MAT-02872,Desinfetante PVC,Limpeza,21.56,NCM inválido ou vazio
+MAT-02876,Lâmpada Inox,Elétrico,837.33,NCM inválido ou vazio
+MAT-02877,Arruela Plástico,Fixação,1500.34,NCM inválido ou vazio
+MAT-02881,Papelão Latão,Embalagem,2.18,NCM inválido ou vazio
+MAT-02887,Bucha Latão,Mecânico,6.77,NCM inválido ou vazio
+MAT-02895,Chave Aço,Ferramentas,5.77,NCM inválido ou vazio
+MAT-02899,Caixa Latão,Embalagem,1613.84,NCM inválido ou vazio
+MAT-02904,Clipe Inox,Acessórios,61.35,NCM inválido ou vazio
+MAT-02905,Desinfetante Inox,Limpeza,2.56,NCM inválido ou vazio
+MAT-02906,Resistor Latão,Eletrônico,1.12,NCM inválido ou vazio
+MAT-02911,Plástico Plástico,Embalagem,0.37,NCM inválido ou vazio
+MAT-02914,Graxa Cobre,Lubrificante,0.0,NCM inválido ou vazio; Preço zerado
+MAT-02919,Graxa PVC,Lubrificante,5.26,NCM inválido ou vazio
+MAT-02923,Balde Cobre,Limpeza,3.93,NCM inválido ou vazio
+MAT-02924,Válvula Aço,Hidráulico,5.71,NCM inválido ou vazio
+MAT-02927,Engrenagem Plástico,Mecânico,7.05,NCM inválido ou vazio
+MAT-02934,Prego Aço,Fixação,61.43,NCM inválido ou vazio
+MAT-02935,Papelão Cobre,Embalagem,8.48,NCM inválido ou vazio
+MAT-02938,Anel Latão,Peças,0.0,Preço zerado
+MAT-02947,Serra em Latão,Ferramentas,1659.36,NCM inválido ou vazio
+MAT-02949,Etiqueta Latão,Embalagem,52.58,NCM inválido ou vazio
+MAT-02957,Rolamento PVC,Peças,0.0,Preço zerado
+MAT-02958,Válvula PVC,Hidráulico,0.98,NCM inválido ou vazio
+MAT-02960,Presilha Aço,Acessórios,2.09,NCM inválido ou vazio
+MAT-02962,Conexão Plástico,Hidráulico,30.04,NCM inválido ou vazio
+MAT-02964,Capacitor Plástico,Eletrônico,0.24,NCM inválido ou vazio
+MAT-02970,Pasta Cobre,Escritório,2.37,NCM inválido ou vazio
+MAT-02971,Interruptor Plástico,Elétrico,49.01,NCM inválido ou vazio
+MAT-02975,Óleo Inox,Lubrificante,82.33,NCM inválido ou vazio
+MAT-02981,Bota Cobre,EPI,609.38,NCM inválido ou vazio
+MAT-02986,Conexão Plástico,Hidráulico,5.29,NCM inválido ou vazio
+MAT-02987,Grampeador Inox,Escritório,42.71,NCM inválido ou vazio
+MAT-02991,Catalisador Latão,Químico,4.96,NCM inválido ou vazio
+MAT-02993,Spray Inox,Lubrificante,1.18,NCM inválido ou vazio
+MAT-02994,Conexão Cobre,Hidráulico,6.26,NCM inválido ou vazio
+MAT-02998,"Tubo 1"" Cobre",Hidráulico,3.9,NCM inválido ou vazio
+MAT-02999,Engrenagem Inox,Mecânico,9.19,NCM inválido ou vazio
+MAT-06001,PANO PLÁSTICO,Limpeza,92.99185557820329,NCM inválido ou vazio
+MAT-06001,Caneta Inox,Escritório,3.814213121361977,NCM inválido ou vazio
+MAT-06001,Interruptor Alumínio,Elétrico,62.560045533611145,NCM inválido ou vazio
+MAT-06001,BUCHA AÇO,Mecânico,72.59542121487543,NCM inválido ou vazio
+MAT-06001,Serra Alumínio,Ferramentas,357.75904981639883,NCM inválido ou vazio
+MAT-06001,Reagente Plástico,Químico,692.4204379970113,NCM inválido ou vazio
+MAT-06001,Fluido Latão,Lubrificante,0.0,Preço zerado
+MAT-06001,Luva M Latão,EPI,1225.2169460640027,NCM inválido ou vazio
+MAT-06001,GANCHO LATÃO,Acessórios,462.6426302282458,NCM inválido ou vazio
+MAT-06001,plástico Cobre,Embalagem,1686.3948248929123,NCM inválido ou vazio
+MAT-06001,Caixa Plástico,Embalagem,1219.594237648129,NCM inválido ou vazio
+MAT-06001,BUCHA LATÃO,Mecânico,61.504709798858286,NCM inválido ou vazio
+MAT-06001,Catalisador Latão,Químico,85.04380510590192,NCM inválido ou vazio
+MAT-06001,FITA PLÁSTICO,Embalagem,25.263916177223454,NCM inválido ou vazio
+MAT-06001,Rebite PVC,Fixação,1.1210144912438469,NCM inválido ou vazio
+MAT-06001,DESINFETANTE PVC,Limpeza,8.552782421829109,NCM inválido ou vazio
+MAT-06001,Conexão Aço,Pneumático,1.5812769076848625,NCM inválido ou vazio
+MAT-06001,REAGENTE AÇO,Químico,4.1940643565046,NCM inválido ou vazio
+MAT-06001,"Tubo 3/4"" PVC",Hidráulico,10.221628535594922,NCM inválido ou vazio
+MAT-06001,MANGUEIRA PVC,Pneumático,1073.4390091609298,NCM inválido ou vazio
+MAT-06001,CORREIA PVC,Mecânico,57.95184341390328,NCM inválido ou vazio
+MAT-06001,pasta Latão,Escritório,8.769233098018894,NCM inválido ou vazio
+MAT-06001,FITA ALUMÍNIO,Embalagem,2.8714291662544267,NCM inválido ou vazio
+MAT-06001,Vassoura Cobre,Limpeza,5.240786078778721,NCM inválido ou vazio
+MAT-06001,PASTA COBRE,Lubrificante,2.7475067229396304,NCM inválido ou vazio
+MAT-06001,Caixa Plástico,Embalagem,8.39966388930144,NCM inválido ou vazio
+MAT-06001,Resistor PVC,Eletrônico,3.869728638592464,NCM inválido ou vazio
+MAT-06001,Prego Cobre,Fixação,1717.5157039103617,NCM inválido ou vazio
+MAT-06001,ÓCULOS INOX,EPI,208.502510283808,NCM inválido ou vazio
+MAT-06001,Filtro PVC,Pneumático,6.093427396217329,NCM inválido ou vazio
+MAT-06001,Óleo Aço,Lubrificante,5.955411801283754,NCM inválido ou vazio
+MAT-06001,Fita Aço,Embalagem,101.58395344471626,NCM inválido ou vazio
+MAT-06001,PASTA ALUMÍNIO,Lubrificante,439.4474368986256,NCM inválido ou vazio
+MAT-06001,LED Alumínio,Eletrônico,4.270619727694605,NCM inválido ou vazio
+MAT-06001,Cilindro PVC,Pneumático,73.55294045862627,NCM inválido ou vazio
+MAT-06001,CONEXÃO ALUMÍNIO,Pneumático,9.752341448217075,NCM inválido ou vazio
+MAT-06001,REBITE EM PVC,Fixação,2.026453390079867,NCM inválido ou vazio
+MAT-06001,VÁLVULA AÇO,Pneumático,324.9120914421315,NCM inválido ou vazio
+MAT-06001,Caneta Plástico,Escritório,5.799804624457355,NCM inválido ou vazio
+MAT-06001,ALICATE PLÁSTICO,Ferramentas,1349.991911614191,NCM inválido ou vazio
+MAT-06001,CLIPE INOX,Acessórios,1884.757069903712,NCM inválido ou vazio
+MAT-06001,Porca M8 Cobre,Fixação,594.5261787343745,NCM inválido ou vazio
+MAT-06001,INTERRUPTOR LATÃO,Elétrico,0.0,Preço zerado
+MAT-06001,Caixa Aço,Embalagem,9.499980993851285,NCM inválido ou vazio
+MAT-06001,Válvula PVC,Pneumático,93.421486823895,NCM inválido ou vazio
+MAT-06001,SPRAY ALUMÍNIO,Lubrificante,43.58263145568152,NCM inválido ou vazio
+MAT-06001,Resistor Cobre,Eletrônico,3.820534634688188,NCM inválido ou vazio
+MAT-06001,Chave Inox,Ferramentas,33.44363158085141,NCM inválido ou vazio
+MAT-06001,CILINDRO ALUMÍNIO,Pneumático,6.397240837336391,NCM inválido ou vazio
+MAT-06001,ETIQUETA INOX,Embalagem,30.10940776403582,NCM inválido ou vazio
+MAT-06001,BASE PLÁSTICO,Químico,33.60504535913333,NCM inválido ou vazio
+MAT-06001,SERRA LATÃO,Ferramentas,0.0,NCM inválido ou vazio; Preço zerado
+MAT-06001,Fluido Cobre,Lubrificante,8.166086890896892,NCM inválido ou vazio
+MAT-06001,Fluido PVC,Lubrificante,65.40240321431024,NCM inválido ou vazio
+MAT-06001,Papel Plástico,Escritório,69.0298453908637,NCM inválido ou vazio
+MAT-06001,Capacete Inox,EPI,0.0,Preço zerado
+MAT-06001,Clips Latão,Escritório,22.7451716403566,NCM inválido ou vazio
+MAT-06001,Pano Plástico,Limpeza,265.41804281239445,NCM inválido ou vazio
+MAT-06001,MÓDULO PVC,Eletrônico,14.001651152965517,NCM inválido ou vazio
+MAT-06001,Prego Alumínio,Fixação,1167.5450459466335,NCM inválido ou vazio
+MAT-06001,SOLVENTE INOX,Químico,30.826001161894645,NCM inválido ou vazio
+MAT-06001,PARAFUSO M12 AÇO,Fixação,0.0,Preço zerado
+MAT-06001,Mangueira Aço,Pneumático,292.3267439039715,NCM inválido ou vazio
+MAT-06001,SERRA ALUMÍNIO,Ferramentas,0.0,Preço zerado
+MAT-06001,Mangueira Cobre,Pneumático,0.1348788353892608,NCM inválido ou vazio
+MAT-06001,CHAVE LATÃO,Ferramentas,1849.193315920004,NCM inválido ou vazio
+MAT-06001,Correia Alumínio,Mecânico,1.9866700265824035,NCM inválido ou vazio
+MAT-06001,Luva XG Cobre,EPI,8.524136730844061,NCM inválido ou vazio
+MAT-06001,Grampeador PVC,Escritório,5.611417882795185,NCM inválido ou vazio
+MAT-06001,Lâmpada Aço,Elétrico,0.0,Preço zerado
+MAT-06001,Fluido Inox,Lubrificante,0.0,Preço zerado
+MAT-06001,ROLAMENTO INOX,Peças,393.2523639810966,NCM inválido ou vazio
+MAT-06001,Caneta PVC,Escritório,2.7906429202115586,NCM inválido ou vazio
+MAT-06001,FILTRO PLÁSTICO,Pneumático,0.0,NCM inválido ou vazio; Preço zerado
+MAT-06001,Catalisador Plástico,Químico,0.0,Preço zerado
+MAT-06001,MÁSCARA INOX,EPI,6.134836811574764,NCM inválido ou vazio
+MAT-06001,Bota PVC,EPI,995.9494064613452,NCM inválido ou vazio
+MAT-06001,Alicate PVC,Ferramentas,1329.701284336246,NCM inválido ou vazio
+MAT-06001,PARAFUSO LATÃO M8,Fixação,0.0,NCM inválido ou vazio; Preço zerado
+MAT-06001,BUCHA ALUMÍNIO,Mecânico,9.189387613198482,NCM inválido ou vazio
+MAT-06001,Prego Latão,Fixação,92.70271838642226,NCM inválido ou vazio
+MAT-06001,ARRUELA EM PLÁSTICO,Fixação,0.2331635981416376,NCM inválido ou vazio
+MAT-06001,Desinfetante Latão,Limpeza,1234.2284797760256,NCM inválido ou vazio
+MAT-06001,engrenagem PVC,Mecânico,0.0,NCM inválido ou vazio; Preço zerado
+MAT-06001,Martelo Cobre,Ferramentas,1442.272528585184,NCM inválido ou vazio
+MAT-06001,VASSOURA EM LATÃO,Limpeza,644.670016935207,NCM inválido ou vazio
+MAT-06001,SPRAY PLÁSTICO,Lubrificante,22.710925982261635,NCM inválido ou vazio
+MAT-06001,Papelão Alumínio,Embalagem,0.0,Preço zerado

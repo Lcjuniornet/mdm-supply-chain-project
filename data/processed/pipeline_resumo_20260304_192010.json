@@ -1,0 +1,26 @@
+{
+  "pipeline": "MDM-PIPELINE",
+  "executado_em": "20260304_192010",
+  "duracao_segundos": 0.35,
+  "total_entrada": 3300,
+  "total_saida": 2428,
+  "total_retidos": 872,
+  "taxa_aprovacao": 73.6,
+  "caminhos": {
+    "auto": 1056,
+    "supervisor": 1019,
+    "mdo": 353
+  },
+  "score_medio": 98.0,
+  "curva_abc": {
+    "C": 1866,
+    "B": 322,
+    "A": 240
+  },
+  "status_estoque": {
+    "NORMAL": 1821,
+    "SEM_MINIMO": 487,
+    "ABAIXO_MINIMO": 98,
+    "ALERTA": 22
+  }
+}

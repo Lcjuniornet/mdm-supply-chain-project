@@ -1,0 +1,19 @@
+﻿etapa,passou,retido,taxa,motivo
+1a. Remover linhas totalmente vazias,3300,0,100.0,
+1b. Normalizar tipos e limpar espaços,3300,0,100.0,Conversão de tipos automática
+1c. Filtrar campos mínimos obrigatórios,3300,0,100.0,"Sem código, descrição ou preço"
+2a. Validar NCM (8 dígitos obrigatório),2512,788,76.1,NCM != 8 dígitos
+2b. Validar preço > 0,3201,99,97.0,
+2c. Validar categoria (15 valores),3300,0,100.0,
+2d. Alertas não-bloqueantes registrados,3300,0,100.0,Sem forn: 660 | Sem min: 660 | Parado: 1070
+2e. Separar aprovados vs. com erros críticos,2428,872,73.6,
+3a. Calcular curva ABC por valor de estoque,2428,0,73.6,A:240 B:322 C:1866
+3b. Calcular score de qualidade individual,2428,0,73.6,Score médio: 98.0/100
+3c. Classificar situação de estoque,2428,0,73.6,Normal:1821 Alerta:22 Abaixo:98
+3d. Identificar candidatos a inativação,2428,0,73.6,589 materiais parados > 365 dias
+4a. Caminho AUTO-APROVAÇÃO,1056,0,32.0,43.5% dos materiais
+4b. Caminho SUPERVISOR (revisão 4h),1019,0,30.9,1019 materiais com 1 alerta
+4c. Caminho MDO (revisão 24h),353,0,10.7,353 materiais com 2+ alertas
+5a. Gerar CSV master integrado,2428,0,73.6,"2,428 materiais processados"
+5b. Gerar CSV de retidos para correção,872,0,26.4,872 materiais retidos
+5c. Gerar resumo JSON do pipeline,1,0,0.0,Duração: 0.4s

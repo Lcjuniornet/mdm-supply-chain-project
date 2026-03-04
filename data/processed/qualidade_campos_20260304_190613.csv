@@ -1,0 +1,16 @@
+﻿campo,pct_preenchido,n_nulos,n_unicos,tipo
+codigo_material,100.0,0,3001,str
+descricao,100.0,0,904,str
+categoria,100.0,0,15,str
+unidade_medida,100.0,0,9,str
+preco_unitario,100.0,0,2457,float64
+estoque_atual,100.0,0,2258,int64
+estoque_minimo,80.0,660,486,float64
+fornecedor_principal,80.0,660,9,str
+data_cadastro,100.0,0,724,str
+ultima_movimentacao,100.0,0,914,str
+status,100.0,0,3,str
+centro_custo,80.0,660,6,str
+ncm,81.1,623,2081,float64
+localizacao_fisica,80.0,660,587,str
+responsavel_cadastro,100.0,0,8,str
