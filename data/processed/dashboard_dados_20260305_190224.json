@@ -1,0 +1,65 @@
+{
+  "gerado_em": "20260305_190224",
+  "kpis": {
+    "completude": 100.0,
+    "ncm": 76.1,
+    "preco": 97.0,
+    "fornecedor": 80.0,
+    "est_min": 80.0,
+    "score_pond": 92.8
+  },
+  "savings_total_M": 45.5,
+  "savings_por_semana": {
+    "Semana 1": 18.06,
+    "Semana 2": 20.7,
+    "Semana 3": 6.74,
+    "Semana 4": 0.0
+  },
+  "pipeline": {
+    "entrada": 3300,
+    "aprovados": 2428,
+    "retidos": 872
+  },
+  "abc": {
+    "C": 2545,
+    "B": 432,
+    "A": 323
+  },
+  "status": {
+    "Ativo": 2454,
+    "Bloqueado": 438,
+    "Inativo": 408
+  },
+  "top_categorias": [
+    {
+      "nome": "Lubrificante",
+      "valor": 166.1,
+      "qtd": 245,
+      "ncm_pct": 78.0
+    },
+    {
+      "nome": "Embalagem",
+      "valor": 150.6,
+      "qtd": 253,
+      "ncm_pct": 70.8
+    },
+    {
+      "nome": "Pneumático",
+      "valor": 144.9,
+      "qtd": 225,
+      "ncm_pct": 72.4
+    },
+    {
+      "nome": "Elétrico",
+      "valor": 140.5,
+      "qtd": 225,
+      "ncm_pct": 76.9
+    },
+    {
+      "nome": "Ferramentas",
+      "valor": 136.7,
+      "qtd": 240,
+      "ncm_pct": 79.2
+    }
+  ]
+}

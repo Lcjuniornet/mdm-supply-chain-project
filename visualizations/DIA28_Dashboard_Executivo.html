@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MDM Supply Chain — Dashboard Executivo</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700&display=swap');
+
+  :root {
+    --bg:      #0b1220;
+    --panel:   #111927;
+    --border:  #1e2d40;
+    --text:    #e2e8f0;
+    --muted:   #64748b;
+    --teal:    #00c9b1;
+    --blue:    #4a9edb;
+    --green:   #34d399;
+    --red:     #f87171;
+    --amber:   #fbb124;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    padding: 24px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 16px; margin-bottom: 28px;
+  }
+  .topbar h1 { font-size: 1.15rem; font-weight: 700; letter-spacing: .05em; }
+  .topbar h1 span { color: var(--teal); }
+  .topbar .meta { font-size: .8rem; color: var(--muted); font-family: 'Space Mono', monospace; }
+  .topbar .live { display:flex; align-items:center; gap:6px; font-size:.8rem; color:var(--green); }
+  .topbar .live::before { content:''; width:8px; height:8px; border-radius:50%; background:var(--green); animation: pulse 1.8s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  /* KPI ROW */
+  .kpi-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-bottom: 22px; }
+
+  .kpi-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px 14px;
+    position: relative;
+    overflow: hidden;
+    transition: transform .18s, box-shadow .18s;
+    cursor: default;
+  }
+  .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,.4); }
+  .kpi-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--accent, var(--teal));
+  }
+  .kpi-label { font-size: .72rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
+  .kpi-value { font-size: 2rem; font-weight: 700; font-family: 'Space Mono', monospace; color: var(--accent, var(--teal)); line-height: 1; }
+  .kpi-meta  { font-size: .75rem; color: var(--muted); margin-top: 6px; }
+  .kpi-bar   { margin-top: 10px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+  .kpi-bar-fill { height: 100%; border-radius: 2px; background: var(--accent, var(--teal)); transition: width .6s ease; }
+
+  .ok  { --accent: var(--green); }
+  .warn{ --accent: var(--amber); }
+  .bad { --accent: var(--red);   }
+
+  /* CHARTS GRID */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 18px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; margin-bottom: 18px; }
+  .grid-32 { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; margin-bottom: 18px; }
+
+  .chart-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .chart-card h3 {
+    font-size: .82rem; font-weight: 600; color: var(--muted);
+    letter-spacing: .06em; text-transform: uppercase; margin-bottom: 16px;
+  }
+  .chart-card canvas { max-height: 240px; }
+
+  /* FUNIL */
+  .funnel { display: flex; flex-direction: column; gap: 6px; padding: 8px 0; }
+  .funnel-bar {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .funnel-label { font-size: .8rem; color: var(--muted); width: 90px; text-align: right; flex-shrink: 0; }
+  .funnel-track { flex: 1; height: 32px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .funnel-fill  { height: 100%; border-radius: 4px; display: flex; align-items: center; padding: 0 10px;
+                   font-size: .82rem; font-weight: 700; color: #0b1220; transition: width .6s ease; }
+  .funnel-count { font-size: .82rem; color: var(--text); width: 60px; font-family: 'Space Mono', monospace; }
+
+  /* TABELA CATEGORIAS */
+  table { width: 100%; border-collapse: collapse; font-size: .83rem; }
+  th { text-align: left; padding: 8px 10px; color: var(--muted); font-weight: 500;
+        border-bottom: 1px solid var(--border); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,.02); }
+  .pill {
+    display: inline-block; padding: 2px 8px; border-radius: 20px;
+    font-size: .7rem; font-weight: 600;
+  }
+  .pill-ok   { background: rgba(52,211,153,.15); color: var(--green); }
+  .pill-warn { background: rgba(251,177,36,.15);  color: var(--amber); }
+  .pill-bad  { background: rgba(248,113,113,.15); color: var(--red);   }
+
+  /* FOOTER */
+  footer {
+    margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: .75rem; color: var(--muted);
+  }
+  footer strong { color: var(--teal); }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <h1>MDM <span>Supply Chain</span> — Dashboard Executivo</h1>
+  <div class="live">AO VIVO</div>
+  <div class="meta">Base: 3.300 materiais · R$ 1,83B · Março 2026</div>
+</div>
+
+<!-- KPI ROW -->
+<div class="kpi-row">
+  <div class="kpi-card ok">
+    <div class="kpi-label">Completude Geral</div>
+    <div class="kpi-value">100%</div>
+    <div class="kpi-meta">meta 95% · ✅ atingido</div>
+    <div class="kpi-bar"><div class="kpi-bar-fill" style="width:100%"></div></div>
+  </div>
+  <div class="kpi-card bad">
+    <div class="kpi-label">NCM Válido</div>
+    <div class="kpi-value">76%</div>
+    <div class="kpi-meta">meta 100% · ❌ gap 24pp</div>
+    <div class="kpi-bar"><div class="kpi-bar-fill" style="width:76.1%"></div></div>
+  </div>
+  <div class="kpi-card ok">
+    <div class="kpi-label">Acuracidade Preço</div>
+    <div class="kpi-value">97%</div>
+    <div class="kpi-meta">meta 95% · ✅ atingido</div>
+    <div class="kpi-bar"><div class="kpi-bar-fill" style="width:97.0%"></div></div>
+  </div>
+  <div class="kpi-card warn">
+    <div class="kpi-label">Fornecedor Cadastrado</div>
+    <div class="kpi-value">80%</div>
+    <div class="kpi-meta">meta 90% · ⚠️ gap 10pp</div>
+    <div class="kpi-bar"><div class="kpi-bar-fill" style="width:80.0%"></div></div>
+  </div>
+  <div class="kpi-card ok" style="--accent:var(--teal)">
+    <div class="kpi-label">Score Ponderado</div>
+    <div class="kpi-value">93</div>
+    <div class="kpi-meta">meta 85 · ✅ atingido</div>
+    <div class="kpi-bar"><div class="kpi-bar-fill" style="width:92.8%"></div></div>
+  </div>
+</div>
+
+<!-- ROW 2: Savings + Pipeline -->
+<div class="grid-2">
+  <div class="chart-card">
+    <h3>Savings Acumulados por Semana (R$ M/ano)</h3>
+    <canvas id="chartSavings"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3>Pipeline de Integração — Funil de Aprovação</h3>
+    <div class="funnel">
+      <div class="funnel-bar">
+        <div class="funnel-label">Entrada</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:100%;background:#4a9edb">3.300</div>
+        </div>
+        <div class="funnel-count">3.300</div>
+      </div>
+      <div class="funnel-bar">
+        <div class="funnel-label">Stage 1</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:100%;background:#00c9b1">3.300</div>
+        </div>
+        <div class="funnel-count">3.300</div>
+      </div>
+      <div class="funnel-bar">
+        <div class="funnel-label">Stage 2</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:73.6%;background:#fbb124">2.428</div>
+        </div>
+        <div class="funnel-count">2.428</div>
+      </div>
+      <div class="funnel-bar">
+        <div class="funnel-label">Auto ⚡</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:32%;background:#34d399">1.056</div>
+        </div>
+        <div class="funnel-count">1.056</div>
+      </div>
+      <div class="funnel-bar">
+        <div class="funnel-label">Supervisor</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:30.9%;background:#4a9edb">1.019</div>
+        </div>
+        <div class="funnel-count">1.019</div>
+      </div>
+      <div class="funnel-bar">
+        <div class="funnel-label">Retidos ❌</div>
+        <div class="funnel-track">
+          <div class="funnel-fill" style="width:26.4%;background:#f87171">872</div>
+        </div>
+        <div class="funnel-count">872</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 3: Categorias + ABC + Status -->
+<div class="grid-3">
+  <div class="chart-card" style="grid-column: span 2;">
+    <h3>Valor por Categoria vs % NCM OK</h3>
+    <canvas id="chartCategorias" style="max-height:220px"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3>Curva ABC</h3>
+    <canvas id="chartAbc" style="max-height:220px"></canvas>
+  </div>
+</div>
+
+<!-- ROW 4: Tabela categorias -->
+<div class="chart-card" style="margin-bottom:18px">
+  <h3>Detalhamento por Categoria</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Categoria</th>
+        <th>Valor Estoque</th>
+        <th>Materiais</th>
+        <th>NCM OK</th>
+        <th>Status NCM</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><strong>Lubrificante</strong></td>
+        <td>R$ 166.1M</td>
+        <td>245</td>
+        <td>78.0%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Embalagem</strong></td>
+        <td>R$ 150.6M</td>
+        <td>253</td>
+        <td>70.8%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Pneumático</strong></td>
+        <td>R$ 144.9M</td>
+        <td>225</td>
+        <td>72.4%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Elétrico</strong></td>
+        <td>R$ 140.5M</td>
+        <td>225</td>
+        <td>76.9%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Ferramentas</strong></td>
+        <td>R$ 136.7M</td>
+        <td>240</td>
+        <td>79.2%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Mecânico</strong></td>
+        <td>R$ 136.6M</td>
+        <td>206</td>
+        <td>73.8%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Peças</strong></td>
+        <td>R$ 122.9M</td>
+        <td>238</td>
+        <td>75.6%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Limpeza</strong></td>
+        <td>R$ 117.3M</td>
+        <td>197</td>
+        <td>75.6%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Fixação</strong></td>
+        <td>R$ 111.9M</td>
+        <td>203</td>
+        <td>73.9%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Acessórios</strong></td>
+        <td>R$ 110.7M</td>
+        <td>175</td>
+        <td>76.6%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>EPI</strong></td>
+        <td>R$ 108.8M</td>
+        <td>211</td>
+        <td>77.7%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+      <tr>
+        <td><strong>Hidráulico</strong></td>
+        <td>R$ 99.6M</td>
+        <td>213</td>
+        <td>74.2%</td>
+        <td><span class="pill pill-warn">⚠️ Atenção</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <div>MDM Supply Chain Project · Dias 1–28 de 49 · Score QA: 97%</div>
+  <div><strong>R$ 45,5M/ano</strong> em savings identificados · Pipeline: 2.428 aprovados (73,6%)</div>
+  <div>Gerado: 05/03/2026 19:02</div>
+</footer>
+
+<script>
+Chart.defaults.color = '#64748b';
+Chart.defaults.borderColor = '#1e2d40';
+Chart.defaults.font.family = "'DM Sans', sans-serif";
+
+// Savings
+new Chart(document.getElementById('chartSavings'), {
+  type: 'bar',
+  data: {
+    labels: ["Semana 1", "Semana 2", "Semana 3"],
+    datasets: [
+      {
+        label: 'Savings R$M',
+        data: [18.06, 20.7, 6.74],
+        backgroundColor: ['#00c9b1','#4a9edb','#fbb124'],
+        borderRadius: 6,
+        order: 2
+      },
+      {
+        label: 'Acumulado R$M',
+        data: [18.1, 38.8, 45.5],
+        type: 'line',
+        borderColor: '#34d399',
+        backgroundColor: 'transparent',
+        pointBackgroundColor: '#34d399',
+        borderWidth: 2.5,
+        pointRadius: 5,
+        tension: 0.3,
+        order: 1,
+        yAxisID: 'y2'
+      }
+    ]
+  },
+  options: {
+    plugins: { legend: { labels: { color: '#94a3b8' } } },
+    scales: {
+      y:  { grid: { color: '#1e2d40' }, ticks: { callback: v => 'R$'+v+'M' } },
+      y2: { position: 'right', grid: { drawOnChartArea: false },
+             ticks: { callback: v => 'R$'+v+'M' }, max: 60 }
+    }
+  }
+});
+
+// Categorias
+new Chart(document.getElementById('chartCategorias'), {
+  type: 'bar',
+  data: {
+    labels: ["Lubrificante", "Embalagem", "Pneum\u00e1tico", "El\u00e9trico", "Ferramentas", "Mec\u00e2nico", "Pe\u00e7as", "Limpeza", "Fixa\u00e7\u00e3o", "Acess\u00f3rios", "EPI", "Hidr\u00e1ulico"],
+    datasets: [
+      {
+        label: 'Valor R$M',
+        data: [166.1, 150.6, 144.9, 140.5, 136.7, 136.6, 122.9, 117.3, 111.9, 110.7, 108.8, 99.6],
+        backgroundColor: ["#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124", "#fbb124"],
+        borderRadius: 4, yAxisID: 'y'
+      },
+      {
+        label: 'NCM OK %',
+        data: [78.0, 70.8, 72.4, 76.9, 79.2, 73.8, 75.6, 75.6, 73.9, 76.6, 77.7, 74.2],
+        type: 'line',
+        borderColor: '#4a9edb',
+        backgroundColor: 'transparent',
+        pointBackgroundColor: '#4a9edb',
+        borderWidth: 2, pointRadius: 4,
+        tension: 0.3, yAxisID: 'y2'
+      }
+    ]
+  },
+  options: {
+    plugins: { legend: { labels: { color: '#94a3b8' } } },
+    scales: {
+      y:  { grid: { color: '#1e2d40' }, ticks: { callback: v => 'R$'+v+'M' } },
+      y2: { position: 'right', min: 60, max: 100, grid: { drawOnChartArea: false },
+             ticks: { callback: v => v+'%' } }
+    }
+  }
+});
+
+// ABC
+new Chart(document.getElementById('chartAbc'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Curva A', 'Curva B', 'Curva C'],
+    datasets: [{
+      data: [323, 432, 2545],
+      backgroundColor: ['#f87171','#fbb124','#34d399'],
+      borderColor: '#0b1220', borderWidth: 3
+    }]
+  },
+  options: {
+    cutout: '65%',
+    plugins: {
+      legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 12 } }
+    }
+  }
+});
+</script>
+</body>
+</html>

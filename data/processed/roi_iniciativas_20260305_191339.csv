@@ -1,0 +1,19 @@
+﻿iniciativa,cenario,saving_bruto_M,taxa_realizacao,saving_liq_M,risco,prazo
+Eliminação de processos manuais,Conservador,15.26,0.55,8.39,BAIXO,3 meses
+Eliminação de processos manuais,Realista,15.26,0.75,11.45,BAIXO,3 meses
+Eliminação de processos manuais,Otimista,15.26,0.95,14.5,BAIXO,3 meses
+Redução de rupturas de estoque,Conservador,12.5,0.45,5.62,MÉDIO,2 meses (após definir mínimos)
+Redução de rupturas de estoque,Realista,12.5,0.65,8.12,MÉDIO,2 meses (após definir mínimos)
+Redução de rupturas de estoque,Otimista,12.5,0.85,10.62,MÉDIO,2 meses (após definir mínimos)
+Otimização de compras — fornecedores,Conservador,8.2,0.4,3.28,MÉDIO,3 meses (negociação e cadastro)
+Otimização de compras — fornecedores,Realista,8.2,0.6,4.92,MÉDIO,3 meses (negociação e cadastro)
+Otimização de compras — fornecedores,Otimista,8.2,0.8,6.56,MÉDIO,3 meses (negociação e cadastro)
+Categorização e relatórios gerenciais,Conservador,6.3,0.6,3.78,BAIXO,1 mês (já implementado parcialmente)
+Categorização e relatórios gerenciais,Realista,6.3,0.8,5.04,BAIXO,1 mês (já implementado parcialmente)
+Categorização e relatórios gerenciais,Otimista,6.3,0.95,5.99,BAIXO,1 mês (já implementado parcialmente)
+Eliminação de duplicatas,Conservador,2.8,0.35,0.98,ALTO — requer validação um a um com áreas,1 mês (bloqueio imediato)
+Eliminação de duplicatas,Realista,2.8,0.55,1.54,ALTO — requer validação um a um com áreas,1 mês (bloqueio imediato)
+Eliminação de duplicatas,Otimista,2.8,0.75,2.1,ALTO — requer validação um a um com áreas,1 mês (bloqueio imediato)
+Correção de preços e acuracidade,Conservador,0.44,0.7,0.31,BAIXO,1 semana (correção direta)
+Correção de preços e acuracidade,Realista,0.44,0.9,0.4,BAIXO,1 semana (correção direta)
+Correção de preços e acuracidade,Otimista,0.44,1.0,0.44,BAIXO,1 semana (correção direta)
