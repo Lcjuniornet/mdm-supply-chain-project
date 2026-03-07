@@ -1,39 +1,56 @@
-# 📊 Sistema Inteligente de Governança de Dados Mestre em Logística
+# 📊 Projeto MDM Supply Chain - Análise de Dados Mestres
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Status](https://img.shields.io/badge/status-65%25%20completo-yellow)](https://github.com/seu-usuario/mdm-supply-chain-project)
+[![Python](https://img.shields.io/badge/python-3.9+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-> **MDM Analytics** - Sistema de Análise e Qualidade de Cadastro Mestre Logístico
-> 
-> Framework completo de governança para dados mestres de materiais em ambiente supply chain
+**Sistema de Análise e Governança de Dados Mestres para Supply Chain**
+
+Projeto de análise de qualidade de dados mestres de materiais, com foco em identificação de problemas, quantificação de impacto financeiro e implementação de governança.O projeto foi criado para aprendizado no futuro da carreira.
 
 ---
 
 ## 🎯 Sobre o Projeto
 
-Este projeto implementa um **sistema inteligente de governança de dados mestres (MDM)** aplicado ao contexto de **supply chain e logística**, com foco em:
+Este projeto implementa análises de qualidade de dados mestres (MDM) aplicadas ao contexto de supply chain e logística, desenvolvido como projeto de portfólio para demonstrar competências em:
 
-- ✅ **Qualidade de Dados** - Identificação e correção de problemas em cadastros
-- ✅ **Duplicatas** - Detecção de materiais duplicados no sistema
-- ✅ **Completude** - Análise de campos obrigatórios faltantes
-- ✅ **Curva ABC** - Classificação de materiais por importância
-- ✅ **Materiais Parados** - Identificação de itens sem movimentação
-- ✅ **Dashboards Executivos** - Visualizações para tomada de decisão
-- ✅ **ROI Calculado** - Impacto financeiro mensurável
+- **Análise de Dados** - Python, Pandas, NumPy
+- **SQL** - Queries básicas e intermediárias
+- **Visualização** - Matplotlib, Seaborn, dashboards
+- **Governança de Dados** - Políticas, KPIs, workflows
+- **Impacto de Negócio** - ROI, NPV, caso de negócio
 
-### 💰 Impacto Esperado
+---
 
+## 💰 Resultados Principais
+
+### Economia Identificada
 ```
-Eliminação duplicatas:      R$ 20.000/ano
-Completude cadastral:       R$ 12.000/ano
-Materiais parados:          R$ 35.000/ano
-Acuracidade compras:        R$ 10.000/ano
-Produtividade equipe:       R$ 8.000/ano
-─────────────────────────────────────────
-TOTAL:                      R$ 85.000/ano
-ROI:                        10:1
-Payback:                    1-2 meses
+Duplicatas:              R$ 18,2M/ano
+Completude:              R$  2,5M/ano
+Acuracidade:             R$ 17,9M/ano
+Sazonalidade:            R$  4,4M/ano
+Outros:                  R$  0,3M/ano
+────────────────────────────────────
+TOTAL:                   R$ 43,3M/ano
+```
+
+### Caso de Negócio
+```
+Investimento:            R$ 57.375
+ROI (70% realização):    54.743%
+Payback:                 < 1 mês
+NPV (5 anos):            R$ 113,4M
+Score QA:                97% (28/29 testes)
+```
+
+### Implementações
+```
+✅ Workflow 3 níveis governança (73% auto-aprovação)
+✅ Script correções batch (9.000 correções)
+✅ Suite QA automatizada (29 testes)
+✅ Dashboard executivo HTML interativo
+✅ Roadmap implementação 90 dias
 ```
 
 ---
@@ -43,90 +60,82 @@ Payback:                    1-2 meses
 ```
 mdm-supply-chain-project/
 │
-├── README.md                    # Documentação principal
+├── README.md                    # Este arquivo
 ├── requirements.txt             # Dependências Python
-├── LICENSE                      # Licença MIT
 │
-├── data/                        # Dados do projeto
-│   ├── raw/                     # Dados originais
-│   ├── processed/               # Dados processados
-│   └── sample/                  # Dados de exemplo
+├── data/
+│   ├── raw/                     # Dados simulados (3.300 materiais)
+│   └── processed/               # Dados processados por scripts
 │
-├── scripts/                     # Scripts Python
-│   ├── 01_identificar_duplicatas.py
-│   ├── 02_calcular_completude.py
-│   ├── 03_curva_abc.py
-│   ├── 04_materiais_parados.py
-│   ├── 05_acuracia_dados.py
-│   ├── 06_consistencia_dados.py
-│   ├── 07_linhagem_dados.py
-│   └── utils.py                 # Funções auxiliares
+├── scripts/                     # 12 scripts Python principais
+│   ├── 01_analise_exploratoria.py
+│   ├── 02_analise_duplicatas.py
+│   ├── 03_analise_completude.py
+│   ├── 04_analise_acuracidade.py
+│   ├── 05_analise_padronizacao.py
+│   ├── 06_analise_fornecedores.py
+│   ├── 07_analise_movimentacoes.py
+│   ├── 08_analise_outliers.py
+│   ├── 09_analise_sazonalidade.py
+│   ├── 10_implementacao_correcoes.py
+│   ├── 11_workflow_governanca.py
+│   └── 12_qa_automatizado.py
 │
 ├── sql/                         # Queries SQL
-│   ├── 01_duplicatas.sql
-│   ├── 02_completude.sql
-│   ├── 03_curva_abc.sql
-│   ├── 04_materiais_parados.sql
-│   ├── 05_acuracia.sql
-│   ├── 06_consistencia.sql
-│   └── 07_linhagem.sql
+│   └── *.sql                    # 20+ queries práticas
 │
-├── notebooks/                   # Jupyter Notebooks
-│   ├── 01_exploratory_analysis.ipynb
-│   ├── 02_data_quality_assessment.ipynb
-│   └── 03_final_analysis.ipynb
+├── visualizations/              # Dashboards PNG
+│   └── *.png                    # 11 dashboards gerados
 │
-├── dashboards/                  # Dashboards
-│   ├── excel/                   # Excel dashboards
-│   ├── powerbi/                 # Power BI dashboards
-│   └── screenshots/             # Capturas de tela
+├── docs/                        # Documentação técnica
+│   ├── 22_documentacao_governanca_mdm.md
+│   ├── 23_slas_metricas_processo.md
+│   ├── 24_dicionario_dados_completo.md
+│   ├── 25_politicas_validacao.md
+│   ├── 28_dashboard_executivo.html
+│   ├── 29_roi_detalhado.md
+│   └── 30_roadmap_implementacao.md
 │
-├── visualizations/              # Visualizações PNG
-│   └── *.png
-│
-├── docs/                        # Documentação
-│   ├── metodologia.md
-│   ├── dicionario_dados.md
-│   ├── processo_analise.md
-│   └── apresentacao_executiva.pptx
-│
-├── tests/                       # Testes unitários
-│   └── test_*.py
-│
-└── references/                  # Materiais de referência
-    └── *.pdf
+└── checkpoints/                 # PowerPoints executivos
+    ├── checkpoint_semana1.pptx
+    ├── checkpoint_semana2.pptx
+    ├── checkpoint_semana3.pptx
+    └── apresentacao_final.pptx
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tecnologias Utilizadas
 
-### Linguagens e Frameworks
-- **Python 3.9+** - Linguagem principal
-- **SQL** - Queries de análise
-- **Markdown** - Documentação
+### Linguagens
+- **Python 3.9+** - Análise de dados
+- **SQL** - Queries analíticas (SELECT, JOINs, subqueries)
+- **HTML/CSS/JavaScript** - Dashboard interativo
 
 ### Bibliotecas Python
-- **Pandas** - Manipulação de dados
-- **NumPy** - Computação numérica
-- **Matplotlib/Seaborn** - Visualizações
-- **Plotly** - Gráficos interativos
-- **Jupyter** - Notebooks
+```python
+pandas          # Manipulação de dados
+numpy           # Computação numérica
+matplotlib      # Visualizações
+seaborn         # Gráficos estatísticos
+datetime        # Manipulação datas
+json            # Exportação dados
+```
 
 ### Ferramentas
-- **Excel** - Dashboards executivos
-- **Power BI** - Business Intelligence
 - **Git** - Controle de versão
-- **pytest** - Testes unitários
+- **Jupyter** - Notebooks exploratórios (conceitual)
+- **NotebookLM** - Resumos e revisão
+- **Chart.js** - Gráficos interativos web
 
 ---
 
-## 🚀 Começando
+## 🚀 Como Executar
 
 ### Pré-requisitos
 
 ```bash
-# Python 3.9 ou superior
+# Python 3.9+
 python --version
 
 # pip atualizado
@@ -135,201 +144,187 @@ pip --version
 
 ### Instalação
 
-1. **Clone o repositório**
 ```bash
-git clone https://github.com/Lcjuniornet/mdm-supply-chain-project.git
+# 1. Clonar repositório
+git clone https://github.com/seu-usuario/mdm-supply-chain-project.git
 cd mdm-supply-chain-project
-```
 
-2. **Instale as dependências**
-```bash
+# 2. Instalar dependências
 pip install -r requirements.txt
-```
 
-3. **Verifique a instalação**
-```bash
+# 3. Verificar instalação
 python -c "import pandas; import numpy; print('OK!')"
 ```
 
 ### Execução
 
 ```bash
-# 1. Gerar dados simulados
-python scripts/00_gerar_dados.py
+# Análises principais (executar em ordem)
+python scripts/02_analise_duplicatas.py
+python scripts/03_analise_completude.py
+python scripts/04_analise_acuracidade.py
+python scripts/09_analise_sazonalidade.py
 
-# 2. Executar análises
-python scripts/01_identificar_duplicatas.py
-python scripts/02_calcular_completude.py
-python scripts/03_curva_abc.py
+# Implementação
+python scripts/10_implementacao_correcoes.py
+python scripts/11_workflow_governanca.py
 
-# 3. Gerar dashboards
-python scripts/08_gerar_dashboards.py
-
-# 4. Abrir notebooks
-jupyter notebook
+# QA e consolidação
+python scripts/12_qa_automatizado.py
 ```
 
----
-
-## 📊 Análises Disponíveis
-
-### 1. Identificação de Duplicatas
-Detecta materiais duplicados no cadastro com base em:
-- Código de material
-- Descrição (similaridade > 90%)
-- Especificações técnicas
-
-**Output**: Lista de duplicatas, economia potencial
-
-### 2. Análise de Completude
-Calcula percentual de preenchimento de campos obrigatórios:
-- Descrição
-- Unidade de medida
-- NCM
-- Fornecedor
-- Localização
-
-**Output**: Heatmap de completude, lista de gaps
-
-### 3. Curva ABC
-Classifica materiais por:
-- Valor de estoque (A: 80%, B: 15%, C: 5%)
-- Frequência de movimentação
-- Criticidade para operação
-
-**Output**: Gráfico Pareto, lista classificada
-
-### 4. Materiais Parados
-Identifica itens sem movimentação em:
-- 6 meses
-- 12 meses
-- 24+ meses
-
-**Output**: Lista priorizada, capital imobilizado
-
-### 5. Acuracidade de Dados
-Valida precisão de:
-- Preços unitários
-- Códigos NCM
-- Saldos de estoque
-- Localizações físicas
-
-**Output**: Score de qualidade, plano de ação
-
-### 6. Consistência de Dados
-Verifica padrões de:
-- Nomenclatura (convenções)
-- Unidades de medida
-- Categorização
-- Codificação
-
-**Output**: Relatório de inconsistências
-
-### 7. Linhagem de Dados
-Mapeia origem e fluxo de:
-- Dados de materiais
-- Atualizações cadastrais
-- Responsáveis por alterações
-
-**Output**: Diagrama de linhagem
-
----
-
-## 📈 Dashboards
-
-### Excel Dashboard
-- KPIs principais
-- Gráficos executivos
-- Tabelas dinâmicas
-- Alertas visuais
-
-### Power BI Dashboard
-- 15+ KPIs interativos
-- Drill-down por categoria
-- Filtros dinâmicos
-- Atualização automática
-
-### Screenshots
-Disponíveis em `dashboards/screenshots/`
-
----
-
-## 📚 Documentação
-
-- **[Metodologia](docs/metodologia.md)** - Framework de governança aplicado
-- **[Dicionário de Dados](docs/dicionario_dados.md)** - Campos e definições
-- **[Processo de Análise](docs/processo_analise.md)** - Fluxo detalhado
-- **[Apresentação Executiva](docs/apresentacao_executiva.pptx)** - Slides para stakeholders
-
----
-
-## 🧪 Testes
+### Dashboard Interativo
 
 ```bash
-# Executar todos os testes
-pytest tests/
-
-# Executar com cobertura
-pytest --cov=scripts tests/
-
-# Testes específicos
-pytest tests/test_utils.py
+# Abrir dashboard HTML no navegador
+# Arquivo: visualizations/DIA28_Dashboard_Executivo.html
 ```
 
 ---
 
-## 🎯 Roadmap
+## 📊 Análises Realizadas
 
-### Fase 1: Setup ✅
-- [x] Estrutura de pastas
-- [x] Dependências instaladas
-- [x] Dados simulados gerados
+### 1. Duplicatas (R$ 18,2M economia)
+- **Método:** Fuzzy matching similaridade > 95%
+- **Resultado:** 299 pares duplicados identificados
+- **Impacto:** R$ 18,2M/ano eliminando pedidos duplicados
 
-### Fase 2: Análises Core (Semanas 1-3) 🔄
-- [x] Scripts 1-5 completos
-- [x] Jupyter Notebooks
-- [x] Visualizações profissionais
+### 2. Completude (R$ 2,5M economia)
+- **Método:** Análise campos obrigatórios vs preenchidos
+- **Resultado:** Score 93% → 99%+ após correções
+- **Impacto:** R$ 2,5M/ano reduzindo retrabalho
 
-### Fase 3: Dashboards (Semana 4-5) 📅
-- [ ] Dashboard Excel
-- [ ] Dashboard Power BI
-- [ ] Screenshots
+### 3. Acuracidade (R$ 17,9M economia)
+- **Método:** Validação preços vs mediana categoria
+- **Resultado:** 99 materiais preço zero, 741 outliers
+- **Impacto:** R$ 17,9M/ano corrigindo dados incorretos
 
-### Fase 4: Documentação (Semana 6) 📅
-- [ ] README completo
-- [ ] Metodologia
-- [ ] Apresentação executiva
+### 4. Sazonalidade (R$ 4,4M economia)
+- **Método:** Análise temporal movimentações
+- **Resultado:** 14 categorias com padrão sazonal
+- **Impacto:** R$ 4,4M/ano otimizando planejamento
 
-### Fase 5: Publicação (Semana 7) 📅
-- [ ] GitHub publicado
-- [ ] LinkedIn post
-- [ ] Portfolio atualizado
+### 5. Workflow Governança (R$ 125k ops)
+- **Método:** Pipeline 3 níveis (auto/supervisor/MDO)
+- **Resultado:** 73% auto-aprovação, SLA 5h vs 48h
+- **Impacto:** 10× throughput, 200 mat/dia vs 20
 
----
-
-## 💼 Sobre o Autor
-
-**Luiz Carlos Junior**  
-Master Data Owner | Supply Chain Analytics | Data Governance
-
-- 🎓 Google Data Analytics Professional Certificate
-- 💼 alguns anos experiência Supply Chain
-- 🎯 Especialização: Master Data Management
-- 🐍 Stack: Python, SQL, Power BI, Excel
-
-### Conecte-se
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lcjuniornet)
+### 6. QA Automatizado (97% aprovado)
+- **Método:** Suite 29 testes automatizados
+- **Resultado:** 28 PASS / 1 FAIL (não crítico)
+- **Impacto:** Garantia qualidade produção
 
 ---
 
-## 🤝 Contribuições
+## 📈 Dashboards e Visualizações
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- 🐛 Reportar bugs
-- 💡 Sugerir melhorias
-- 📖 Melhorar documentação
-- ⭐ Dar uma estrela no projeto
+### Dashboard Executivo HTML
+- **KPIs principais:** Completude, NCM, Preço, Fornecedor
+- **Gráficos:** Savings acumulados, Curva ABC, Pipeline aprovação
+- **Interativo:** Chart.js, tooltips, responsivo
+- **Arquivo:** `visualizations/DIA28_Dashboard_Executivo.html`
+
+### Dashboards PNG (11 total)
+1. Duplicatas (8 gráficos)
+2. Completude (8 gráficos)
+3. Acuracidade (6 gráficos)
+4. Outliers (8 gráficos)
+5. Sazonalidade (8 gráficos)
+6. QA Score (6 gráficos)
+7. Dashboard Executivo (consolidado)
+
+---
+
+## 📚 Documentação Técnica
+
+### Governança MDM (40+ páginas)
+- 4 princípios fundamentais
+- 6 dimensões DAMA
+- Workflow 3 níveis detalhado
+- Matriz RACI (10 processos)
+- 15 regras validação
+
+### SLAs e Métricas (18 KPIs)
+- 12 dimensões qualidade dados
+- 6 métricas workflow
+- Thresholds 3 níveis (verde/amarelo/vermelho)
+- 4 relatórios automáticos
+
+### Dicionário de Dados (21 campos)
+- 65 regras validação (22 bloqueantes + 28 alertas + 15 críticas)
+- Tipos, obrigatoriedade, relacionamentos
+- Exemplos válidos/inválidos
+
+### Roadmap Implementação (12 iniciativas, 90 dias)
+- Fase 1: Correções imediatas (4 iniciativas)
+- Fase 2: Melhorias estruturais (4 iniciativas)
+- Fase 3: Governança contínua (4 iniciativas)
+- 340h esforço total, R$ 40,4M saving
+
+---
+
+## 🎯 Status do Projeto
+
+**Progresso:** 65% completo (32 de 49 dias planejados)
+
+### ✅ Completado
+- [x] Análises principais (duplicatas, completude, acuracidade, sazonalidade)
+- [x] Script correções batch (9.000 correções)
+- [x] Workflow governança 3 níveis
+- [x] Suite QA automatizada (29 testes)
+- [x] Documentação governança (100+ páginas)
+- [x] Dashboard executivo HTML
+- [x] Caso de negócio completo (ROI, NPV, TIR)
+- [x] Roadmap implementação 90 dias
+- [x] Apresentação executiva final
+
+### 📅 Pendente (opcional)
+- [ ] Pipeline integrado (documento teórico)
+- [ ] Best practices MDM (lições aprendidas)
+- [ ] Análises complementares (dias 32-49)
+
+**Decisão:** Projeto pausado estrategicamente em 65% (retorno decrescente aplicado - Lei de Pareto). Material suficiente para demonstrar competências técnicas e impacto de negócio.
+
+---
+
+## 💼 Competências Demonstradas
+
+### Técnicas
+- ✅ **Python:** Pandas, NumPy, Matplotlib, Seaborn
+- ✅ **SQL:** SELECT, WHERE, GROUP BY, JOINs, Subqueries
+- ✅ **Análise de Dados:** Estatística descritiva, outliers, distribuições
+- ✅ **Visualização:** Dashboards executivos, gráficos interativos
+- ✅ **Automação:** Scripts batch, workflows, testes automatizados
+
+### Negócio
+- ✅ **Governança de Dados:** Políticas, KPIs, SLAs, validações
+- ✅ **Caso de Negócio:** ROI, NPV, Payback, TIR, análise sensibilidade
+- ✅ **Gestão de Projetos:** Roadmap, sequenciamento, dependências
+- ✅ **Comunicação Executiva:** Apresentações, dashboards, relatórios
+
+---
+
+## 🎓 Sobre o Autor
+
+**Luiz Carlos Silva Junior**
+
+Profissional em transição de carreira de **Almoxarife → Master Data Owner**, com foco em dados aplicados ao supply chain.
+
+### Formação
+- 🎓 Pós-graduação: Tecnologia Aplicada em Logística (Anhanguera, cursando)
+- 🎓 Bootcamp: Excel e Power BI Dashboards (Klabin/DIO, 90h)
+- 🎓 Bootcamp: Fundamentos Engenharia de Dados e ML (TOTVS/DIO, 61h)
+
+### Experiência
+- 📦 3+ anos: Almoxarifado e logística (operações supply chain)
+- 💻 SQL: Básico → Intermediário (JOINs, subqueries, agregações)
+- 🐍 Python: Básico (pandas, numpy, visualizações)
+- 📊 Governança: Políticas qualidade dados, workflows, KPIs
+
+### Contato
+- 💼 [LinkedIn](https://www.linkedin.com/in/luiz-carlos-silva-junior-a38922219/)
+- 🐙 [GitHub](https://github.com/Lcjuniornet)
+- 📧 Email: luizcjunior470@gmail.com
 
 ---
 
@@ -341,18 +336,41 @@ Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
 ## 🙏 Agradecimentos
 
-- **Google Data Analytics Certificate** - Fundamentos de análise
 - **Comunidade Data Hackers** - Suporte e networking
 - **Supply Chain Community** - Insights do setor
+- **Klabin/TOTVS/DIO** - Bootcamps e certificações
+- **NotebookLM** - Ferramenta estudo e revisão
 
 ---
 
-<div align="center">
+## ⚠️ Nota de Transparência
 
-**⭐ Se este projeto te ajudou, considere dar uma estrela!**
+Este projeto foi desenvolvido como **portfólio de aprendizado** e **demonstração de competências**. 
 
-Feito com ❤️ e ☕ por [Luiz Carlos Junior](https://github.com/Lcjuniornet)
+**Dados:** Simulados (não reais de empresa)  
+**Código:** Desenvolvido com auxílio de IA e documentação (aprendizado ativo)  
+**Foco:** Demonstrar capacidade de análise, impacto de negócio e governança de dados
 
-**#MDM #DataGovernance #SupplyChain #DataQuality #Python #DataAnalytics**
+O objetivo é mostrar **entendimento de conceitos**, **capacidade de aplicação prática** e **visão de impacto de negócio**, não expertise completa em todas as tecnologias utilizadas.
 
-</div>
+---
+
+## 📞 Contato e Oportunidades
+
+Estou aberto a oportunidades como:
+- **Master Data Owner Júnior**
+- **Analista de Dados Mestres Júnior**
+- **Analista de Qualidade de Dados Júnior**
+- **Analista BI Júnior** (Supply Chain)
+
+Se este projeto demonstrou competências relevantes para sua organização, entre em contato!
+
+---
+
+⭐ **Se este projeto foi útil ou interessante, considere dar uma estrela!**
+
+---
+
+*Última atualização: Março 2026*  
+*Status: Pausado estrategicamente (65% completo)*  
+*Feito com ☕ e 💪 por Luiz Carlos Junior*
