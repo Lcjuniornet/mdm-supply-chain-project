@@ -21,7 +21,86 @@ Este projeto implementa análises de qualidade de dados mestres (MDM) aplicadas 
 - **Impacto de Negócio** - ROI, NPV, caso de negócio
 
 ---
+## 📊 Análises Realizadas
 
+### 1. Duplicatas (R$ 18,2M economia)
+- **Método:** Fuzzy matching similaridade > 95%
+- **Resultado:** 299 pares duplicados identificados
+- **Impacto:** R$ 18,2M/ano eliminando pedidos duplicados
+
+### 2. Completude (R$ 2,5M economia)
+- **Método:** Análise campos obrigatórios vs preenchidos
+- **Resultado:** Score 93% → 99%+ após correções
+- **Impacto:** R$ 2,5M/ano reduzindo retrabalho
+
+### 3. Acuracidade (R$ 17,9M economia)
+- **Método:** Validação preços vs mediana categoria
+- **Resultado:** 99 materiais preço zero, 741 outliers
+- **Impacto:** R$ 17,9M/ano corrigindo dados incorretos
+
+### 4. Sazonalidade (R$ 4,4M economia)
+- **Método:** Análise temporal movimentações
+- **Resultado:** 14 categorias com padrão sazonal
+- **Impacto:** R$ 4,4M/ano otimizando planejamento
+
+### 5. Workflow Governança (R$ 125k ops)
+- **Método:** Pipeline 3 níveis (auto/supervisor/MDO)
+- **Resultado:** 73% auto-aprovação, SLA 5h vs 48h
+- **Impacto:** 10× throughput, 200 mat/dia vs 20
+
+### 6. QA Automatizado (97% aprovado)
+- **Método:** Suite 29 testes automatizados
+- **Resultado:** 28 PASS / 1 FAIL (não crítico)
+- **Impacto:** Garantia qualidade produção
+
+---
+
+## 📈 Dashboards e Visualizações
+
+### Dashboard Executivo HTML
+- **KPIs principais:** Completude, NCM, Preço, Fornecedor
+- **Gráficos:** Savings acumulados, Curva ABC, Pipeline aprovação
+- **Interativo:** Chart.js, tooltips, responsivo
+- **Arquivo:** `visualizations/DIA28_Dashboard_Executivo.html`
+
+### Dashboards PNG (11 total)
+1. Duplicatas (8 gráficos)
+2. Completude (8 gráficos)
+3. Acuracidade (6 gráficos)
+4. Outliers (8 gráficos)
+5. Sazonalidade (8 gráficos)
+6. QA Score (6 gráficos)
+7. Dashboard Executivo (consolidado)
+
+---
+
+## 📚 Documentação Técnica
+
+### Governança MDM (40+ páginas)
+- 4 princípios fundamentais
+- 6 dimensões DAMA
+- Workflow 3 níveis detalhado
+- Matriz RACI (10 processos)
+- 15 regras validação
+
+### SLAs e Métricas (18 KPIs)
+- 12 dimensões qualidade dados
+- 6 métricas workflow
+- Thresholds 3 níveis (verde/amarelo/vermelho)
+- 4 relatórios automáticos
+
+### Dicionário de Dados (21 campos)
+- 65 regras validação (22 bloqueantes + 28 alertas + 15 críticas)
+- Tipos, obrigatoriedade, relacionamentos
+- Exemplos válidos/inválidos
+
+### Roadmap Implementação (12 iniciativas, 90 dias)
+- Fase 1: Correções imediatas (4 iniciativas)
+- Fase 2: Melhorias estruturais (4 iniciativas)
+- Fase 3: Governança contínua (4 iniciativas)
+- 340h esforço total, R$ 40,4M saving
+
+---
 ## 💰 Resultados Principais
 
 ### Economia Identificada
@@ -182,86 +261,7 @@ python scripts/12_qa_automatizado.py
 
 ---
 
-## 📊 Análises Realizadas
 
-### 1. Duplicatas (R$ 18,2M economia)
-- **Método:** Fuzzy matching similaridade > 95%
-- **Resultado:** 299 pares duplicados identificados
-- **Impacto:** R$ 18,2M/ano eliminando pedidos duplicados
-
-### 2. Completude (R$ 2,5M economia)
-- **Método:** Análise campos obrigatórios vs preenchidos
-- **Resultado:** Score 93% → 99%+ após correções
-- **Impacto:** R$ 2,5M/ano reduzindo retrabalho
-
-### 3. Acuracidade (R$ 17,9M economia)
-- **Método:** Validação preços vs mediana categoria
-- **Resultado:** 99 materiais preço zero, 741 outliers
-- **Impacto:** R$ 17,9M/ano corrigindo dados incorretos
-
-### 4. Sazonalidade (R$ 4,4M economia)
-- **Método:** Análise temporal movimentações
-- **Resultado:** 14 categorias com padrão sazonal
-- **Impacto:** R$ 4,4M/ano otimizando planejamento
-
-### 5. Workflow Governança (R$ 125k ops)
-- **Método:** Pipeline 3 níveis (auto/supervisor/MDO)
-- **Resultado:** 73% auto-aprovação, SLA 5h vs 48h
-- **Impacto:** 10× throughput, 200 mat/dia vs 20
-
-### 6. QA Automatizado (97% aprovado)
-- **Método:** Suite 29 testes automatizados
-- **Resultado:** 28 PASS / 1 FAIL (não crítico)
-- **Impacto:** Garantia qualidade produção
-
----
-
-## 📈 Dashboards e Visualizações
-
-### Dashboard Executivo HTML
-- **KPIs principais:** Completude, NCM, Preço, Fornecedor
-- **Gráficos:** Savings acumulados, Curva ABC, Pipeline aprovação
-- **Interativo:** Chart.js, tooltips, responsivo
-- **Arquivo:** `visualizations/DIA28_Dashboard_Executivo.html`
-
-### Dashboards PNG (11 total)
-1. Duplicatas (8 gráficos)
-2. Completude (8 gráficos)
-3. Acuracidade (6 gráficos)
-4. Outliers (8 gráficos)
-5. Sazonalidade (8 gráficos)
-6. QA Score (6 gráficos)
-7. Dashboard Executivo (consolidado)
-
----
-
-## 📚 Documentação Técnica
-
-### Governança MDM (40+ páginas)
-- 4 princípios fundamentais
-- 6 dimensões DAMA
-- Workflow 3 níveis detalhado
-- Matriz RACI (10 processos)
-- 15 regras validação
-
-### SLAs e Métricas (18 KPIs)
-- 12 dimensões qualidade dados
-- 6 métricas workflow
-- Thresholds 3 níveis (verde/amarelo/vermelho)
-- 4 relatórios automáticos
-
-### Dicionário de Dados (21 campos)
-- 65 regras validação (22 bloqueantes + 28 alertas + 15 críticas)
-- Tipos, obrigatoriedade, relacionamentos
-- Exemplos válidos/inválidos
-
-### Roadmap Implementação (12 iniciativas, 90 dias)
-- Fase 1: Correções imediatas (4 iniciativas)
-- Fase 2: Melhorias estruturais (4 iniciativas)
-- Fase 3: Governança contínua (4 iniciativas)
-- 340h esforço total, R$ 40,4M saving
-
----
 
 ## 🎯 Status do Projeto
 
